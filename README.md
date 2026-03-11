@@ -11,7 +11,7 @@ Repository layout
 
 ## Dependency Finder
 
-`deps_finder.py` extracts the dependency subgraph starting from a single LAPACK routine name (a root) using the full graph stored at `output/graph.json`. It writes a `.dot` file named `<routine>.dot` you can use visualisation tools like [GraphViz](https://dreampuf.github.io/GraphvizOnline/) to see the dependecy graph.
+`deps_finder.py` extracts the dependency subgraph starting from a single LAPACK routine name (a root) using the full graph stored at `output/graph.json`. It writes a `.dot` file named `<routine>.dot` you can use visualisation tools like [GraphViz](https://dreampuf.github.io/GraphvizOnline/) to see the dependency graph.
 
 ### How to run it
 ```bash
