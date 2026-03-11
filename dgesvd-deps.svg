@@ -68,8 +68,20 @@
 <path fill="none" stroke="black" d="M28.85,-806.76C29.2,-703.72 33.84,-193.89 91.66,-50 92.2,-48.65 92.82,-47.32 93.5,-46.01"/>
 <polygon fill="black" stroke="black" points="96.39,-47.99 98.85,-37.69 90.5,-44.21 96.39,-47.99"/>
 </g>
-<!-- dbdsqr -->
+<!-- ilaenv -->
 <g id="node21" class="node">
+<title>ilaenv</title>
+<polygon fill="red" stroke="black" points="515.46,-318 461.46,-318 461.46,-282 515.46,-282 515.46,-318"/>
+<text xml:space="preserve" text-anchor="middle" x="488.46" y="-295.8" font-family="Times,serif" font-size="14.00">ilaenv</text>
+</g>
+<!-- dgesvd&#45;&gt;ilaenv -->
+<g id="edge106" class="edge">
+<title>dgesvd-&gt;ilaenv</title>
+<path fill="none" stroke="black" d="M29.35,-806.77C33.01,-694.51 59.47,-102 209.38,-102 209.38,-102 209.38,-102 304.59,-102 366.88,-102 383.1,-127.3 425.41,-173 451.79,-201.49 469.26,-243.27 478.76,-271.03"/>
+<polygon fill="black" stroke="black" points="475.33,-271.78 481.76,-280.2 481.98,-269.6 475.33,-271.78"/>
+</g>
+<!-- dbdsqr -->
+<g id="node24" class="node">
 <title>dbdsqr</title>
 <polygon fill="none" stroke="black" points="145.77,-1350 91.66,-1350 91.66,-1314 145.77,-1314 145.77,-1350"/>
 <text xml:space="preserve" text-anchor="middle" x="118.72" y="-1327.8" font-family="Times,serif" font-size="14.00">dbdsqr</text>
@@ -79,18 +91,6 @@
 <title>dgesvd-&gt;dbdsqr</title>
 <path fill="none" stroke="black" d="M31.72,-843.37C40.32,-897.86 66.72,-1063.3 91.66,-1200 98.1,-1235.27 106.18,-1275.7 111.63,-1302.42"/>
 <polygon fill="black" stroke="black" points="108.19,-1303.09 113.62,-1312.18 115.05,-1301.69 108.19,-1303.09"/>
-</g>
-<!-- ilaenv -->
-<g id="node29" class="node">
-<title>ilaenv</title>
-<polygon fill="none" stroke="black" points="515.46,-318 461.46,-318 461.46,-282 515.46,-282 515.46,-318"/>
-<text xml:space="preserve" text-anchor="middle" x="488.46" y="-295.8" font-family="Times,serif" font-size="14.00">ilaenv</text>
-</g>
-<!-- dgesvd&#45;&gt;ilaenv -->
-<g id="edge106" class="edge">
-<title>dgesvd-&gt;ilaenv</title>
-<path fill="none" stroke="black" d="M29.35,-806.77C33.01,-694.51 59.47,-102 209.38,-102 209.38,-102 209.38,-102 304.59,-102 366.88,-102 383.1,-127.3 425.41,-173 451.79,-201.49 469.26,-243.27 478.76,-271.03"/>
-<polygon fill="black" stroke="black" points="475.33,-271.78 481.76,-280.2 481.98,-269.6 475.33,-271.78"/>
 </g>
 <!-- dgebrd -->
 <g id="node33" class="node">
@@ -221,7 +221,7 @@
 <!-- disnan -->
 <g id="node6" class="node">
 <title>disnan</title>
-<polygon fill="lightgreen" stroke="black" points="697.16,-1675 643.16,-1675 643.16,-1639 697.16,-1639 697.16,-1675"/>
+<polygon fill="red" stroke="black" points="697.16,-1675 643.16,-1675 643.16,-1639 697.16,-1639 697.16,-1675"/>
 <text xml:space="preserve" text-anchor="middle" x="670.16" y="-1652.8" font-family="Times,serif" font-size="14.00">disnan</text>
 </g>
 <!-- dlapy2&#45;&gt;disnan -->
@@ -233,7 +233,7 @@
 <!-- dlaisnan -->
 <g id="node7" class="node">
 <title>dlaisnan</title>
-<polygon fill="lightgreen" stroke="black" points="795.81,-1675 733.16,-1675 733.16,-1639 795.81,-1639 795.81,-1675"/>
+<polygon fill="red" stroke="black" points="795.81,-1675 733.16,-1675 733.16,-1639 795.81,-1639 795.81,-1675"/>
 <text xml:space="preserve" text-anchor="middle" x="764.49" y="-1652.8" font-family="Times,serif" font-size="14.00">dlaisnan</text>
 </g>
 <!-- disnan&#45;&gt;dlaisnan -->
@@ -338,6 +338,30 @@
 <path fill="none" stroke="black" d="M419.28,-562.28C421.62,-565.01 423.75,-567.94 425.41,-571 474.99,-661.91 485.08,-787.8 487.05,-844.38"/>
 <polygon fill="black" stroke="black" points="483.54,-844.26 487.32,-854.16 490.54,-844.07 483.54,-844.26"/>
 </g>
+<!-- ieeeck -->
+<g id="node22" class="node">
+<title>ieeeck</title>
+<polygon fill="red" stroke="black" points="606.33,-345 552.33,-345 552.33,-309 606.33,-309 606.33,-345"/>
+<text xml:space="preserve" text-anchor="middle" x="579.33" y="-322.8" font-family="Times,serif" font-size="14.00">ieeeck</text>
+</g>
+<!-- ilaenv&#45;&gt;ieeeck -->
+<g id="edge19" class="edge">
+<title>ilaenv-&gt;ieeeck</title>
+<path fill="none" stroke="black" d="M515.64,-307.95C523.62,-310.38 532.54,-313.09 541.1,-315.69"/>
+<polygon fill="black" stroke="black" points="539.99,-319.01 550.58,-318.57 542.03,-312.31 539.99,-319.01"/>
+</g>
+<!-- iparmq -->
+<g id="node23" class="node">
+<title>iparmq</title>
+<polygon fill="red" stroke="black" points="607.16,-291 551.5,-291 551.5,-255 607.16,-255 607.16,-291"/>
+<text xml:space="preserve" text-anchor="middle" x="579.33" y="-268.8" font-family="Times,serif" font-size="14.00">iparmq</text>
+</g>
+<!-- ilaenv&#45;&gt;iparmq -->
+<g id="edge20" class="edge">
+<title>ilaenv-&gt;iparmq</title>
+<path fill="none" stroke="black" d="M515.64,-292.05C523.32,-289.71 531.87,-287.12 540.13,-284.61"/>
+<polygon fill="black" stroke="black" points="541.1,-287.97 549.65,-281.71 539.07,-281.27 541.1,-287.97"/>
+</g>
 <!-- dbdsqr&#45;&gt;dlas2 -->
 <g id="edge3" class="edge">
 <title>dbdsqr-&gt;dlas2</title>
@@ -363,7 +387,7 @@
 <polygon fill="black" stroke="black" points="179.61,-1407.81 189.09,-1412.55 184.63,-1402.94 179.61,-1407.81"/>
 </g>
 <!-- dlasq1 -->
-<g id="node22" class="node">
+<g id="node25" class="node">
 <title>dlasq1</title>
 <polygon fill="none" stroke="black" points="237.38,-1396 183.38,-1396 183.38,-1360 237.38,-1360 237.38,-1396"/>
 <text xml:space="preserve" text-anchor="middle" x="210.38" y="-1373.8" font-family="Times,serif" font-size="14.00">dlasq1</text>
@@ -405,7 +429,7 @@
 <polygon fill="black" stroke="black" points="487.75,-1126.1 485.39,-1115.77 480.79,-1125.31 487.75,-1126.1"/>
 </g>
 <!-- dlasq2 -->
-<g id="node23" class="node">
+<g id="node26" class="node">
 <title>dlasq2</title>
 <polygon fill="none" stroke="black" points="330.59,-1374 276.59,-1374 276.59,-1338 330.59,-1338 330.59,-1374"/>
 <text xml:space="preserve" text-anchor="middle" x="303.59" y="-1351.8" font-family="Times,serif" font-size="14.00">dlasq2</text>
@@ -417,7 +441,7 @@
 <polygon fill="black" stroke="black" points="265.9,-1368.45 274.8,-1362.7 264.26,-1361.65 265.9,-1368.45"/>
 </g>
 <!-- dlasrt -->
-<g id="node28" class="node">
+<g id="node31" class="node">
 <title>dlasrt</title>
 <polygon fill="none" stroke="black" points="423.81,-1358 369.81,-1358 369.81,-1322 423.81,-1322 423.81,-1358"/>
 <text xml:space="preserve" text-anchor="middle" x="396.81" y="-1335.8" font-family="Times,serif" font-size="14.00">dlasrt</text>
@@ -434,8 +458,14 @@
 <path fill="none" stroke="black" d="M331.03,-1337.78C365.54,-1313.92 421.98,-1274.54 425.41,-1270 458.84,-1225.79 475.41,-1161.99 482.65,-1125.18"/>
 <polygon fill="black" stroke="black" points="486.02,-1126.2 484.41,-1115.73 479.14,-1124.92 486.02,-1126.2"/>
 </g>
+<!-- dlasq2&#45;&gt;ilaenv -->
+<g id="edge18" class="edge">
+<title>dlasq2-&gt;ilaenv</title>
+<path fill="none" stroke="black" d="M326.8,-1337.63C328.95,-1334.96 330.83,-1332.06 332.2,-1329 408.76,-1157.35 284.28,-652.17 368.2,-484 382.89,-454.55 405.39,-463.11 425.41,-437 450.94,-403.71 468.87,-358.24 478.68,-328.99"/>
+<polygon fill="black" stroke="black" points="481.93,-330.3 481.69,-319.71 475.27,-328.14 481.93,-330.3"/>
+</g>
 <!-- dlasq3 -->
-<g id="node24" class="node">
+<g id="node27" class="node">
 <title>dlasq3</title>
 <polygon fill="none" stroke="black" points="606.33,-1564 552.33,-1564 552.33,-1528 606.33,-1528 606.33,-1564"/>
 <text xml:space="preserve" text-anchor="middle" x="579.33" y="-1541.8" font-family="Times,serif" font-size="14.00">dlasq3</text>
@@ -452,12 +482,6 @@
 <path fill="none" stroke="black" d="M330.98,-1351.37C339.48,-1349.88 349.09,-1348.2 358.24,-1346.59"/>
 <polygon fill="black" stroke="black" points="358.75,-1350.05 367.99,-1344.88 357.54,-1343.16 358.75,-1350.05"/>
 </g>
-<!-- dlasq2&#45;&gt;ilaenv -->
-<g id="edge18" class="edge">
-<title>dlasq2-&gt;ilaenv</title>
-<path fill="none" stroke="black" d="M326.8,-1337.63C328.95,-1334.96 330.83,-1332.06 332.2,-1329 408.76,-1157.35 284.28,-652.17 368.2,-484 382.89,-454.55 405.39,-463.11 425.41,-437 450.94,-403.71 468.87,-358.24 478.68,-328.99"/>
-<polygon fill="black" stroke="black" points="481.93,-330.3 481.69,-319.71 475.27,-328.14 481.93,-330.3"/>
-</g>
 <!-- dlasq3&#45;&gt;disnan -->
 <g id="edge12" class="edge">
 <title>dlasq3-&gt;disnan</title>
@@ -465,7 +489,7 @@
 <polygon fill="black" stroke="black" points="642.93,-1632.22 652.07,-1637.58 648.27,-1627.69 642.93,-1632.22"/>
 </g>
 <!-- dlasq4 -->
-<g id="node25" class="node">
+<g id="node28" class="node">
 <title>dlasq4</title>
 <polygon fill="none" stroke="black" points="697.16,-1564 643.16,-1564 643.16,-1528 697.16,-1528 697.16,-1564"/>
 <text xml:space="preserve" text-anchor="middle" x="670.16" y="-1541.8" font-family="Times,serif" font-size="14.00">dlasq4</text>
@@ -477,7 +501,7 @@
 <polygon fill="black" stroke="black" points="631.35,-1549.5 641.35,-1546 631.35,-1542.5 631.35,-1549.5"/>
 </g>
 <!-- dlasq5 -->
-<g id="node26" class="node">
+<g id="node29" class="node">
 <title>dlasq5</title>
 <polygon fill="none" stroke="black" points="697.16,-1510 643.16,-1510 643.16,-1474 697.16,-1474 697.16,-1510"/>
 <text xml:space="preserve" text-anchor="middle" x="670.16" y="-1487.8" font-family="Times,serif" font-size="14.00">dlasq5</text>
@@ -489,7 +513,7 @@
 <polygon fill="black" stroke="black" points="634.85,-1516.95 641.58,-1508.77 631.21,-1510.97 634.85,-1516.95"/>
 </g>
 <!-- dlasq6 -->
-<g id="node27" class="node">
+<g id="node30" class="node">
 <title>dlasq6</title>
 <polygon fill="none" stroke="black" points="697.16,-1618 643.16,-1618 643.16,-1582 697.16,-1582 697.16,-1618"/>
 <text xml:space="preserve" text-anchor="middle" x="670.16" y="-1595.8" font-family="Times,serif" font-size="14.00">dlasq6</text>
@@ -505,30 +529,6 @@
 <title>dlasrt-&gt;xerbla</title>
 <path fill="none" stroke="black" d="M415.89,-1321.71C419.42,-1317.46 422.82,-1312.77 425.41,-1308 458.26,-1247.62 475.53,-1167.87 482.93,-1125.47"/>
 <polygon fill="black" stroke="black" points="486.35,-1126.24 484.55,-1115.8 479.44,-1125.08 486.35,-1126.24"/>
-</g>
-<!-- ieeeck -->
-<g id="node30" class="node">
-<title>ieeeck</title>
-<polygon fill="none" stroke="black" points="606.33,-345 552.33,-345 552.33,-309 606.33,-309 606.33,-345"/>
-<text xml:space="preserve" text-anchor="middle" x="579.33" y="-322.8" font-family="Times,serif" font-size="14.00">ieeeck</text>
-</g>
-<!-- ilaenv&#45;&gt;ieeeck -->
-<g id="edge19" class="edge">
-<title>ilaenv-&gt;ieeeck</title>
-<path fill="none" stroke="black" d="M515.64,-307.95C523.62,-310.38 532.54,-313.09 541.1,-315.69"/>
-<polygon fill="black" stroke="black" points="539.99,-319.01 550.58,-318.57 542.03,-312.31 539.99,-319.01"/>
-</g>
-<!-- iparmq -->
-<g id="node31" class="node">
-<title>iparmq</title>
-<polygon fill="none" stroke="black" points="607.16,-291 551.5,-291 551.5,-255 607.16,-255 607.16,-291"/>
-<text xml:space="preserve" text-anchor="middle" x="579.33" y="-268.8" font-family="Times,serif" font-size="14.00">iparmq</text>
-</g>
-<!-- ilaenv&#45;&gt;iparmq -->
-<g id="edge20" class="edge">
-<title>ilaenv-&gt;iparmq</title>
-<path fill="none" stroke="black" d="M515.64,-292.05C523.32,-289.71 531.87,-287.12 540.13,-284.61"/>
-<polygon fill="black" stroke="black" points="541.1,-287.97 549.65,-281.71 539.07,-281.27 541.1,-287.97"/>
 </g>
 <!-- dlasr&#45;&gt;xerbla -->
 <g id="edge25" class="edge">

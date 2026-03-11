@@ -22,7 +22,12 @@ digraph G {
   "dlaset" [style=filled, fillcolor=lightgreen];
   "dlartg" [style=filled, fillcolor=lightgreen];
   "dlarfg" [style=filled, fillcolor=lightgreen];
-  "dorm2r" [style=filled, fillcolor=lightgreen];  
+  "dorm2r" [style=filled, fillcolor=lightgreen];
+  "dlaisnan" [style=filled, fillcolor=red];
+  "disnan" [style=filled, fillcolor=red];
+  "ilaenv" [style=filled, fillcolor=red];
+  "ieeeck" [style=filled, fillcolor=red]; 
+  "iparmq" [style=filled, fillcolor=red]; 
 
   "dgesvd" -> "dbdsqr";
   "dbdsqr" -> "dlartg";
