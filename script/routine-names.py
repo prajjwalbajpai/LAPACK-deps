@@ -1,7 +1,7 @@
 import os
 
 LAPACK_REPO_PATH = "" # Add path to the lapack repo
-INPUT_DIR = LAPACK_REPO_PATH + "lapack/BLAS/SRC/"
+INPUT_DIR = LAPACK_REPO_PATH + "lapack/SRC/"
 OUTPUT_DIR = "output/routines.txt"
 
 
