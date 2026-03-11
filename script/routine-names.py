@@ -1,7 +1,8 @@
 import os
 
-INPUT_DIR = "/home/prajjwalb/Desktop/Prog/GIT/lapack/SRC/"
-OUTPUT_DIR = "/home/prajjwalb/Desktop/Prog/lapack-topo-sort/output/routines.txt"
+LAPACK_REPO_PATH = "" # Add path to the lapack repo
+INPUT_DIR = LAPACK_REPO_PATH + "lapack/BLAS/SRC/"
+OUTPUT_DIR = "output/routines.txt"
 
 
 if __name__ == "__main__":
