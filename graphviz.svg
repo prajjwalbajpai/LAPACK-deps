@@ -1,0 +1,936 @@
+<svg width="804pt" height="1730pt" viewBox="0.00 0.00 804.00 1730.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1726)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-1726 799.81,-1726 799.81,4 -4,4"/>
+<!-- dgesvd -->
+<g id="node1" class="node">
+<title>dgesvd</title>
+<polygon fill="lightblue" stroke="black" points="55.66,-843 0,-843 0,-807 55.66,-807 55.66,-843"/>
+<text xml:space="preserve" text-anchor="middle" x="27.83" y="-820.8" font-family="Times,serif" font-size="14.00">dgesvd</text>
+</g>
+<!-- dlascl -->
+<g id="node10" class="node">
+<title>dlascl</title>
+<polygon fill="lightgreen" stroke="black" points="330.59,-1603 276.59,-1603 276.59,-1567 330.59,-1567 330.59,-1603"/>
+<text xml:space="preserve" text-anchor="middle" x="303.59" y="-1580.8" font-family="Times,serif" font-size="14.00">dlascl</text>
+</g>
+<!-- dgesvd&#45;&gt;dlascl -->
+<g id="edge65" class="edge">
+<title>dgesvd-&gt;dlascl</title>
+<path fill="none" stroke="black" d="M29.17,-843.33C31.04,-932.04 41.93,-1316.82 91.66,-1424 126.25,-1498.56 215.08,-1547.39 265.74,-1570.14"/>
+<polygon fill="black" stroke="black" points="264.29,-1573.33 274.85,-1574.12 267.09,-1566.91 264.29,-1573.33"/>
+</g>
+<!-- dlange -->
+<g id="node12" class="node">
+<title>dlange</title>
+<polygon fill="lightgreen" stroke="black" points="145.72,-1675 91.72,-1675 91.72,-1639 145.72,-1639 145.72,-1675"/>
+<text xml:space="preserve" text-anchor="middle" x="118.72" y="-1652.8" font-family="Times,serif" font-size="14.00">dlange</text>
+</g>
+<!-- dgesvd&#45;&gt;dlange -->
+<g id="edge62" class="edge">
+<title>dgesvd-&gt;dlange</title>
+<path fill="none" stroke="black" d="M28.51,-843.27C27.39,-928.59 26.76,-1295.81 91.66,-1587 94.75,-1600.86 99.96,-1615.66 104.92,-1628.08"/>
+<polygon fill="black" stroke="black" points="101.68,-1629.41 108.75,-1637.31 108.15,-1626.73 101.68,-1629.41"/>
+</g>
+<!-- xerbla -->
+<g id="node13" class="node">
+<title>xerbla</title>
+<polygon fill="lightgreen" stroke="black" points="515.46,-1114 461.46,-1114 461.46,-1078 515.46,-1078 515.46,-1114"/>
+<text xml:space="preserve" text-anchor="middle" x="488.46" y="-1091.8" font-family="Times,serif" font-size="14.00">xerbla</text>
+</g>
+<!-- dgesvd&#45;&gt;xerbla -->
+<g id="edge107" class="edge">
+<title>dgesvd-&gt;xerbla</title>
+<path fill="none" stroke="black" d="M34.56,-843.36C55.04,-905.37 131.13,-1107.33 274.99,-1183 290.73,-1191.28 408.87,-1188.68 425.41,-1180 448.03,-1168.13 464.55,-1143.88 474.83,-1124.47"/>
+<polygon fill="black" stroke="black" points="477.9,-1126.16 479.22,-1115.65 471.63,-1123.04 477.9,-1126.16"/>
+</g>
+<!-- dlacpy -->
+<g id="node17" class="node">
+<title>dlacpy</title>
+<polygon fill="lightgreen" stroke="black" points="515.46,-173 461.46,-173 461.46,-137 515.46,-137 515.46,-173"/>
+<text xml:space="preserve" text-anchor="middle" x="488.46" y="-150.8" font-family="Times,serif" font-size="14.00">dlacpy</text>
+</g>
+<!-- dgesvd&#45;&gt;dlacpy -->
+<g id="edge61" class="edge">
+<title>dgesvd-&gt;dlacpy</title>
+<path fill="none" stroke="black" d="M28.51,-806.66C27.15,-710.52 24.59,-264.66 91.66,-148 123.7,-92.28 145.11,-64 209.38,-64 209.38,-64 209.38,-64 304.59,-64 363.84,-64 423.64,-102.76 458.04,-129.69"/>
+<polygon fill="black" stroke="black" points="455.46,-132.11 465.45,-135.64 459.84,-126.65 455.46,-132.11"/>
+</g>
+<!-- dlaset -->
+<g id="node18" class="node">
+<title>dlaset</title>
+<polygon fill="lightgreen" stroke="black" points="145.72,-36 91.72,-36 91.72,0 145.72,0 145.72,-36"/>
+<text xml:space="preserve" text-anchor="middle" x="118.72" y="-13.8" font-family="Times,serif" font-size="14.00">dlaset</text>
+</g>
+<!-- dgesvd&#45;&gt;dlaset -->
+<g id="edge66" class="edge">
+<title>dgesvd-&gt;dlaset</title>
+<path fill="none" stroke="black" d="M28.85,-806.76C29.2,-703.72 33.84,-193.89 91.66,-50 92.2,-48.65 92.82,-47.32 93.5,-46.01"/>
+<polygon fill="black" stroke="black" points="96.39,-47.99 98.85,-37.69 90.5,-44.21 96.39,-47.99"/>
+</g>
+<!-- dbdsqr -->
+<g id="node21" class="node">
+<title>dbdsqr</title>
+<polygon fill="none" stroke="black" points="145.77,-1350 91.66,-1350 91.66,-1314 145.77,-1314 145.77,-1350"/>
+<text xml:space="preserve" text-anchor="middle" x="118.72" y="-1327.8" font-family="Times,serif" font-size="14.00">dbdsqr</text>
+</g>
+<!-- dgesvd&#45;&gt;dbdsqr -->
+<g id="edge1" class="edge">
+<title>dgesvd-&gt;dbdsqr</title>
+<path fill="none" stroke="black" d="M31.72,-843.37C40.32,-897.86 66.72,-1063.3 91.66,-1200 98.1,-1235.27 106.18,-1275.7 111.63,-1302.42"/>
+<polygon fill="black" stroke="black" points="108.19,-1303.09 113.62,-1312.18 115.05,-1301.69 108.19,-1303.09"/>
+</g>
+<!-- ilaenv -->
+<g id="node29" class="node">
+<title>ilaenv</title>
+<polygon fill="none" stroke="black" points="515.46,-318 461.46,-318 461.46,-282 515.46,-282 515.46,-318"/>
+<text xml:space="preserve" text-anchor="middle" x="488.46" y="-295.8" font-family="Times,serif" font-size="14.00">ilaenv</text>
+</g>
+<!-- dgesvd&#45;&gt;ilaenv -->
+<g id="edge106" class="edge">
+<title>dgesvd-&gt;ilaenv</title>
+<path fill="none" stroke="black" d="M29.35,-806.77C33.01,-694.51 59.47,-102 209.38,-102 209.38,-102 209.38,-102 304.59,-102 366.88,-102 383.1,-127.3 425.41,-173 451.79,-201.49 469.26,-243.27 478.76,-271.03"/>
+<polygon fill="black" stroke="black" points="475.33,-271.78 481.76,-280.2 481.98,-269.6 475.33,-271.78"/>
+</g>
+<!-- dgebrd -->
+<g id="node33" class="node">
+<title>dgebrd</title>
+<polygon fill="none" stroke="black" points="331.03,-1542 276.16,-1542 276.16,-1506 331.03,-1506 331.03,-1542"/>
+<text xml:space="preserve" text-anchor="middle" x="303.59" y="-1519.8" font-family="Times,serif" font-size="14.00">dgebrd</text>
+</g>
+<!-- dgesvd&#45;&gt;dgebrd -->
+<g id="edge28" class="edge">
+<title>dgesvd-&gt;dgebrd</title>
+<path fill="none" stroke="black" d="M29.82,-843.35C34.44,-925.66 55.19,-1261.02 91.66,-1359 116.57,-1425.92 123.54,-1450.68 181.77,-1492 206.06,-1509.24 239.04,-1517.19 264.41,-1520.86"/>
+<polygon fill="black" stroke="black" points="263.96,-1524.33 274.32,-1522.11 264.83,-1517.38 263.96,-1524.33"/>
+</g>
+<!-- dgelqf -->
+<g id="node36" class="node">
+<title>dgelqf</title>
+<polygon fill="none" stroke="black" points="330.59,-734 276.59,-734 276.59,-698 330.59,-698 330.59,-734"/>
+<text xml:space="preserve" text-anchor="middle" x="303.59" y="-711.8" font-family="Times,serif" font-size="14.00">dgelqf</text>
+</g>
+<!-- dgesvd&#45;&gt;dgelqf -->
+<g id="edge41" class="edge">
+<title>dgesvd-&gt;dgelqf</title>
+<path fill="none" stroke="black" d="M55.96,-813.1C67,-808.32 79.9,-802.81 91.66,-798 152.25,-773.21 223.32,-745.96 265.56,-729.95"/>
+<polygon fill="black" stroke="black" points="266.64,-733.28 274.75,-726.47 264.16,-726.73 266.64,-733.28"/>
+</g>
+<!-- dgeqrf -->
+<g id="node39" class="node">
+<title>dgeqrf</title>
+<polygon fill="none" stroke="black" points="330.59,-907 276.59,-907 276.59,-871 330.59,-871 330.59,-907"/>
+<text xml:space="preserve" text-anchor="middle" x="303.59" y="-884.8" font-family="Times,serif" font-size="14.00">dgeqrf</text>
+</g>
+<!-- dgesvd&#45;&gt;dgeqrf -->
+<g id="edge52" class="edge">
+<title>dgesvd-&gt;dgeqrf</title>
+<path fill="none" stroke="black" d="M56.1,-837.06C67.05,-841.7 79.85,-846.87 91.66,-851 131.01,-864.77 140.84,-869.13 181.77,-877 209.4,-882.31 241.05,-885.35 265.03,-887.03"/>
+<polygon fill="black" stroke="black" points="264.75,-890.52 274.96,-887.68 265.21,-883.54 264.75,-890.52"/>
+</g>
+<!-- dorgbr -->
+<g id="node41" class="node">
+<title>dorgbr</title>
+<polygon fill="none" stroke="black" points="237.38,-868 183.38,-868 183.38,-832 237.38,-832 237.38,-868"/>
+<text xml:space="preserve" text-anchor="middle" x="210.38" y="-845.8" font-family="Times,serif" font-size="14.00">dorgbr</text>
+</g>
+<!-- dgesvd&#45;&gt;dorgbr -->
+<g id="edge67" class="edge">
+<title>dgesvd-&gt;dorgbr</title>
+<path fill="none" stroke="black" d="M55.86,-828.74C86.71,-833.01 137.35,-840.03 171.97,-844.82"/>
+<polygon fill="black" stroke="black" points="171.16,-848.24 181.55,-846.15 172.12,-841.31 171.16,-848.24"/>
+</g>
+<!-- dorglq -->
+<g id="node42" class="node">
+<title>dorglq</title>
+<polygon fill="none" stroke="black" points="330.59,-788 276.59,-788 276.59,-752 330.59,-752 330.59,-788"/>
+<text xml:space="preserve" text-anchor="middle" x="303.59" y="-765.8" font-family="Times,serif" font-size="14.00">dorglq</text>
+</g>
+<!-- dgesvd&#45;&gt;dorglq -->
+<g id="edge85" class="edge">
+<title>dgesvd-&gt;dorglq</title>
+<path fill="none" stroke="black" d="M56.08,-819.53C105.32,-809.63 209.19,-788.76 265.09,-777.53"/>
+<polygon fill="black" stroke="black" points="265.66,-780.99 274.77,-775.59 264.28,-774.13 265.66,-780.99"/>
+</g>
+<!-- dorgqr -->
+<g id="node44" class="node">
+<title>dorgqr</title>
+<polygon fill="none" stroke="black" points="330.59,-842 276.59,-842 276.59,-806 330.59,-806 330.59,-842"/>
+<text xml:space="preserve" text-anchor="middle" x="303.59" y="-819.8" font-family="Times,serif" font-size="14.00">dorgqr</text>
+</g>
+<!-- dgesvd&#45;&gt;dorgqr -->
+<g id="edge86" class="edge">
+<title>dgesvd-&gt;dorgqr</title>
+<path fill="none" stroke="black" d="M56.03,-824.44C96.09,-823.68 173.31,-822.48 238.99,-823 247.41,-823.07 256.47,-823.18 265.03,-823.31"/>
+<polygon fill="black" stroke="black" points="264.72,-826.81 274.78,-823.47 264.83,-819.81 264.72,-826.81"/>
+</g>
+<!-- dormbr -->
+<g id="node45" class="node">
+<title>dormbr</title>
+<polygon fill="none" stroke="black" points="238.99,-616 181.77,-616 181.77,-580 238.99,-580 238.99,-616"/>
+<text xml:space="preserve" text-anchor="middle" x="210.38" y="-593.8" font-family="Times,serif" font-size="14.00">dormbr</text>
+</g>
+<!-- dgesvd&#45;&gt;dormbr -->
+<g id="edge87" class="edge">
+<title>dgesvd-&gt;dormbr</title>
+<path fill="none" stroke="black" d="M36.22,-806.52C46.5,-782.09 66.69,-738.37 91.66,-706 116.26,-674.12 150.81,-643.67 176.12,-623.27"/>
+<polygon fill="black" stroke="black" points="178.15,-626.13 183.81,-617.17 173.8,-620.65 178.15,-626.13"/>
+</g>
+<!-- dorg2r -->
+<g id="node2" class="node">
+<title>dorg2r</title>
+<polygon fill="lightgreen" stroke="black" points="423.81,-892 369.81,-892 369.81,-856 423.81,-856 423.81,-892"/>
+<text xml:space="preserve" text-anchor="middle" x="396.81" y="-869.8" font-family="Times,serif" font-size="14.00">dorg2r</text>
+</g>
+<!-- dorg2r&#45;&gt;xerbla -->
+<g id="edge81" class="edge">
+<title>dorg2r-&gt;xerbla</title>
+<path fill="none" stroke="black" d="M418.98,-892.46C421.36,-895.16 423.59,-898.03 425.41,-901 458.18,-954.17 475.21,-1026.28 482.66,-1066.24"/>
+<polygon fill="black" stroke="black" points="479.2,-1066.83 484.4,-1076.06 486.1,-1065.6 479.2,-1066.83"/>
+</g>
+<!-- dlarf1f -->
+<g id="node15" class="node">
+<title>dlarf1f</title>
+<polygon fill="lightgreen" stroke="black" points="515.5,-892 461.41,-892 461.41,-856 515.5,-856 515.5,-892"/>
+<text xml:space="preserve" text-anchor="middle" x="488.46" y="-869.8" font-family="Times,serif" font-size="14.00">dlarf1f</text>
+</g>
+<!-- dorg2r&#45;&gt;dlarf1f -->
+<g id="edge80" class="edge">
+<title>dorg2r-&gt;dlarf1f</title>
+<path fill="none" stroke="black" d="M424.22,-874C432.17,-874 441.07,-874 449.61,-874"/>
+<polygon fill="black" stroke="black" points="449.41,-877.5 459.41,-874 449.41,-870.5 449.41,-877.5"/>
+</g>
+<!-- iladlc -->
+<g id="node3" class="node">
+<title>iladlc</title>
+<polygon fill="lightgreen" stroke="black" points="606.33,-919 552.33,-919 552.33,-883 606.33,-883 606.33,-919"/>
+<text xml:space="preserve" text-anchor="middle" x="579.33" y="-896.8" font-family="Times,serif" font-size="14.00">iladlc</text>
+</g>
+<!-- iladlr -->
+<g id="node4" class="node">
+<title>iladlr</title>
+<polygon fill="lightgreen" stroke="black" points="606.33,-865 552.33,-865 552.33,-829 606.33,-829 606.33,-865"/>
+<text xml:space="preserve" text-anchor="middle" x="579.33" y="-842.8" font-family="Times,serif" font-size="14.00">iladlr</text>
+</g>
+<!-- dlapy2 -->
+<g id="node5" class="node">
+<title>dlapy2</title>
+<polygon fill="lightgreen" stroke="black" points="606.38,-1649 552.28,-1649 552.28,-1613 606.38,-1613 606.38,-1649"/>
+<text xml:space="preserve" text-anchor="middle" x="579.33" y="-1626.8" font-family="Times,serif" font-size="14.00">dlapy2</text>
+</g>
+<!-- disnan -->
+<g id="node6" class="node">
+<title>disnan</title>
+<polygon fill="lightgreen" stroke="black" points="697.16,-1675 643.16,-1675 643.16,-1639 697.16,-1639 697.16,-1675"/>
+<text xml:space="preserve" text-anchor="middle" x="670.16" y="-1652.8" font-family="Times,serif" font-size="14.00">disnan</text>
+</g>
+<!-- dlapy2&#45;&gt;disnan -->
+<g id="edge35" class="edge">
+<title>dlapy2-&gt;disnan</title>
+<path fill="none" stroke="black" d="M606.5,-1638.66C614.47,-1640.99 623.39,-1643.6 631.95,-1646.11"/>
+<polygon fill="black" stroke="black" points="630.84,-1649.43 641.42,-1648.88 632.8,-1642.71 630.84,-1649.43"/>
+</g>
+<!-- dlaisnan -->
+<g id="node7" class="node">
+<title>dlaisnan</title>
+<polygon fill="lightgreen" stroke="black" points="795.81,-1675 733.16,-1675 733.16,-1639 795.81,-1639 795.81,-1675"/>
+<text xml:space="preserve" text-anchor="middle" x="764.49" y="-1652.8" font-family="Times,serif" font-size="14.00">dlaisnan</text>
+</g>
+<!-- disnan&#45;&gt;dlaisnan -->
+<g id="edge8" class="edge">
+<title>disnan-&gt;dlaisnan</title>
+<path fill="none" stroke="black" d="M697.37,-1657C704.91,-1657 713.32,-1657 721.56,-1657"/>
+<polygon fill="black" stroke="black" points="721.45,-1660.5 731.45,-1657 721.45,-1653.5 721.45,-1660.5"/>
+</g>
+<!-- dlas2 -->
+<g id="node8" class="node">
+<title>dlas2</title>
+<polygon fill="lightgreen" stroke="black" points="330.59,-1320 276.59,-1320 276.59,-1284 330.59,-1284 330.59,-1320"/>
+<text xml:space="preserve" text-anchor="middle" x="303.59" y="-1297.8" font-family="Times,serif" font-size="14.00">dlas2</text>
+</g>
+<!-- dlartg -->
+<g id="node9" class="node">
+<title>dlartg</title>
+<polygon fill="lightgreen" stroke="black" points="237.38,-1250 183.38,-1250 183.38,-1214 237.38,-1214 237.38,-1250"/>
+<text xml:space="preserve" text-anchor="middle" x="210.38" y="-1227.8" font-family="Times,serif" font-size="14.00">dlartg</text>
+</g>
+<!-- dlascl&#45;&gt;disnan -->
+<g id="edge7" class="edge">
+<title>dlascl-&gt;disnan</title>
+<path fill="none" stroke="black" d="M313,-1603.32C323.03,-1622.72 341.83,-1652.28 368.2,-1665 454.92,-1706.84 572.68,-1684.32 631.9,-1668.4"/>
+<polygon fill="black" stroke="black" points="632.78,-1671.79 641.48,-1665.73 630.9,-1665.05 632.78,-1671.79"/>
+</g>
+<!-- dlascl&#45;&gt;xerbla -->
+<g id="edge9" class="edge">
+<title>dlascl-&gt;xerbla</title>
+<path fill="none" stroke="black" d="M330.96,-1579.29C359.13,-1571.72 402.77,-1555.47 425.41,-1524 471.59,-1459.81 483.78,-1211.49 486.65,-1125.5"/>
+<polygon fill="black" stroke="black" points="490.15,-1125.65 486.97,-1115.55 483.16,-1125.43 490.15,-1125.65"/>
+</g>
+<!-- dlassq -->
+<g id="node11" class="node">
+<title>dlassq</title>
+<polygon fill="lightgreen" stroke="black" points="237.38,-1675 183.38,-1675 183.38,-1639 237.38,-1639 237.38,-1675"/>
+<text xml:space="preserve" text-anchor="middle" x="210.38" y="-1652.8" font-family="Times,serif" font-size="14.00">dlassq</text>
+</g>
+<!-- dlange&#45;&gt;disnan -->
+<g id="edge63" class="edge">
+<title>dlange-&gt;disnan</title>
+<path fill="none" stroke="black" d="M145.94,-1672.73C180.55,-1691.97 243.96,-1722 302.59,-1722 302.59,-1722 302.59,-1722 489.46,-1722 543.23,-1722 557.34,-1714.23 607.16,-1694 615.91,-1690.45 624.88,-1685.78 633.19,-1680.96"/>
+<polygon fill="black" stroke="black" points="634.88,-1684.02 641.63,-1675.86 631.26,-1678.03 634.88,-1684.02"/>
+</g>
+<!-- dlange&#45;&gt;dlassq -->
+<g id="edge64" class="edge">
+<title>dlange-&gt;dlassq</title>
+<path fill="none" stroke="black" d="M146.13,-1657C154.16,-1657 163.14,-1657 171.75,-1657"/>
+<polygon fill="black" stroke="black" points="171.64,-1660.5 181.64,-1657 171.64,-1653.5 171.64,-1660.5"/>
+</g>
+<!-- dlasv2 -->
+<g id="node14" class="node">
+<title>dlasv2</title>
+<polygon fill="lightgreen" stroke="black" points="237.38,-1450 183.38,-1450 183.38,-1414 237.38,-1414 237.38,-1450"/>
+<text xml:space="preserve" text-anchor="middle" x="210.38" y="-1427.8" font-family="Times,serif" font-size="14.00">dlasv2</text>
+</g>
+<!-- dlarf1f&#45;&gt;iladlc -->
+<g id="edge31" class="edge">
+<title>dlarf1f-&gt;iladlc</title>
+<path fill="none" stroke="black" d="M515.64,-881.95C523.62,-884.38 532.54,-887.09 541.1,-889.69"/>
+<polygon fill="black" stroke="black" points="539.99,-893.01 550.58,-892.57 542.03,-886.31 539.99,-893.01"/>
+</g>
+<!-- dlarf1f&#45;&gt;iladlr -->
+<g id="edge32" class="edge">
+<title>dlarf1f-&gt;iladlr</title>
+<path fill="none" stroke="black" d="M515.64,-866.05C523.62,-863.62 532.54,-860.91 541.1,-858.31"/>
+<polygon fill="black" stroke="black" points="542.03,-861.69 550.58,-855.43 539.99,-854.99 542.03,-861.69"/>
+</g>
+<!-- dlarfb -->
+<g id="node16" class="node">
+<title>dlarfb</title>
+<polygon fill="lightgreen" stroke="black" points="423.81,-784 369.81,-784 369.81,-748 423.81,-748 423.81,-784"/>
+<text xml:space="preserve" text-anchor="middle" x="396.81" y="-761.8" font-family="Times,serif" font-size="14.00">dlarfb</text>
+</g>
+<!-- dlarfg -->
+<g id="node19" class="node">
+<title>dlarfg</title>
+<polygon fill="lightgreen" stroke="black" points="515.46,-1488 461.46,-1488 461.46,-1452 515.46,-1452 515.46,-1488"/>
+<text xml:space="preserve" text-anchor="middle" x="488.46" y="-1465.8" font-family="Times,serif" font-size="14.00">dlarfg</text>
+</g>
+<!-- dlarfg&#45;&gt;dlapy2 -->
+<g id="edge34" class="edge">
+<title>dlarfg-&gt;dlapy2</title>
+<path fill="none" stroke="black" d="M499.65,-1488.47C515.12,-1516.49 544.64,-1569.96 562.79,-1602.85"/>
+<polygon fill="black" stroke="black" points="559.63,-1604.36 567.52,-1611.42 565.76,-1600.98 559.63,-1604.36"/>
+</g>
+<!-- dorm2r -->
+<g id="node20" class="node">
+<title>dorm2r</title>
+<polygon fill="lightgreen" stroke="black" points="425.41,-562 368.2,-562 368.2,-526 425.41,-526 425.41,-562"/>
+<text xml:space="preserve" text-anchor="middle" x="396.81" y="-539.8" font-family="Times,serif" font-size="14.00">dorm2r</text>
+</g>
+<!-- dorm2r&#45;&gt;xerbla -->
+<g id="edge101" class="edge">
+<title>dorm2r-&gt;xerbla</title>
+<path fill="none" stroke="black" d="M419.82,-562.46C422,-565.12 423.95,-567.99 425.41,-571 489.93,-703.68 443.65,-754.54 461.41,-901 468.54,-959.74 477.95,-1028.29 483.29,-1066.46"/>
+<polygon fill="black" stroke="black" points="479.8,-1066.82 484.66,-1076.24 486.74,-1065.85 479.8,-1066.82"/>
+</g>
+<!-- dorm2r&#45;&gt;dlarf1f -->
+<g id="edge100" class="edge">
+<title>dorm2r-&gt;dlarf1f</title>
+<path fill="none" stroke="black" d="M419.28,-562.28C421.62,-565.01 423.75,-567.94 425.41,-571 474.99,-661.91 485.08,-787.8 487.05,-844.38"/>
+<polygon fill="black" stroke="black" points="483.54,-844.26 487.32,-854.16 490.54,-844.07 483.54,-844.26"/>
+</g>
+<!-- dbdsqr&#45;&gt;dlas2 -->
+<g id="edge3" class="edge">
+<title>dbdsqr-&gt;dlas2</title>
+<path fill="none" stroke="black" d="M146.26,-1327.87C170.44,-1324.09 207.13,-1318.29 238.99,-1313 247.42,-1311.6 256.48,-1310.06 265.04,-1308.58"/>
+<polygon fill="black" stroke="black" points="265.56,-1312.04 274.81,-1306.89 264.36,-1305.15 265.56,-1312.04"/>
+</g>
+<!-- dbdsqr&#45;&gt;dlartg -->
+<g id="edge2" class="edge">
+<title>dbdsqr-&gt;dlartg</title>
+<path fill="none" stroke="black" d="M134.57,-1313.6C146.87,-1298.59 164.98,-1277 181.77,-1259 181.94,-1258.82 182.1,-1258.64 182.27,-1258.47"/>
+<polygon fill="black" stroke="black" points="184.63,-1261.06 189.09,-1251.45 179.61,-1256.19 184.63,-1261.06"/>
+</g>
+<!-- dbdsqr&#45;&gt;xerbla -->
+<g id="edge27" class="edge">
+<title>dbdsqr-&gt;xerbla</title>
+<path fill="none" stroke="black" d="M142.18,-1350.33C143.48,-1351.83 144.7,-1353.4 145.77,-1355 173,-1395.63 141.93,-1430.63 181.77,-1459 214.1,-1482.02 393.45,-1435.52 425.41,-1400 461.79,-1359.59 479.38,-1193.86 485.19,-1125.6"/>
+<polygon fill="black" stroke="black" points="488.65,-1126.17 485.99,-1115.91 481.68,-1125.59 488.65,-1126.17"/>
+</g>
+<!-- dbdsqr&#45;&gt;dlasv2 -->
+<g id="edge26" class="edge">
+<title>dbdsqr-&gt;dlasv2</title>
+<path fill="none" stroke="black" d="M134.57,-1350.4C146.87,-1365.41 164.98,-1387 181.77,-1405 181.94,-1405.18 182.1,-1405.36 182.27,-1405.53"/>
+<polygon fill="black" stroke="black" points="179.61,-1407.81 189.09,-1412.55 184.63,-1402.94 179.61,-1407.81"/>
+</g>
+<!-- dlasq1 -->
+<g id="node22" class="node">
+<title>dlasq1</title>
+<polygon fill="none" stroke="black" points="237.38,-1396 183.38,-1396 183.38,-1360 237.38,-1360 237.38,-1396"/>
+<text xml:space="preserve" text-anchor="middle" x="210.38" y="-1373.8" font-family="Times,serif" font-size="14.00">dlasq1</text>
+</g>
+<!-- dbdsqr&#45;&gt;dlasq1 -->
+<g id="edge4" class="edge">
+<title>dbdsqr-&gt;dlasq1</title>
+<path fill="none" stroke="black" d="M146.13,-1345.55C154.52,-1349.86 163.96,-1354.7 172.93,-1359.3"/>
+<polygon fill="black" stroke="black" points="171.31,-1362.4 181.8,-1363.85 174.51,-1356.17 171.31,-1362.4"/>
+</g>
+<!-- dlasr -->
+<g id="node32" class="node">
+<title>dlasr</title>
+<polygon fill="none" stroke="black" points="237.38,-1304 183.38,-1304 183.38,-1268 237.38,-1268 237.38,-1304"/>
+<text xml:space="preserve" text-anchor="middle" x="210.38" y="-1281.8" font-family="Times,serif" font-size="14.00">dlasr</text>
+</g>
+<!-- dbdsqr&#45;&gt;dlasr -->
+<g id="edge24" class="edge">
+<title>dbdsqr-&gt;dlasr</title>
+<path fill="none" stroke="black" d="M146.13,-1318.45C154.52,-1314.14 163.96,-1309.3 172.93,-1304.7"/>
+<polygon fill="black" stroke="black" points="174.51,-1307.83 181.8,-1300.15 171.31,-1301.6 174.51,-1307.83"/>
+</g>
+<!-- dlasq1&#45;&gt;dlas2 -->
+<g id="edge5" class="edge">
+<title>dlasq1-&gt;dlas2</title>
+<path fill="none" stroke="black" d="M233.46,-1359.6C244.91,-1350.06 259.1,-1338.24 271.63,-1327.8"/>
+<polygon fill="black" stroke="black" points="273.8,-1330.55 279.24,-1321.46 269.31,-1325.17 273.8,-1330.55"/>
+</g>
+<!-- dlasq1&#45;&gt;dlascl -->
+<g id="edge6" class="edge">
+<title>dlasq1-&gt;dlascl</title>
+<path fill="none" stroke="black" d="M232.74,-1396.34C235.09,-1399.06 237.26,-1401.97 238.99,-1405 272.14,-1463.03 245.2,-1491.17 274.99,-1551 276.09,-1553.21 277.35,-1555.41 278.73,-1557.56"/>
+<polygon fill="black" stroke="black" points="275.67,-1559.31 284.35,-1565.38 281.35,-1555.22 275.67,-1559.31"/>
+</g>
+<!-- dlasq1&#45;&gt;xerbla -->
+<g id="edge23" class="edge">
+<title>dlasq1-&gt;xerbla</title>
+<path fill="none" stroke="black" d="M237.79,-1389.34C249.03,-1393.59 262.43,-1397.89 274.99,-1400 342.49,-1411.34 379.88,-1418.1 425.41,-1367 457.25,-1331.27 476.99,-1188.31 484.27,-1125.67"/>
+<polygon fill="black" stroke="black" points="487.75,-1126.1 485.39,-1115.77 480.79,-1125.31 487.75,-1126.1"/>
+</g>
+<!-- dlasq2 -->
+<g id="node23" class="node">
+<title>dlasq2</title>
+<polygon fill="none" stroke="black" points="330.59,-1374 276.59,-1374 276.59,-1338 330.59,-1338 330.59,-1374"/>
+<text xml:space="preserve" text-anchor="middle" x="303.59" y="-1351.8" font-family="Times,serif" font-size="14.00">dlasq2</text>
+</g>
+<!-- dlasq1&#45;&gt;dlasq2 -->
+<g id="edge10" class="edge">
+<title>dlasq1-&gt;dlasq2</title>
+<path fill="none" stroke="black" d="M237.76,-1371.64C246.37,-1369.56 256.09,-1367.22 265.33,-1364.99"/>
+<polygon fill="black" stroke="black" points="265.9,-1368.45 274.8,-1362.7 264.26,-1361.65 265.9,-1368.45"/>
+</g>
+<!-- dlasrt -->
+<g id="node28" class="node">
+<title>dlasrt</title>
+<polygon fill="none" stroke="black" points="423.81,-1358 369.81,-1358 369.81,-1322 423.81,-1322 423.81,-1358"/>
+<text xml:space="preserve" text-anchor="middle" x="396.81" y="-1335.8" font-family="Times,serif" font-size="14.00">dlasrt</text>
+</g>
+<!-- dlasq1&#45;&gt;dlasrt -->
+<g id="edge22" class="edge">
+<title>dlasq1-&gt;dlasrt</title>
+<path fill="none" stroke="black" d="M237.47,-1384C262.38,-1388.59 300.69,-1392.65 332.2,-1383 344.27,-1379.3 356.12,-1372.45 366.26,-1365.29"/>
+<polygon fill="black" stroke="black" points="368.3,-1368.14 374.19,-1359.33 364.09,-1362.54 368.3,-1368.14"/>
+</g>
+<!-- dlasq2&#45;&gt;xerbla -->
+<g id="edge21" class="edge">
+<title>dlasq2-&gt;xerbla</title>
+<path fill="none" stroke="black" d="M331.03,-1337.78C365.54,-1313.92 421.98,-1274.54 425.41,-1270 458.84,-1225.79 475.41,-1161.99 482.65,-1125.18"/>
+<polygon fill="black" stroke="black" points="486.02,-1126.2 484.41,-1115.73 479.14,-1124.92 486.02,-1126.2"/>
+</g>
+<!-- dlasq3 -->
+<g id="node24" class="node">
+<title>dlasq3</title>
+<polygon fill="none" stroke="black" points="606.33,-1564 552.33,-1564 552.33,-1528 606.33,-1528 606.33,-1564"/>
+<text xml:space="preserve" text-anchor="middle" x="579.33" y="-1541.8" font-family="Times,serif" font-size="14.00">dlasq3</text>
+</g>
+<!-- dlasq2&#45;&gt;dlasq3 -->
+<g id="edge11" class="edge">
+<title>dlasq2-&gt;dlasq3</title>
+<path fill="none" stroke="black" d="M307.51,-1374.26C313.35,-1404.57 329.41,-1465.11 368.2,-1497 417.61,-1537.62 494.58,-1545.85 540.38,-1546.83"/>
+<polygon fill="black" stroke="black" points="540.32,-1550.33 550.35,-1546.92 540.38,-1543.33 540.32,-1550.33"/>
+</g>
+<!-- dlasq2&#45;&gt;dlasrt -->
+<g id="edge16" class="edge">
+<title>dlasq2-&gt;dlasrt</title>
+<path fill="none" stroke="black" d="M330.98,-1351.37C339.48,-1349.88 349.09,-1348.2 358.24,-1346.59"/>
+<polygon fill="black" stroke="black" points="358.75,-1350.05 367.99,-1344.88 357.54,-1343.16 358.75,-1350.05"/>
+</g>
+<!-- dlasq2&#45;&gt;ilaenv -->
+<g id="edge18" class="edge">
+<title>dlasq2-&gt;ilaenv</title>
+<path fill="none" stroke="black" d="M326.8,-1337.63C328.95,-1334.96 330.83,-1332.06 332.2,-1329 408.76,-1157.35 284.28,-652.17 368.2,-484 382.89,-454.55 405.39,-463.11 425.41,-437 450.94,-403.71 468.87,-358.24 478.68,-328.99"/>
+<polygon fill="black" stroke="black" points="481.93,-330.3 481.69,-319.71 475.27,-328.14 481.93,-330.3"/>
+</g>
+<!-- dlasq3&#45;&gt;disnan -->
+<g id="edge12" class="edge">
+<title>dlasq3-&gt;disnan</title>
+<path fill="none" stroke="black" d="M594.03,-1564.24C606.57,-1580.8 625.78,-1605.81 643.16,-1627 644.04,-1628.08 644.95,-1629.18 645.87,-1630.28"/>
+<polygon fill="black" stroke="black" points="642.93,-1632.22 652.07,-1637.58 648.27,-1627.69 642.93,-1632.22"/>
+</g>
+<!-- dlasq4 -->
+<g id="node25" class="node">
+<title>dlasq4</title>
+<polygon fill="none" stroke="black" points="697.16,-1564 643.16,-1564 643.16,-1528 697.16,-1528 697.16,-1564"/>
+<text xml:space="preserve" text-anchor="middle" x="670.16" y="-1541.8" font-family="Times,serif" font-size="14.00">dlasq4</text>
+</g>
+<!-- dlasq3&#45;&gt;dlasq4 -->
+<g id="edge13" class="edge">
+<title>dlasq3-&gt;dlasq4</title>
+<path fill="none" stroke="black" d="M606.5,-1546C614.29,-1546 622.99,-1546 631.37,-1546"/>
+<polygon fill="black" stroke="black" points="631.35,-1549.5 641.35,-1546 631.35,-1542.5 631.35,-1549.5"/>
+</g>
+<!-- dlasq5 -->
+<g id="node26" class="node">
+<title>dlasq5</title>
+<polygon fill="none" stroke="black" points="697.16,-1510 643.16,-1510 643.16,-1474 697.16,-1474 697.16,-1510"/>
+<text xml:space="preserve" text-anchor="middle" x="670.16" y="-1487.8" font-family="Times,serif" font-size="14.00">dlasq5</text>
+</g>
+<!-- dlasq3&#45;&gt;dlasq5 -->
+<g id="edge14" class="edge">
+<title>dlasq3-&gt;dlasq5</title>
+<path fill="none" stroke="black" d="M606.5,-1530.09C614.83,-1525.03 624.2,-1519.33 633.1,-1513.92"/>
+<polygon fill="black" stroke="black" points="634.85,-1516.95 641.58,-1508.77 631.21,-1510.97 634.85,-1516.95"/>
+</g>
+<!-- dlasq6 -->
+<g id="node27" class="node">
+<title>dlasq6</title>
+<polygon fill="none" stroke="black" points="697.16,-1618 643.16,-1618 643.16,-1582 697.16,-1582 697.16,-1618"/>
+<text xml:space="preserve" text-anchor="middle" x="670.16" y="-1595.8" font-family="Times,serif" font-size="14.00">dlasq6</text>
+</g>
+<!-- dlasq3&#45;&gt;dlasq6 -->
+<g id="edge15" class="edge">
+<title>dlasq3-&gt;dlasq6</title>
+<path fill="none" stroke="black" d="M606.5,-1561.91C614.83,-1566.97 624.2,-1572.67 633.1,-1578.08"/>
+<polygon fill="black" stroke="black" points="631.21,-1581.03 641.58,-1583.23 634.85,-1575.05 631.21,-1581.03"/>
+</g>
+<!-- dlasrt&#45;&gt;xerbla -->
+<g id="edge17" class="edge">
+<title>dlasrt-&gt;xerbla</title>
+<path fill="none" stroke="black" d="M415.89,-1321.71C419.42,-1317.46 422.82,-1312.77 425.41,-1308 458.26,-1247.62 475.53,-1167.87 482.93,-1125.47"/>
+<polygon fill="black" stroke="black" points="486.35,-1126.24 484.55,-1115.8 479.44,-1125.08 486.35,-1126.24"/>
+</g>
+<!-- ieeeck -->
+<g id="node30" class="node">
+<title>ieeeck</title>
+<polygon fill="none" stroke="black" points="606.33,-345 552.33,-345 552.33,-309 606.33,-309 606.33,-345"/>
+<text xml:space="preserve" text-anchor="middle" x="579.33" y="-322.8" font-family="Times,serif" font-size="14.00">ieeeck</text>
+</g>
+<!-- ilaenv&#45;&gt;ieeeck -->
+<g id="edge19" class="edge">
+<title>ilaenv-&gt;ieeeck</title>
+<path fill="none" stroke="black" d="M515.64,-307.95C523.62,-310.38 532.54,-313.09 541.1,-315.69"/>
+<polygon fill="black" stroke="black" points="539.99,-319.01 550.58,-318.57 542.03,-312.31 539.99,-319.01"/>
+</g>
+<!-- iparmq -->
+<g id="node31" class="node">
+<title>iparmq</title>
+<polygon fill="none" stroke="black" points="607.16,-291 551.5,-291 551.5,-255 607.16,-255 607.16,-291"/>
+<text xml:space="preserve" text-anchor="middle" x="579.33" y="-268.8" font-family="Times,serif" font-size="14.00">iparmq</text>
+</g>
+<!-- ilaenv&#45;&gt;iparmq -->
+<g id="edge20" class="edge">
+<title>ilaenv-&gt;iparmq</title>
+<path fill="none" stroke="black" d="M515.64,-292.05C523.32,-289.71 531.87,-287.12 540.13,-284.61"/>
+<polygon fill="black" stroke="black" points="541.1,-287.97 549.65,-281.71 539.07,-281.27 541.1,-287.97"/>
+</g>
+<!-- dlasr&#45;&gt;xerbla -->
+<g id="edge25" class="edge">
+<title>dlasr-&gt;xerbla</title>
+<path fill="none" stroke="black" d="M237.52,-1280.73C291.38,-1269.68 410.88,-1244.12 425.41,-1232 458.11,-1204.74 474.38,-1156.57 481.85,-1125.48"/>
+<polygon fill="black" stroke="black" points="485.21,-1126.48 483.97,-1115.96 478.38,-1124.96 485.21,-1126.48"/>
+</g>
+<!-- dgebrd&#45;&gt;xerbla -->
+<g id="edge40" class="edge">
+<title>dgebrd-&gt;xerbla</title>
+<path fill="none" stroke="black" d="M331.37,-1526.03C359.04,-1526.53 401.48,-1522.58 425.41,-1497 475.83,-1443.13 485.28,-1208.93 487.05,-1125.58"/>
+<polygon fill="black" stroke="black" points="490.55,-1125.78 487.24,-1115.72 483.55,-1125.65 490.55,-1125.78"/>
+</g>
+<!-- dgebrd&#45;&gt;ilaenv -->
+<g id="edge39" class="edge">
+<title>dgebrd-&gt;ilaenv</title>
+<path fill="none" stroke="black" d="M309.06,-1505.89C315.43,-1479.18 326.94,-1427.59 332.2,-1383 343.49,-1287.36 323.39,-602.25 368.2,-517 383,-488.84 406.56,-499.62 425.41,-474 458.18,-429.48 474.95,-366.04 482.41,-329.33"/>
+<polygon fill="black" stroke="black" points="485.77,-330.38 484.23,-319.9 478.9,-329.06 485.77,-330.38"/>
+</g>
+<!-- dgebd2 -->
+<g id="node34" class="node">
+<title>dgebd2</title>
+<polygon fill="none" stroke="black" points="425.41,-1488 368.2,-1488 368.2,-1452 425.41,-1452 425.41,-1488"/>
+<text xml:space="preserve" text-anchor="middle" x="396.81" y="-1465.8" font-family="Times,serif" font-size="14.00">dgebd2</text>
+</g>
+<!-- dgebrd&#45;&gt;dgebd2 -->
+<g id="edge29" class="edge">
+<title>dgebrd-&gt;dgebd2</title>
+<path fill="none" stroke="black" d="M331.47,-1508.09C339.79,-1503.16 349.12,-1497.64 358.04,-1492.36"/>
+<polygon fill="black" stroke="black" points="359.73,-1495.42 366.56,-1487.32 356.17,-1489.4 359.73,-1495.42"/>
+</g>
+<!-- dlabrd -->
+<g id="node35" class="node">
+<title>dlabrd</title>
+<polygon fill="none" stroke="black" points="423.81,-1656 369.81,-1656 369.81,-1620 423.81,-1620 423.81,-1656"/>
+<text xml:space="preserve" text-anchor="middle" x="396.81" y="-1633.8" font-family="Times,serif" font-size="14.00">dlabrd</text>
+</g>
+<!-- dgebrd&#45;&gt;dlabrd -->
+<g id="edge37" class="edge">
+<title>dgebrd-&gt;dlabrd</title>
+<path fill="none" stroke="black" d="M319.53,-1542.32C323.64,-1547.39 328.1,-1552.9 332.2,-1558 346.32,-1575.58 362.09,-1595.41 374.4,-1610.94"/>
+<polygon fill="black" stroke="black" points="371.31,-1612.68 380.27,-1618.34 376.8,-1608.33 371.31,-1612.68"/>
+</g>
+<!-- dgebd2&#45;&gt;xerbla -->
+<g id="edge36" class="edge">
+<title>dgebd2-&gt;xerbla</title>
+<path fill="none" stroke="black" d="M416.56,-1451.56C419.96,-1447.38 423.14,-1442.77 425.41,-1438 476.39,-1331.28 485.68,-1187.5 487.23,-1125.97"/>
+<polygon fill="black" stroke="black" points="490.73,-1126.04 487.43,-1115.97 483.73,-1125.9 490.73,-1126.04"/>
+</g>
+<!-- dgebd2&#45;&gt;dlarf1f -->
+<g id="edge30" class="edge">
+<title>dgebd2-&gt;dlarf1f</title>
+<path fill="none" stroke="black" d="M403.59,-1451.58C409.82,-1431.11 419.61,-1396.99 425.41,-1367 450.75,-1236.02 444.58,-1201.34 461.41,-1069 468.88,-1010.3 478.17,-941.74 483.39,-903.55"/>
+<polygon fill="black" stroke="black" points="486.84,-904.15 484.74,-893.77 479.91,-903.2 486.84,-904.15"/>
+</g>
+<!-- dgebd2&#45;&gt;dlarfg -->
+<g id="edge33" class="edge">
+<title>dgebd2-&gt;dlarfg</title>
+<path fill="none" stroke="black" d="M425.68,-1470C433.28,-1470 441.64,-1470 449.69,-1470"/>
+<polygon fill="black" stroke="black" points="449.62,-1473.5 459.62,-1470 449.62,-1466.5 449.62,-1473.5"/>
+</g>
+<!-- dlabrd&#45;&gt;dlarfg -->
+<g id="edge38" class="edge">
+<title>dlabrd-&gt;dlarfg</title>
+<path fill="none" stroke="black" d="M415.1,-1619.75C418.75,-1615.42 422.41,-1610.69 425.41,-1606 447.67,-1571.28 466.2,-1527.26 477.06,-1498.87"/>
+<polygon fill="black" stroke="black" points="480.2,-1500.45 480.43,-1489.86 473.65,-1497.99 480.2,-1500.45"/>
+</g>
+<!-- dgelqf&#45;&gt;xerbla -->
+<g id="edge51" class="edge">
+<title>dgelqf-&gt;xerbla</title>
+<path fill="none" stroke="black" d="M330.93,-713.09C358.44,-711.64 400.93,-714.12 425.41,-739 436.98,-750.75 471.23,-982.77 483.24,-1066.33"/>
+<polygon fill="black" stroke="black" points="479.75,-1066.64 484.63,-1076.04 486.67,-1065.64 479.75,-1066.64"/>
+</g>
+<!-- dgelqf&#45;&gt;dlarfb -->
+<g id="edge46" class="edge">
+<title>dgelqf-&gt;dlarfb</title>
+<path fill="none" stroke="black" d="M330.98,-730.46C339.86,-735.33 349.94,-740.86 359.46,-746.08"/>
+<polygon fill="black" stroke="black" points="357.71,-749.11 368.16,-750.84 361.07,-742.97 357.71,-749.11"/>
+</g>
+<!-- dgelqf&#45;&gt;ilaenv -->
+<g id="edge50" class="edge">
+<title>dgelqf-&gt;ilaenv</title>
+<path fill="none" stroke="black" d="M311.25,-697.79C317.63,-679.61 327.03,-650.74 332.2,-625 347.69,-547.91 309.84,-325.7 368.2,-273 390.73,-252.65 425.31,-263.47 451.44,-276.97"/>
+<polygon fill="black" stroke="black" points="449.58,-279.94 460.03,-281.7 452.95,-273.81 449.58,-279.94"/>
+</g>
+<!-- dgelq2 -->
+<g id="node37" class="node">
+<title>dgelq2</title>
+<polygon fill="none" stroke="black" points="423.86,-946 369.76,-946 369.76,-910 423.86,-910 423.86,-946"/>
+<text xml:space="preserve" text-anchor="middle" x="396.81" y="-923.8" font-family="Times,serif" font-size="14.00">dgelq2</text>
+</g>
+<!-- dgelqf&#45;&gt;dgelq2 -->
+<g id="edge42" class="edge">
+<title>dgelqf-&gt;dgelq2</title>
+<path fill="none" stroke="black" d="M326,-734.32C328.35,-737.04 330.5,-739.96 332.2,-743 365.73,-802.9 336.09,-835.06 369.06,-899.88"/>
+<polygon fill="black" stroke="black" points="365.82,-901.24 373.68,-908.35 371.97,-897.9 365.82,-901.24"/>
+</g>
+<!-- dlarft -->
+<g id="node38" class="node">
+<title>dlarft</title>
+<polygon fill="none" stroke="black" points="423.81,-318 369.81,-318 369.81,-282 423.81,-282 423.81,-318"/>
+<text xml:space="preserve" text-anchor="middle" x="396.81" y="-295.8" font-family="Times,serif" font-size="14.00">dlarft</text>
+</g>
+<!-- dgelqf&#45;&gt;dlarft -->
+<g id="edge47" class="edge">
+<title>dgelqf-&gt;dlarft</title>
+<path fill="none" stroke="black" d="M311.14,-697.77C317.43,-679.57 326.77,-650.68 332.2,-625 359.35,-496.64 315.06,-451.96 368.2,-332 368.87,-330.49 369.63,-329 370.47,-327.53"/>
+<polygon fill="black" stroke="black" points="373.16,-329.8 375.98,-319.59 367.41,-325.81 373.16,-329.8"/>
+</g>
+<!-- dgelq2&#45;&gt;xerbla -->
+<g id="edge45" class="edge">
+<title>dgelq2-&gt;xerbla</title>
+<path fill="none" stroke="black" d="M415.1,-946.25C418.75,-950.58 422.41,-955.31 425.41,-960 447.67,-994.72 466.2,-1038.74 477.06,-1067.13"/>
+<polygon fill="black" stroke="black" points="473.65,-1068.01 480.43,-1076.14 480.2,-1065.55 473.65,-1068.01"/>
+</g>
+<!-- dgelq2&#45;&gt;dlarf1f -->
+<g id="edge43" class="edge">
+<title>dgelq2-&gt;dlarf1f</title>
+<path fill="none" stroke="black" d="M424.22,-912.09C432.63,-907.03 442.08,-901.33 451.06,-895.92"/>
+<polygon fill="black" stroke="black" points="452.87,-898.92 459.63,-890.76 449.26,-892.93 452.87,-898.92"/>
+</g>
+<!-- dgelq2&#45;&gt;dlarfg -->
+<g id="edge44" class="edge">
+<title>dgelq2-&gt;dlarfg</title>
+<path fill="none" stroke="black" d="M401.61,-946.21C407.17,-973.03 417.67,-1024.77 425.41,-1069 449.68,-1207.49 473.82,-1373.76 483.28,-1440.33"/>
+<polygon fill="black" stroke="black" points="479.79,-1440.66 484.66,-1450.07 486.72,-1439.68 479.79,-1440.66"/>
+</g>
+<!-- dlarft&#45;&gt;dlacpy -->
+<g id="edge48" class="edge">
+<title>dlarft-&gt;dlacpy</title>
+<path fill="none" stroke="black" d="M409.16,-281.64C424.59,-256.69 452.3,-211.86 470.28,-182.79"/>
+<polygon fill="black" stroke="black" points="473.12,-184.85 475.4,-174.5 467.16,-181.17 473.12,-184.85"/>
+</g>
+<!-- dlarft&#45;&gt;ilaenv -->
+<g id="edge49" class="edge">
+<title>dlarft-&gt;ilaenv</title>
+<path fill="none" stroke="black" d="M424.22,-300C432.25,-300 441.22,-300 449.84,-300"/>
+<polygon fill="black" stroke="black" points="449.72,-303.5 459.72,-300 449.72,-296.5 449.72,-303.5"/>
+</g>
+<!-- dgeqrf&#45;&gt;xerbla -->
+<g id="edge60" class="edge">
+<title>dgeqrf-&gt;xerbla</title>
+<path fill="none" stroke="black" d="M309.29,-907.4C317.3,-935.73 335.94,-990.48 368.2,-1026 390.94,-1051.04 424.77,-1069.72 450.59,-1081.45"/>
+<polygon fill="black" stroke="black" points="449.16,-1084.65 459.73,-1085.45 451.97,-1078.23 449.16,-1084.65"/>
+</g>
+<!-- dgeqrf&#45;&gt;dlarfb -->
+<g id="edge57" class="edge">
+<title>dgeqrf-&gt;dlarfb</title>
+<path fill="none" stroke="black" d="M318.35,-870.64C322.86,-864.46 327.83,-857.5 332.2,-851 349.13,-825.82 349.22,-816.67 368.2,-793 368.27,-792.91 368.35,-792.82 368.42,-792.73"/>
+<polygon fill="black" stroke="black" points="370.85,-795.26 374.88,-785.46 365.62,-790.61 370.85,-795.26"/>
+</g>
+<!-- dgeqrf&#45;&gt;ilaenv -->
+<g id="edge59" class="edge">
+<title>dgeqrf-&gt;ilaenv</title>
+<path fill="none" stroke="black" d="M320.83,-870.85C325.26,-864.91 329.57,-858.03 332.2,-851 395.6,-681.78 282.97,-605.35 368.2,-446 383.59,-417.23 403.79,-424.43 425.41,-400 444.87,-378.01 462.04,-349.19 473.35,-328.15"/>
+<polygon fill="black" stroke="black" points="476.31,-330.03 477.87,-319.55 470.12,-326.78 476.31,-330.03"/>
+</g>
+<!-- dgeqrf&#45;&gt;dlarft -->
+<g id="edge58" class="edge">
+<title>dgeqrf-&gt;dlarft</title>
+<path fill="none" stroke="black" d="M320.86,-870.86C325.3,-864.92 329.59,-858.04 332.2,-851 400.8,-665.76 335.62,-602.83 368.2,-408 372.72,-380.94 380.7,-350.74 386.92,-329.17"/>
+<polygon fill="black" stroke="black" points="390.27,-330.18 389.74,-319.6 383.56,-328.2 390.27,-330.18"/>
+</g>
+<!-- dgeqr2 -->
+<g id="node40" class="node">
+<title>dgeqr2</title>
+<polygon fill="none" stroke="black" points="424.25,-1114 369.37,-1114 369.37,-1078 424.25,-1078 424.25,-1114"/>
+<text xml:space="preserve" text-anchor="middle" x="396.81" y="-1091.8" font-family="Times,serif" font-size="14.00">dgeqr2</text>
+</g>
+<!-- dgeqrf&#45;&gt;dgeqr2 -->
+<g id="edge53" class="edge">
+<title>dgeqrf-&gt;dgeqr2</title>
+<path fill="none" stroke="black" d="M308.9,-907.33C317.15,-940.28 337.14,-1011.01 368.2,-1064 369.14,-1065.61 370.17,-1067.22 371.26,-1068.8"/>
+<polygon fill="black" stroke="black" points="368.19,-1070.54 377.03,-1076.37 373.75,-1066.3 368.19,-1070.54"/>
+</g>
+<!-- dgeqr2&#45;&gt;xerbla -->
+<g id="edge56" class="edge">
+<title>dgeqr2-&gt;xerbla</title>
+<path fill="none" stroke="black" d="M424.71,-1096C432.56,-1096 441.29,-1096 449.68,-1096"/>
+<polygon fill="black" stroke="black" points="449.68,-1099.5 459.68,-1096 449.68,-1092.5 449.68,-1099.5"/>
+</g>
+<!-- dgeqr2&#45;&gt;dlarf1f -->
+<g id="edge54" class="edge">
+<title>dgeqr2-&gt;dlarf1f</title>
+<path fill="none" stroke="black" d="M405.14,-1077.83C420.67,-1039.37 456.98,-949.46 475.76,-902.98"/>
+<polygon fill="black" stroke="black" points="478.96,-904.4 479.45,-893.82 472.46,-901.78 478.96,-904.4"/>
+</g>
+<!-- dgeqr2&#45;&gt;dlarfg -->
+<g id="edge55" class="edge">
+<title>dgeqr2-&gt;dlarfg</title>
+<path fill="none" stroke="black" d="M402.19,-1114.29C416.64,-1174.57 462.84,-1367.3 480.5,-1440.98"/>
+<polygon fill="black" stroke="black" points="477,-1441.36 482.73,-1450.27 483.8,-1439.73 477,-1441.36"/>
+</g>
+<!-- dorgbr&#45;&gt;xerbla -->
+<g id="edge84" class="edge">
+<title>dorgbr-&gt;xerbla</title>
+<path fill="none" stroke="black" d="M212.27,-868.2C215.63,-928.38 229.74,-1119.19 274.99,-1156 326.85,-1198.19 363.43,-1181.07 425.41,-1156 442.07,-1149.26 456.73,-1135.68 467.62,-1123.13"/>
+<polygon fill="black" stroke="black" points="470.27,-1125.42 473.89,-1115.47 464.85,-1120.99 470.27,-1125.42"/>
+</g>
+<!-- dorgbr&#45;&gt;dorglq -->
+<g id="edge68" class="edge">
+<title>dorgbr-&gt;dorglq</title>
+<path fill="none" stroke="black" d="M232.08,-831.85C244.24,-821.18 259.8,-807.53 273.22,-795.77"/>
+<polygon fill="black" stroke="black" points="275.31,-798.58 280.52,-789.36 270.7,-793.32 275.31,-798.58"/>
+</g>
+<!-- dorgbr&#45;&gt;dorgqr -->
+<g id="edge76" class="edge">
+<title>dorgbr-&gt;dorgqr</title>
+<path fill="none" stroke="black" d="M237.76,-842.48C246.37,-840.03 256.09,-837.26 265.33,-834.62"/>
+<polygon fill="black" stroke="black" points="266.16,-838.03 274.81,-831.92 264.24,-831.29 266.16,-838.03"/>
+</g>
+<!-- dorglq&#45;&gt;xerbla -->
+<g id="edge75" class="edge">
+<title>dorglq-&gt;xerbla</title>
+<path fill="none" stroke="black" d="M326,-788.32C328.35,-791.04 330.5,-793.96 332.2,-797 367.38,-859.85 325.43,-897.05 368.2,-955 385.63,-978.62 404.67,-967.23 425.41,-988 448.23,-1010.86 465.54,-1043.8 476.01,-1067.28"/>
+<polygon fill="black" stroke="black" points="472.7,-1068.45 479.86,-1076.26 479.13,-1065.69 472.7,-1068.45"/>
+</g>
+<!-- dorglq&#45;&gt;dlarfb -->
+<g id="edge69" class="edge">
+<title>dorglq-&gt;dlarfb</title>
+<path fill="none" stroke="black" d="M330.98,-768.84C339.48,-768.47 349.09,-768.05 358.24,-767.65"/>
+<polygon fill="black" stroke="black" points="358.13,-771.16 367.97,-767.22 357.83,-764.16 358.13,-771.16"/>
+</g>
+<!-- dorglq&#45;&gt;ilaenv -->
+<g id="edge74" class="edge">
+<title>dorglq-&gt;ilaenv</title>
+<path fill="none" stroke="black" d="M326.64,-751.56C328.82,-748.9 330.75,-746.02 332.2,-743 404.1,-592.77 278.59,-510.39 368.2,-370 378.21,-354.32 419.81,-331.97 451.08,-316.77"/>
+<polygon fill="black" stroke="black" points="452.36,-320.04 459.86,-312.57 449.33,-313.73 452.36,-320.04"/>
+</g>
+<!-- dorglq&#45;&gt;dlarft -->
+<g id="edge70" class="edge">
+<title>dorglq-&gt;dlarft</title>
+<path fill="none" stroke="black" d="M326.67,-751.57C328.84,-748.91 330.77,-746.03 332.2,-743 410.62,-577.25 296.86,-500.92 368.2,-332 368.84,-330.48 369.59,-328.98 370.41,-327.51"/>
+<polygon fill="black" stroke="black" points="373.1,-329.77 375.85,-319.54 367.32,-325.82 373.1,-329.77"/>
+</g>
+<!-- dorgl2 -->
+<g id="node43" class="node">
+<title>dorgl2</title>
+<polygon fill="none" stroke="black" points="423.81,-838 369.81,-838 369.81,-802 423.81,-802 423.81,-838"/>
+<text xml:space="preserve" text-anchor="middle" x="396.81" y="-815.8" font-family="Times,serif" font-size="14.00">dorgl2</text>
+</g>
+<!-- dorglq&#45;&gt;dorgl2 -->
+<g id="edge71" class="edge">
+<title>dorglq-&gt;dorgl2</title>
+<path fill="none" stroke="black" d="M330.98,-784.46C339.86,-789.33 349.94,-794.86 359.46,-800.08"/>
+<polygon fill="black" stroke="black" points="357.71,-803.11 368.16,-804.84 361.07,-796.97 357.71,-803.11"/>
+</g>
+<!-- dorgl2&#45;&gt;xerbla -->
+<g id="edge73" class="edge">
+<title>dorgl2-&gt;xerbla</title>
+<path fill="none" stroke="black" d="M419.16,-838.35C421.51,-841.07 423.68,-843.98 425.41,-847 466.56,-918.8 480.66,-1017.51 485.3,-1066.27"/>
+<polygon fill="black" stroke="black" points="481.8,-1066.37 486.16,-1076.03 488.77,-1065.76 481.8,-1066.37"/>
+</g>
+<!-- dorgl2&#45;&gt;dlarf1f -->
+<g id="edge72" class="edge">
+<title>dorgl2-&gt;dlarf1f</title>
+<path fill="none" stroke="black" d="M424.22,-835.91C432.63,-840.97 442.08,-846.67 451.06,-852.08"/>
+<polygon fill="black" stroke="black" points="449.26,-855.07 459.63,-857.24 452.87,-849.08 449.26,-855.07"/>
+</g>
+<!-- dorgqr&#45;&gt;dorg2r -->
+<g id="edge79" class="edge">
+<title>dorgqr-&gt;dorg2r</title>
+<path fill="none" stroke="black" d="M330.98,-838.46C339.86,-843.33 349.94,-848.86 359.46,-854.08"/>
+<polygon fill="black" stroke="black" points="357.71,-857.11 368.16,-858.84 361.07,-850.97 357.71,-857.11"/>
+</g>
+<!-- dorgqr&#45;&gt;xerbla -->
+<g id="edge83" class="edge">
+<title>dorgqr-&gt;xerbla</title>
+<path fill="none" stroke="black" d="M319.73,-842.11C324.23,-848.16 328.84,-855.11 332.2,-862 357.71,-914.36 333.82,-940.99 368.2,-988 386.22,-1012.64 402.38,-1005.97 425.41,-1026 440.29,-1038.94 455.01,-1055.35 466.38,-1069.03"/>
+<polygon fill="black" stroke="black" points="463.34,-1070.85 472.37,-1076.39 468.77,-1066.42 463.34,-1070.85"/>
+</g>
+<!-- dorgqr&#45;&gt;dlarfb -->
+<g id="edge77" class="edge">
+<title>dorgqr-&gt;dlarfb</title>
+<path fill="none" stroke="black" d="M330.98,-807.22C340.05,-801.45 350.37,-794.89 360.07,-788.73"/>
+<polygon fill="black" stroke="black" points="361.65,-791.87 368.21,-783.55 357.89,-785.96 361.65,-791.87"/>
+</g>
+<!-- dorgqr&#45;&gt;ilaenv -->
+<g id="edge82" class="edge">
+<title>dorgqr-&gt;ilaenv</title>
+<path fill="none" stroke="black" d="M326.65,-805.57C328.83,-802.9 330.76,-800.03 332.2,-797 406.85,-640.24 284.39,-560.06 368.2,-408 383.68,-379.91 401.47,-385.35 425.41,-364 438.52,-352.31 452.19,-338.41 463.36,-326.56"/>
+<polygon fill="black" stroke="black" points="465.72,-329.16 469.97,-319.46 460.6,-324.39 465.72,-329.16"/>
+</g>
+<!-- dorgqr&#45;&gt;dlarft -->
+<g id="edge78" class="edge">
+<title>dorgqr-&gt;dlarft</title>
+<path fill="none" stroke="black" d="M326.68,-805.58C328.85,-802.91 330.77,-800.03 332.2,-797 413.37,-624.71 324.8,-555.44 368.2,-370 371.49,-355.93 377.09,-340.95 382.39,-328.48"/>
+<polygon fill="black" stroke="black" points="385.46,-330.19 386.3,-319.63 379.06,-327.37 385.46,-330.19"/>
+</g>
+<!-- dormbr&#45;&gt;xerbla -->
+<g id="edge105" class="edge">
+<title>dormbr-&gt;xerbla</title>
+<path fill="none" stroke="black" d="M213.73,-616.39C225.18,-702.58 278.23,-1064.84 368.2,-1123 393,-1139.03 426.07,-1129.67 451.09,-1117.77"/>
+<polygon fill="black" stroke="black" points="452.61,-1120.93 459.93,-1113.27 449.43,-1114.69 452.61,-1120.93"/>
+</g>
+<!-- dormbr&#45;&gt;ilaenv -->
+<g id="edge104" class="edge">
+<title>dormbr-&gt;ilaenv</title>
+<path fill="none" stroke="black" d="M211.66,-579.76C213.77,-513.08 231.09,-281.44 368.2,-187 389.14,-172.58 403.53,-174.05 425.41,-187 455.92,-205.05 472.43,-244.02 480.58,-271.11"/>
+<polygon fill="black" stroke="black" points="477.12,-271.74 483.17,-280.44 483.87,-269.87 477.12,-271.74"/>
+</g>
+<!-- dormlq -->
+<g id="node46" class="node">
+<title>dormlq</title>
+<polygon fill="none" stroke="black" points="331.81,-616 275.37,-616 275.37,-580 331.81,-580 331.81,-616"/>
+<text xml:space="preserve" text-anchor="middle" x="303.59" y="-593.8" font-family="Times,serif" font-size="14.00">dormlq</text>
+</g>
+<!-- dormbr&#45;&gt;dormlq -->
+<g id="edge88" class="edge">
+<title>dormbr-&gt;dormlq</title>
+<path fill="none" stroke="black" d="M239.24,-598C246.93,-598 255.42,-598 263.62,-598"/>
+<polygon fill="black" stroke="black" points="263.39,-601.5 273.39,-598 263.39,-594.5 263.39,-601.5"/>
+</g>
+<!-- dormqr -->
+<g id="node48" class="node">
+<title>dormqr</title>
+<polygon fill="none" stroke="black" points="332.2,-562 274.99,-562 274.99,-526 332.2,-526 332.2,-562"/>
+<text xml:space="preserve" text-anchor="middle" x="303.59" y="-539.8" font-family="Times,serif" font-size="14.00">dormqr</text>
+</g>
+<!-- dormbr&#45;&gt;dormqr -->
+<g id="edge96" class="edge">
+<title>dormbr-&gt;dormqr</title>
+<path fill="none" stroke="black" d="M239.24,-581.5C247.3,-576.73 256.23,-571.44 264.79,-566.38"/>
+<polygon fill="black" stroke="black" points="266.46,-569.46 273.28,-561.35 262.9,-563.43 266.46,-569.46"/>
+</g>
+<!-- dormlq&#45;&gt;xerbla -->
+<g id="edge95" class="edge">
+<title>dormlq-&gt;xerbla</title>
+<path fill="none" stroke="black" d="M323.99,-616.48C336.55,-628.39 353.27,-644.18 368.2,-658 393.41,-681.35 409.05,-679.78 425.41,-710 433.95,-725.77 470.67,-978.5 483.23,-1066.26"/>
+<polygon fill="black" stroke="black" points="479.74,-1066.6 484.62,-1076.01 486.67,-1065.61 479.74,-1066.6"/>
+</g>
+<!-- dormlq&#45;&gt;dlarfb -->
+<g id="edge89" class="edge">
+<title>dormlq-&gt;dlarfb</title>
+<path fill="none" stroke="black" d="M314.53,-616.3C330.43,-645.59 361.71,-703.2 380.49,-737.79"/>
+<polygon fill="black" stroke="black" points="377.31,-739.28 385.16,-746.39 383.47,-735.94 377.31,-739.28"/>
+</g>
+<!-- dormlq&#45;&gt;ilaenv -->
+<g id="edge94" class="edge">
+<title>dormlq-&gt;ilaenv</title>
+<path fill="none" stroke="black" d="M326.61,-579.54C328.79,-576.88 330.73,-574.01 332.2,-571 364.54,-504.45 313.13,-289.41 368.2,-240 387.13,-223.02 401.84,-230.47 425.41,-240 442.07,-246.74 456.73,-260.32 467.62,-272.87"/>
+<polygon fill="black" stroke="black" points="464.85,-275.01 473.89,-280.53 470.27,-270.58 464.85,-275.01"/>
+</g>
+<!-- dormlq&#45;&gt;dlarft -->
+<g id="edge90" class="edge">
+<title>dormlq-&gt;dlarft</title>
+<path fill="none" stroke="black" d="M326.22,-579.8C328.53,-577.06 330.61,-574.1 332.2,-571 381.14,-475.37 323.35,-429.61 368.2,-332 368.89,-330.5 369.67,-329.02 370.52,-327.56"/>
+<polygon fill="black" stroke="black" points="373.2,-329.83 376.07,-319.63 367.47,-325.81 373.2,-329.83"/>
+</g>
+<!-- dorml2 -->
+<g id="node47" class="node">
+<title>dorml2</title>
+<polygon fill="none" stroke="black" points="425.03,-616 368.59,-616 368.59,-580 425.03,-580 425.03,-616"/>
+<text xml:space="preserve" text-anchor="middle" x="396.81" y="-593.8" font-family="Times,serif" font-size="14.00">dorml2</text>
+</g>
+<!-- dormlq&#45;&gt;dorml2 -->
+<g id="edge91" class="edge">
+<title>dormlq-&gt;dorml2</title>
+<path fill="none" stroke="black" d="M331.96,-598C339.74,-598 348.36,-598 356.69,-598"/>
+<polygon fill="black" stroke="black" points="356.63,-601.5 366.63,-598 356.63,-594.5 356.63,-601.5"/>
+</g>
+<!-- dorml2&#45;&gt;xerbla -->
+<g id="edge93" class="edge">
+<title>dorml2-&gt;xerbla</title>
+<path fill="none" stroke="black" d="M416.74,-616.36C420.12,-620.54 423.25,-625.18 425.41,-630 475.17,-740.85 445.37,-780.56 461.41,-901 469.23,-959.66 478.39,-1028.23 483.5,-1066.43"/>
+<polygon fill="black" stroke="black" points="480.02,-1066.77 484.81,-1076.22 486.96,-1065.84 480.02,-1066.77"/>
+</g>
+<!-- dorml2&#45;&gt;dlarf1f -->
+<g id="edge92" class="edge">
+<title>dorml2-&gt;dlarf1f</title>
+<path fill="none" stroke="black" d="M416.02,-616.22C419.54,-620.48 422.9,-625.19 425.41,-630 462.67,-701.49 478.45,-796.63 484.36,-844.22"/>
+<polygon fill="black" stroke="black" points="480.87,-844.5 485.51,-854.02 487.82,-843.68 480.87,-844.5"/>
+</g>
+<!-- dormqr&#45;&gt;xerbla -->
+<g id="edge103" class="edge">
+<title>dormqr-&gt;xerbla</title>
+<path fill="none" stroke="black" d="M324.43,-562.4C327.14,-565.19 329.8,-568.11 332.2,-571 350.61,-593.2 347.15,-605.28 368.2,-625 389.62,-645.07 408.98,-633.68 425.41,-658 428.3,-662.28 470.12,-968.46 483.43,-1066.29"/>
+<polygon fill="black" stroke="black" points="479.95,-1066.73 484.77,-1076.17 486.89,-1065.79 479.95,-1066.73"/>
+</g>
+<!-- dormqr&#45;&gt;dlarfb -->
+<g id="edge97" class="edge">
+<title>dormqr-&gt;dlarfb</title>
+<path fill="none" stroke="black" d="M325.74,-562.47C328.13,-565.17 330.36,-568.04 332.2,-571 349.7,-599.16 375.4,-689.54 388.11,-736.71"/>
+<polygon fill="black" stroke="black" points="384.69,-737.49 390.65,-746.25 391.45,-735.68 384.69,-737.49"/>
+</g>
+<!-- dormqr&#45;&gt;dorm2r -->
+<g id="edge99" class="edge">
+<title>dormqr-&gt;dorm2r</title>
+<path fill="none" stroke="black" d="M332.46,-544C339.99,-544 348.29,-544 356.33,-544"/>
+<polygon fill="black" stroke="black" points="356.29,-547.5 366.29,-544 356.29,-540.5 356.29,-547.5"/>
+</g>
+<!-- dormqr&#45;&gt;ilaenv -->
+<g id="edge102" class="edge">
+<title>dormqr-&gt;ilaenv</title>
+<path fill="none" stroke="black" d="M305.06,-525.52C307.14,-460.5 317.81,-243.88 368.2,-202 387.76,-185.75 403.14,-189.74 425.41,-202 451.94,-216.6 468.72,-247.87 478.04,-271.18"/>
+<polygon fill="black" stroke="black" points="474.73,-272.31 481.5,-280.46 481.28,-269.87 474.73,-272.31"/>
+</g>
+<!-- dormqr&#45;&gt;dlarft -->
+<g id="edge98" class="edge">
+<title>dormqr-&gt;dlarft</title>
+<path fill="none" stroke="black" d="M307.42,-525.7C313.85,-487.68 331.89,-398.2 368.2,-332 369.1,-330.36 370.09,-328.74 371.15,-327.13"/>
+<polygon fill="black" stroke="black" points="373.66,-329.62 376.84,-319.52 368.05,-325.43 373.66,-329.62"/>
+</g>
+</g>
+</svg>

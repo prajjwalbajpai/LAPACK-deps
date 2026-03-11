@@ -1,0 +1,7880 @@
+{
+  "slapmr": [],
+  "dlauum": [
+    "dgemm",
+    "dsyrk",
+    "dtrmm",
+    "lsame"
+  ],
+  "zgeqr2p": [],
+  "zunbdb": [
+    "dznrm2",
+    "lsame",
+    "zaxpy",
+    "zscal"
+  ],
+  "csyconvf_rook": [
+    "cswap",
+    "lsame"
+  ],
+  "dlasd6": [
+    "dcopy"
+  ],
+  "sbdsvdx": [
+    "isamax",
+    "lsame",
+    "saxpy",
+    "scopy",
+    "sdot",
+    "snrm2",
+    "sscal",
+    "sswap"
+  ],
+  "cggbak": [
+    "csscal",
+    "cswap",
+    "lsame"
+  ],
+  "dgesvdx": [
+    "dcopy",
+    "lsame"
+  ],
+  "zlauu2": [
+    "lsame",
+    "zdotc",
+    "zdscal",
+    "zgemv"
+  ],
+  "ztrsyl3": [
+    "lsame",
+    "zdscal",
+    "zgemm"
+  ],
+  "stptri": [
+    "lsame",
+    "sscal",
+    "stpmv"
+  ],
+  "zporfsx": [
+    "lsame"
+  ],
+  "clarnv": [],
+  "ssycon_3": [
+    "lsame"
+  ],
+  "dlarf1l": [
+    "daxpy",
+    "dgemv",
+    "dger",
+    "dscal",
+    "lsame"
+  ],
+  "zgesvx": [
+    "lsame"
+  ],
+  "cgetrf2": [
+    "cgemm",
+    "cscal",
+    "ctrsm",
+    "icamax"
+  ],
+  "clatdf": [
+    "caxpy",
+    "ccopy",
+    "cdotc",
+    "cscal",
+    "scasum"
+  ],
+  "zla_gercond_c": [
+    "lsame"
+  ],
+  "zgbrfs": [
+    "lsame",
+    "zaxpy",
+    "zcopy",
+    "zgbmv"
+  ],
+  "slaswlq": [],
+  "sgesdd": [
+    "lsame",
+    "sgemm"
+  ],
+  "cgetc2": [
+    "cgeru",
+    "cswap"
+  ],
+  "ssyevx_2stage": [
+    "lsame",
+    "scopy",
+    "sscal",
+    "sswap"
+  ],
+  "dsycon_rook": [
+    "lsame"
+  ],
+  "chetrf_rook": [
+    "lsame"
+  ],
+  "ztgexc": [],
+  "dpotrf": [
+    "dgemm",
+    "dsyrk",
+    "dtrsm",
+    "lsame"
+  ],
+  "dlartgs": [],
+  "slaed8": [
+    "isamax",
+    "scopy",
+    "srot",
+    "sscal"
+  ],
+  "sspevx": [
+    "lsame",
+    "scopy",
+    "sscal",
+    "sswap"
+  ],
+  "claesy": [],
+  "dpttrf": [],
+  "dgelqt": [],
+  "ssytrd_sy2sb": [
+    "lsame",
+    "scopy",
+    "sgemm",
+    "ssymm",
+    "ssyr2k"
+  ],
+  "chetrd_he2hb": [
+    "ccopy",
+    "cgemm",
+    "chemm",
+    "cher2k",
+    "lsame"
+  ],
+  "csytri": [
+    "ccopy",
+    "cdotu",
+    "cswap",
+    "lsame"
+  ],
+  "zggev": [
+    "lsame"
+  ],
+  "zlaqr3": [
+    "zcopy",
+    "zgemm"
+  ],
+  "clatrs3": [
+    "cgemm",
+    "csscal",
+    "lsame"
+  ],
+  "claqp2": [
+    "cswap",
+    "isamax",
+    "scnrm2"
+  ],
+  "dlantp": [
+    "lsame"
+  ],
+  "cgebak": [
+    "csscal",
+    "cswap",
+    "lsame"
+  ],
+  "zlarzb": [
+    "lsame",
+    "zcopy",
+    "zgemm",
+    "ztrmm"
+  ],
+  "sorg2r": [
+    "sscal"
+  ],
+  "zggesx": [
+    "lsame"
+  ],
+  "ctrcon": [
+    "icamax",
+    "lsame"
+  ],
+  "dopgtr": [
+    "lsame"
+  ],
+  "dstein": [
+    "daxpy",
+    "dcopy",
+    "ddot",
+    "dnrm2",
+    "dscal",
+    "idamax"
+  ],
+  "dsbev": [
+    "dscal",
+    "lsame"
+  ],
+  "sorgr2": [
+    "sscal"
+  ],
+  "cpptrf": [
+    "cdotc",
+    "chpr",
+    "csscal",
+    "ctpsv",
+    "lsame"
+  ],
+  "dspgvd": [
+    "dtpmv",
+    "dtpsv",
+    "lsame"
+  ],
+  "dtftri": [
+    "dtrmm",
+    "lsame"
+  ],
+  "slarft_lvl2": [
+    "lsame",
+    "sgemv",
+    "strmv"
+  ],
+  "zgecon": [
+    "izamax",
+    "lsame"
+  ],
+  "dtpqrt2": [
+    "dgemv",
+    "dger",
+    "dtrmv"
+  ],
+  "dstevx": [
+    "dcopy",
+    "dscal",
+    "dswap",
+    "lsame"
+  ],
+  "zhetf2_rook": [
+    "izamax",
+    "lsame",
+    "zdscal",
+    "zher",
+    "zswap"
+  ],
+  "zpoequ": [],
+  "claqgb": [],
+  "zlaqz1": [],
+  "cla_gbamv": [],
+  "sgeev": [
+    "isamax",
+    "lsame",
+    "snrm2",
+    "srot",
+    "sscal"
+  ],
+  "sgbtrf": [
+    "isamax",
+    "scopy",
+    "sgemm",
+    "sger",
+    "sscal",
+    "sswap",
+    "strsm"
+  ],
+  "dtzrzf": [],
+  "cla_syrcond_x": [
+    "lsame"
+  ],
+  "zpptrs": [
+    "lsame",
+    "ztpsv"
+  ],
+  "zlabrd": [
+    "zgemv",
+    "zscal"
+  ],
+  "ssytrf": [
+    "lsame"
+  ],
+  "ztpttf": [
+    "lsame"
+  ],
+  "dgedmdq": [
+    "lsame"
+  ],
+  "zlahqr": [
+    "zcopy",
+    "zscal"
+  ],
+  "sgeqrt3": [
+    "sgemm",
+    "strmm"
+  ],
+  "dlansb": [
+    "lsame"
+  ],
+  "cptrfs": [
+    "caxpy",
+    "isamax",
+    "lsame"
+  ],
+  "zung2r": [
+    "zscal"
+  ],
+  "cspsv": [],
+  "zunml2": [
+    "lsame"
+  ],
+  "slangt": [
+    "lsame"
+  ],
+  "zlatrz": [],
+  "zlarscl2": [],
+  "dgeqrt2": [
+    "dgemv",
+    "dger",
+    "dtrmv"
+  ],
+  "spbstf": [
+    "lsame",
+    "sscal",
+    "ssyr"
+  ],
+  "zgeequb": [],
+  "zgemlq": [
+    "lsame"
+  ],
+  "chetri2": [
+    "lsame"
+  ],
+  "chpsv": [],
+  "ctgsen": [
+    "cscal"
+  ],
+  "ssysv_rook": [],
+  "sgeqp3rk": [
+    "isamax",
+    "snrm2"
+  ],
+  "sopgtr": [
+    "lsame"
+  ],
+  "dgemqr": [
+    "lsame"
+  ],
+  "cupgtr": [
+    "lsame"
+  ],
+  "spftri": [
+    "lsame",
+    "ssyrk",
+    "strmm"
+  ],
+  "slasyf": [
+    "isamax",
+    "lsame",
+    "scopy",
+    "sgemmtr",
+    "sgemv",
+    "sscal",
+    "sswap"
+  ],
+  "dlansy": [
+    "lsame"
+  ],
+  "dorhr_col": [
+    "dcopy",
+    "dscal",
+    "dtrsm"
+  ],
+  "spbrfs": [
+    "lsame",
+    "saxpy",
+    "scopy",
+    "ssbmv"
+  ],
+  "cppsvx": [
+    "ccopy",
+    "lsame"
+  ],
+  "dsysv_aa_2stage": [
+    "lsame"
+  ],
+  "cpoequ": [],
+  "zlaqr5": [
+    "zgemm"
+  ],
+  "slasq2": [],
+  "cgeevx": [
+    "cscal",
+    "csscal",
+    "isamax",
+    "lsame",
+    "scnrm2"
+  ],
+  "clarscl2": [],
+  "slaed6": [],
+  "dstegr": [],
+  "cgeqrt3": [
+    "cgemm",
+    "ctrmm"
+  ],
+  "cggbal": [
+    "csscal",
+    "cswap",
+    "icamax",
+    "lsame",
+    "saxpy",
+    "sdot",
+    "sscal"
+  ],
+  "ctrevc3": [
+    "ccopy",
+    "cgemm",
+    "cgemv",
+    "csscal",
+    "icamax",
+    "lsame",
+    "scasum"
+  ],
+  "dormrq": [
+    "lsame"
+  ],
+  "shseqr": [
+    "lsame"
+  ],
+  "zpbequ": [
+    "lsame"
+  ],
+  "clatrd": [
+    "caxpy",
+    "cdotc",
+    "cgemv",
+    "chemv",
+    "cscal",
+    "lsame"
+  ],
+  "slapll": [
+    "saxpy"
+  ],
+  "spbtrf": [
+    "lsame",
+    "sgemm",
+    "ssyrk",
+    "strsm"
+  ],
+  "ctplqt": [],
+  "ssytrd": [
+    "lsame",
+    "ssyr2k"
+  ],
+  "zsyrfs": [
+    "lsame",
+    "zaxpy",
+    "zcopy"
+  ],
+  "zgeqlf": [],
+  "clangb": [
+    "lsame"
+  ],
+  "dggbal": [
+    "daxpy",
+    "ddot",
+    "dscal",
+    "dswap",
+    "idamax",
+    "lsame"
+  ],
+  "sptcon": [
+    "isamax"
+  ],
+  "zlaqhp": [
+    "lsame"
+  ],
+  "dlasdt": [],
+  "strsen": [
+    "lsame"
+  ],
+  "dposv": [],
+  "slansy": [
+    "lsame"
+  ],
+  "slantr": [
+    "lsame"
+  ],
+  "dsytrs_rook": [
+    "dgemv",
+    "dger",
+    "dscal",
+    "dswap",
+    "lsame"
+  ],
+  "ztptri": [
+    "lsame",
+    "zscal",
+    "ztpmv"
+  ],
+  "sspgv": [
+    "lsame",
+    "stpmv",
+    "stpsv"
+  ],
+  "zlarrv": [
+    "dcopy",
+    "zdscal"
+  ],
+  "slarre": [
+    "lsame",
+    "scopy"
+  ],
+  "dggglm": [
+    "dcopy",
+    "dgemv"
+  ],
+  "dsysv_rook": [],
+  "sgeevx": [
+    "isamax",
+    "lsame",
+    "snrm2",
+    "srot",
+    "sscal"
+  ],
+  "dtfttp": [
+    "lsame"
+  ],
+  "ssysvx": [
+    "lsame"
+  ],
+  "classq": [],
+  "dsycon_3": [
+    "lsame"
+  ],
+  "slasd6": [
+    "scopy"
+  ],
+  "sla_syrcond": [
+    "lsame"
+  ],
+  "dlaed3": [
+    "dcopy",
+    "dgemm",
+    "dnrm2"
+  ],
+  "dtrevc3": [
+    "daxpy",
+    "dcopy",
+    "ddot",
+    "dgemm",
+    "dgemv",
+    "dscal",
+    "idamax",
+    "lsame"
+  ],
+  "zlacrm": [
+    "dgemm"
+  ],
+  "zsytri": [
+    "lsame",
+    "zcopy",
+    "zdotu",
+    "zswap"
+  ],
+  "dlatps": [
+    "dasum",
+    "daxpy",
+    "ddot",
+    "dscal",
+    "dtpsv",
+    "idamax",
+    "lsame"
+  ],
+  "zppcon": [
+    "izamax",
+    "lsame"
+  ],
+  "stgsen": [],
+  "cgghrd": [
+    "lsame"
+  ],
+  "cgetf2": [
+    "cgeru",
+    "cswap",
+    "icamax"
+  ],
+  "cunghr": [],
+  "dlasyf_rk": [
+    "dcopy",
+    "dgemmtr",
+    "dgemv",
+    "dscal",
+    "dswap",
+    "idamax",
+    "lsame"
+  ],
+  "dlartgp": [],
+  "cgeqp3": [
+    "cswap",
+    "scnrm2"
+  ],
+  "dgbsvxx": [
+    "lsame"
+  ],
+  "chetri_3x": [
+    "cgemm",
+    "ctrmm",
+    "lsame"
+  ],
+  "sgeesx": [
+    "lsame",
+    "scopy",
+    "sswap"
+  ],
+  "dsygvx": [
+    "dtrmm",
+    "dtrsm",
+    "lsame"
+  ],
+  "cgebd2": [],
+  "dtpqrt": [],
+  "dlapy3": [],
+  "claqhe": [
+    "lsame"
+  ],
+  "clascl": [
+    "lsame"
+  ],
+  "zpotrf": [
+    "lsame",
+    "zgemm",
+    "zherk",
+    "ztrsm"
+  ],
+  "ztplqt2": [
+    "zgemv",
+    "zgerc",
+    "ztrmv"
+  ],
+  "dla_syrcond": [
+    "lsame"
+  ],
+  "sptsvx": [
+    "lsame",
+    "scopy"
+  ],
+  "zggrqf": [],
+  "sgemqrt": [
+    "lsame"
+  ],
+  "slasd8": [
+    "scopy",
+    "sdot",
+    "snrm2"
+  ],
+  "spotrs": [
+    "lsame",
+    "strsm"
+  ],
+  "zsysv": [],
+  "slaqz3": [
+    "sgemm",
+    "srot"
+  ],
+  "ssyswapr": [
+    "lsame",
+    "sswap"
+  ],
+  "clarzb": [
+    "ccopy",
+    "cgemm",
+    "ctrmm",
+    "lsame"
+  ],
+  "cstemr": [
+    "cswap",
+    "lsame",
+    "scopy",
+    "sscal"
+  ],
+  "dpbtrs": [
+    "dtbsv",
+    "lsame"
+  ],
+  "dlarrk": [],
+  "zppsvx": [
+    "lsame",
+    "zcopy"
+  ],
+  "sposvx": [
+    "lsame"
+  ],
+  "dsytrs_3": [
+    "dscal",
+    "dswap",
+    "dtrsm",
+    "lsame"
+  ],
+  "dspsvx": [
+    "dcopy",
+    "lsame"
+  ],
+  "cptsvx": [
+    "ccopy",
+    "lsame",
+    "scopy"
+  ],
+  "chgeqz": [
+    "cscal",
+    "lsame"
+  ],
+  "sstevx": [
+    "lsame",
+    "scopy",
+    "sscal",
+    "sswap"
+  ],
+  "cheevr": [
+    "csscal",
+    "cswap",
+    "lsame",
+    "scopy",
+    "sscal"
+  ],
+  "cpstrf": [
+    "cgemv",
+    "cherk",
+    "csscal",
+    "cswap",
+    "lsame"
+  ],
+  "dgbtf2": [
+    "dger",
+    "dscal",
+    "dswap",
+    "idamax"
+  ],
+  "sgges": [
+    "lsame"
+  ],
+  "dlatrd": [
+    "daxpy",
+    "ddot",
+    "dgemv",
+    "dscal",
+    "dsymv",
+    "lsame"
+  ],
+  "dtpttf": [
+    "lsame"
+  ],
+  "dbdsqr": [
+    "drot",
+    "dscal",
+    "dswap",
+    "lsame"
+  ],
+  "sgesvj": [
+    "isamax",
+    "lsame",
+    "saxpy",
+    "scopy",
+    "sdot",
+    "snrm2",
+    "srotm",
+    "sscal",
+    "sswap"
+  ],
+  "sgbcon": [
+    "isamax",
+    "lsame",
+    "saxpy",
+    "sdot"
+  ],
+  "dlaed5": [],
+  "dtrti2": [
+    "dscal",
+    "dtrmv",
+    "lsame"
+  ],
+  "dgebak": [
+    "dscal",
+    "dswap",
+    "lsame"
+  ],
+  "zgedmdq": [
+    "lsame"
+  ],
+  "dlarnv": [],
+  "ztpqrt": [],
+  "zlahef_aa": [
+    "izamax",
+    "lsame",
+    "zaxpy",
+    "zcopy",
+    "zgemv",
+    "zscal",
+    "zswap"
+  ],
+  "dorml2": [
+    "lsame"
+  ],
+  "claqz1": [],
+  "dlaqsy": [
+    "lsame"
+  ],
+  "slarfg": [
+    "snrm2",
+    "sscal"
+  ],
+  "zhbevx_2stage": [
+    "dcopy",
+    "dscal",
+    "lsame",
+    "zcopy",
+    "zgemv",
+    "zswap"
+  ],
+  "zla_gerpvgrw": [],
+  "sgbsvxx": [
+    "lsame"
+  ],
+  "slacn2": [
+    "isamax",
+    "sasum",
+    "scopy"
+  ],
+  "zhetrs_aa_2stage": [
+    "lsame",
+    "ztrsm"
+  ],
+  "slatrd": [
+    "lsame",
+    "saxpy",
+    "sdot",
+    "sgemv",
+    "sscal",
+    "ssymv"
+  ],
+  "slagtf": [],
+  "zlaqr4": [],
+  "zlanhp": [
+    "lsame"
+  ],
+  "dgetrf": [
+    "dgemm",
+    "dtrsm"
+  ],
+  "sorghr": [],
+  "zposvx": [
+    "lsame"
+  ],
+  "ssytri": [
+    "lsame",
+    "scopy",
+    "sdot",
+    "sswap",
+    "ssymv"
+  ],
+  "ssptrd": [
+    "lsame",
+    "saxpy",
+    "sspmv",
+    "sspr2"
+  ],
+  "dporfs": [
+    "daxpy",
+    "dcopy",
+    "dsymv",
+    "lsame"
+  ],
+  "dladiv": [],
+  "zsycon_3": [
+    "lsame"
+  ],
+  "dstevr": [
+    "dcopy",
+    "dscal",
+    "dswap",
+    "lsame"
+  ],
+  "slasd0": [],
+  "slarrf": [
+    "scopy"
+  ],
+  "zporfs": [
+    "lsame",
+    "zaxpy",
+    "zcopy",
+    "zhemv"
+  ],
+  "chla_transtype": [],
+  "zhetri_rook": [
+    "lsame",
+    "zcopy",
+    "zdotc",
+    "zhemv",
+    "zswap"
+  ],
+  "sppsv": [],
+  "dlaqp2": [
+    "dnrm2",
+    "dswap",
+    "idamax"
+  ],
+  "dlaisnan": [],
+  "zlascl2": [],
+  "zgeqp3": [
+    "dznrm2",
+    "zswap"
+  ],
+  "dlantr": [
+    "lsame"
+  ],
+  "ctpttr": [
+    "lsame"
+  ],
+  "dlasr": [
+    "lsame"
+  ],
+  "dsygvd": [
+    "dtrmm",
+    "dtrsm",
+    "lsame"
+  ],
+  "clarfb_gett": [
+    "ccopy",
+    "cgemm",
+    "ctrmm"
+  ],
+  "dlaset": [
+    "lsame"
+  ],
+  "ctrexc": [
+    "lsame"
+  ],
+  "sgesc2": [
+    "isamax",
+    "sscal"
+  ],
+  "dorbdb1": [
+    "dnrm2",
+    "drot"
+  ],
+  "cgtcon": [
+    "lsame"
+  ],
+  "dlaic1": [
+    "ddot"
+  ],
+  "zhb2st_kernels": [
+    "lsame"
+  ],
+  "ctrti2": [
+    "cscal",
+    "ctrmv",
+    "lsame"
+  ],
+  "cgehd2": [],
+  "dsytrd_sb2st": [
+    "lsame"
+  ],
+  "ctprfb": [
+    "cgemm",
+    "ctrmm",
+    "lsame"
+  ],
+  "dormhr": [
+    "lsame"
+  ],
+  "ztpmqrt": [
+    "lsame"
+  ],
+  "ctbtrs": [
+    "ctbsv",
+    "lsame"
+  ],
+  "strsna": [
+    "lsame",
+    "sdot",
+    "snrm2"
+  ],
+  "dsytrf_aa": [
+    "dcopy",
+    "dgemm",
+    "dgemv",
+    "dscal",
+    "dswap",
+    "lsame"
+  ],
+  "ctftri": [
+    "ctrmm",
+    "lsame"
+  ],
+  "dlas2": [],
+  "slaexc": [
+    "srot"
+  ],
+  "clahef_rk": [
+    "ccopy",
+    "cgemmtr",
+    "cgemv",
+    "csscal",
+    "cswap",
+    "icamax",
+    "lsame"
+  ],
+  "zgebrd": [
+    "zgemm"
+  ],
+  "dlasq4": [],
+  "dormbr": [
+    "lsame"
+  ],
+  "zgbrfsx": [
+    "lsame"
+  ],
+  "cgeesx": [
+    "ccopy",
+    "lsame"
+  ],
+  "zgeevx": [
+    "dznrm2",
+    "idamax",
+    "lsame",
+    "zdscal",
+    "zscal"
+  ],
+  "cungtr": [
+    "lsame"
+  ],
+  "dspevd": [
+    "dscal",
+    "lsame"
+  ],
+  "dgecon": [
+    "idamax",
+    "lsame"
+  ],
+  "dlamrg": [],
+  "ssytrs_rook": [
+    "lsame",
+    "sgemv",
+    "sger",
+    "sscal",
+    "sswap"
+  ],
+  "ztplqt": [],
+  "slarf1f": [
+    "lsame",
+    "saxpy",
+    "sgemv",
+    "sger",
+    "sscal"
+  ],
+  "dtgsyl": [
+    "dgemm",
+    "dscal",
+    "lsame"
+  ],
+  "zgeql2": [],
+  "sbbcsd": [
+    "lsame",
+    "sscal",
+    "sswap"
+  ],
+  "slasq6": [],
+  "stpcon": [
+    "isamax",
+    "lsame"
+  ],
+  "csptrf": [
+    "cscal",
+    "cswap",
+    "icamax",
+    "lsame"
+  ],
+  "zgeqr": [],
+  "spstf2": [
+    "lsame",
+    "sgemv",
+    "sscal",
+    "sswap"
+  ],
+  "dlasyf_aa": [
+    "daxpy",
+    "dcopy",
+    "dgemv",
+    "dscal",
+    "dswap",
+    "idamax",
+    "lsame"
+  ],
+  "dlarfy": [
+    "daxpy",
+    "dsymv",
+    "dsyr2"
+  ],
+  "zlacp2": [
+    "lsame"
+  ],
+  "sgghd3": [
+    "lsame",
+    "sgemm",
+    "sgemv",
+    "srot",
+    "strmv"
+  ],
+  "dlaln2": [
+    "zswap"
+  ],
+  "slarft": [
+    "lsame",
+    "sgemm",
+    "strmm"
+  ],
+  "cla_syrpvgrw": [
+    "lsame"
+  ],
+  "spbtrs": [
+    "lsame",
+    "stbsv"
+  ],
+  "sgesvx": [
+    "lsame"
+  ],
+  "clasyf_rk": [
+    "ccopy",
+    "cgemmtr",
+    "cgemv",
+    "cscal",
+    "cswap",
+    "icamax",
+    "lsame"
+  ],
+  "zgtcon": [
+    "lsame"
+  ],
+  "claqr1": [],
+  "slaqp2rk": [
+    "isamax",
+    "snrm2",
+    "sswap"
+  ],
+  "slaqr0": [],
+  "slasrt": [
+    "lsame"
+  ],
+  "slaic1": [
+    "sdot"
+  ],
+  "spoequb": [],
+  "zunmtr": [
+    "lsame"
+  ],
+  "stbtrs": [
+    "lsame",
+    "stbsv"
+  ],
+  "dlapy2": [],
+  "slaqge": [],
+  "ztgsy2": [
+    "lsame",
+    "zaxpy",
+    "zscal"
+  ],
+  "sorgrq": [],
+  "cporfsx": [
+    "lsame"
+  ],
+  "dlascl": [
+    "lsame"
+  ],
+  "zbdsqr": [
+    "lsame",
+    "zdrot",
+    "zdscal",
+    "zswap"
+  ],
+  "zlacon": [
+    "zcopy"
+  ],
+  "strcon": [
+    "isamax",
+    "lsame"
+  ],
+  "zla_gercond_x": [
+    "lsame"
+  ],
+  "zlarf": [
+    "lsame",
+    "zgemv",
+    "zgerc"
+  ],
+  "stgsja": [
+    "lsame",
+    "scopy",
+    "srot",
+    "sscal"
+  ],
+  "dsytf2": [
+    "dscal",
+    "dswap",
+    "dsyr",
+    "idamax",
+    "lsame"
+  ],
+  "zhprfs": [
+    "lsame",
+    "zaxpy",
+    "zcopy",
+    "zhpmv"
+  ],
+  "dtgex2": [
+    "dgemm",
+    "drot",
+    "dscal"
+  ],
+  "dlangb": [
+    "lsame"
+  ],
+  "dsb2st_kernels": [
+    "lsame"
+  ],
+  "zlassq": [],
+  "clartv": [],
+  "dtplqt2": [
+    "dgemv",
+    "dger",
+    "dtrmv"
+  ],
+  "zpptrf": [
+    "lsame",
+    "zdotc",
+    "zdscal",
+    "zhpr",
+    "ztpsv"
+  ],
+  "zhesv_aa": [],
+  "dlalsa": [
+    "dcopy",
+    "dgemm"
+  ],
+  "cgeqp3rk": [
+    "isamax",
+    "scnrm2"
+  ],
+  "zhpsvx": [
+    "lsame",
+    "zcopy"
+  ],
+  "cunbdb6": [
+    "cgemv"
+  ],
+  "zpbstf": [
+    "lsame",
+    "zdscal",
+    "zher"
+  ],
+  "dlantb": [
+    "lsame"
+  ],
+  "cpptri": [
+    "cdotc",
+    "chpr",
+    "csscal",
+    "ctpmv",
+    "lsame"
+  ],
+  "dsytrs2": [
+    "dscal",
+    "dswap",
+    "dtrsm",
+    "lsame"
+  ],
+  "chseqr": [
+    "ccopy",
+    "lsame"
+  ],
+  "zgelqf": [],
+  "ilazlc": [],
+  "sgelsy": [
+    "scopy",
+    "strsm"
+  ],
+  "zlatrs": [
+    "dscal",
+    "dzasum",
+    "idamax",
+    "izamax",
+    "lsame",
+    "zaxpy",
+    "zdotc",
+    "zdotu",
+    "zdscal",
+    "ztrsv"
+  ],
+  "clapll": [
+    "caxpy",
+    "cdotc"
+  ],
+  "disnan": [],
+  "dlaqtr": [
+    "dasum",
+    "daxpy",
+    "ddot",
+    "dscal",
+    "idamax"
+  ],
+  "clacpy": [
+    "lsame"
+  ],
+  "dsyevx": [
+    "dcopy",
+    "dscal",
+    "dswap",
+    "lsame"
+  ],
+  "zlaev2": [],
+  "cherfsx": [
+    "lsame"
+  ],
+  "sla_porpvgrw": [
+    "lsame"
+  ],
+  "zheevd_2stage": [
+    "dscal",
+    "lsame"
+  ],
+  "chbevd_2stage": [
+    "cgemm",
+    "lsame",
+    "sscal"
+  ],
+  "slantp": [
+    "lsame"
+  ],
+  "sgeqrt2": [
+    "sgemv",
+    "sger",
+    "strmv"
+  ],
+  "chpcon": [
+    "lsame"
+  ],
+  "sgels": [
+    "lsame"
+  ],
+  "slarfx": [
+    "lsame"
+  ],
+  "slasd1": [],
+  "slacon": [
+    "isamax",
+    "sasum",
+    "scopy"
+  ],
+  "ztptrs": [
+    "lsame",
+    "ztpsv"
+  ],
+  "ztbtrs": [
+    "lsame",
+    "ztbsv"
+  ],
+  "dlarft": [
+    "dgemm",
+    "dtrmm",
+    "lsame"
+  ],
+  "dtgsy2": [
+    "daxpy",
+    "dcopy",
+    "dgemm",
+    "dgemv",
+    "dger",
+    "dscal",
+    "lsame"
+  ],
+  "chptrf": [
+    "chpr",
+    "csscal",
+    "cswap",
+    "icamax",
+    "lsame"
+  ],
+  "zhetri2x": [
+    "lsame",
+    "zgemm",
+    "ztrmm"
+  ],
+  "zgelsy": [
+    "zcopy",
+    "ztrsm"
+  ],
+  "dgeqp3rk": [
+    "dnrm2",
+    "idamax"
+  ],
+  "sspevd": [
+    "lsame",
+    "sscal"
+  ],
+  "dgemlq": [
+    "lsame"
+  ],
+  "clantp": [
+    "lsame"
+  ],
+  "cla_gerfsx_extended": [
+    "caxpy",
+    "ccopy",
+    "cgemv"
+  ],
+  "zhptri": [
+    "lsame",
+    "zcopy",
+    "zdotc",
+    "zhpmv",
+    "zswap"
+  ],
+  "dpstrf": [
+    "dgemv",
+    "dscal",
+    "dswap",
+    "dsyrk",
+    "lsame"
+  ],
+  "dpotrs": [
+    "dtrsm",
+    "lsame"
+  ],
+  "dlals0": [
+    "dcopy",
+    "dgemv",
+    "dnrm2",
+    "drot",
+    "dscal"
+  ],
+  "ctrtrs": [
+    "ctrsm",
+    "lsame"
+  ],
+  "dsytd2": [
+    "daxpy",
+    "dsymv",
+    "dsyr2",
+    "lsame"
+  ],
+  "zgsvj1": [
+    "dznrm2",
+    "idamax",
+    "lsame",
+    "zaxpy",
+    "zcopy",
+    "zdotc",
+    "zswap"
+  ],
+  "zsysv_rook": [],
+  "dgesv": [],
+  "cpoequb": [],
+  "slangb": [
+    "lsame"
+  ],
+  "sladiv": [],
+  "zgbequb": [],
+  "ssyconvf": [
+    "lsame",
+    "sswap"
+  ],
+  "dlarf": [
+    "dgemv",
+    "dger",
+    "lsame"
+  ],
+  "chfrk": [
+    "cgemm",
+    "cherk",
+    "lsame"
+  ],
+  "slaisnan": [],
+  "claqz0": [
+    "lsame"
+  ],
+  "spptri": [
+    "lsame",
+    "sdot",
+    "sscal",
+    "sspr",
+    "stpmv"
+  ],
+  "dtgsen": [],
+  "zhetf2_rk": [
+    "izamax",
+    "lsame",
+    "zdscal",
+    "zher",
+    "zswap"
+  ],
+  "cherfs": [
+    "caxpy",
+    "ccopy",
+    "chemv",
+    "lsame"
+  ],
+  "dgesvdq": [
+    "dnrm2",
+    "dscal",
+    "idamax",
+    "lsame"
+  ],
+  "cstein": [
+    "isamax",
+    "scopy",
+    "snrm2",
+    "sscal"
+  ],
+  "sgeequ": [],
+  "dlatrs": [
+    "dasum",
+    "daxpy",
+    "ddot",
+    "dscal",
+    "dtrsv",
+    "idamax",
+    "lsame"
+  ],
+  "zsteqr": [
+    "lsame",
+    "zswap"
+  ],
+  "chetrs_aa": [
+    "cswap",
+    "ctrsm",
+    "lsame"
+  ],
+  "zgges": [
+    "lsame"
+  ],
+  "csyrfs": [
+    "caxpy",
+    "ccopy",
+    "lsame"
+  ],
+  "cungtsqr_row": [],
+  "zpbtrs": [
+    "lsame",
+    "ztbsv"
+  ],
+  "ssyevd": [
+    "lsame",
+    "sscal"
+  ],
+  "sormqr": [
+    "lsame"
+  ],
+  "spptrs": [
+    "lsame",
+    "stpsv"
+  ],
+  "ztpmlqt": [
+    "lsame"
+  ],
+  "ctrsyl": [
+    "cdotc",
+    "cdotu",
+    "csscal",
+    "lsame"
+  ],
+  "chsein": [
+    "lsame"
+  ],
+  "dsytrf_rk": [
+    "dswap",
+    "lsame"
+  ],
+  "dpocon": [
+    "idamax",
+    "lsame"
+  ],
+  "zlansp": [
+    "lsame"
+  ],
+  "ssygvd": [
+    "lsame",
+    "strmm",
+    "strsm"
+  ],
+  "ssytrs2": [
+    "lsame",
+    "sscal",
+    "sswap",
+    "strsm"
+  ],
+  "dptsvx": [
+    "dcopy",
+    "lsame"
+  ],
+  "spbsvx": [
+    "lsame",
+    "scopy"
+  ],
+  "zhecon_3": [
+    "lsame"
+  ],
+  "zlange": [
+    "lsame"
+  ],
+  "cpotrf2": [
+    "cherk",
+    "ctrsm",
+    "lsame"
+  ],
+  "clar1v": [],
+  "dposvxx": [
+    "lsame"
+  ],
+  "zpbsvx": [
+    "lsame",
+    "zcopy"
+  ],
+  "dlaexc": [
+    "drot"
+  ],
+  "ssygvx": [
+    "lsame",
+    "strmm",
+    "strsm"
+  ],
+  "stbcon": [
+    "isamax",
+    "lsame"
+  ],
+  "clamswlq": [
+    "lsame"
+  ],
+  "ztrsyl": [
+    "lsame",
+    "zdotc",
+    "zdotu",
+    "zdscal"
+  ],
+  "dgeequ": [],
+  "sgemlq": [
+    "lsame"
+  ],
+  "spotri": [],
+  "dlapmt": [],
+  "cgemqrt": [
+    "lsame"
+  ],
+  "clarf1f": [
+    "caxpy",
+    "cgemv",
+    "cgerc",
+    "cscal",
+    "lsame"
+  ],
+  "zsyswapr": [
+    "lsame",
+    "zswap"
+  ],
+  "cgerqf": [],
+  "csytri_3x": [
+    "cgemm",
+    "ctrmm",
+    "lsame"
+  ],
+  "cgbtf2": [
+    "cgeru",
+    "cscal",
+    "cswap",
+    "icamax"
+  ],
+  "claqps": [
+    "cgemm",
+    "cgemv",
+    "cswap",
+    "isamax",
+    "scnrm2"
+  ],
+  "sgges3": [
+    "lsame"
+  ],
+  "slals0": [
+    "scopy",
+    "sgemv",
+    "snrm2",
+    "srot",
+    "sscal"
+  ],
+  "zunmhr": [
+    "lsame"
+  ],
+  "zlaunhr_col_getrfnp": [
+    "zgemm",
+    "ztrsm"
+  ],
+  "sgetri": [
+    "sgemm",
+    "sgemv",
+    "sswap",
+    "strsm"
+  ],
+  "zunbdb5": [
+    "dznrm2",
+    "zscal"
+  ],
+  "sgetsls": [
+    "lsame"
+  ],
+  "zppequ": [
+    "lsame"
+  ],
+  "slarnv": [],
+  "slaset": [
+    "lsame"
+  ],
+  "dorbdb6": [
+    "dgemv"
+  ],
+  "dgetsqrhrt": [
+    "dcopy"
+  ],
+  "cgelqt": [],
+  "zsycon_rook": [
+    "lsame"
+  ],
+  "sgees": [
+    "lsame",
+    "scopy",
+    "sswap"
+  ],
+  "zlarft": [
+    "lsame",
+    "zgemm",
+    "ztrmm"
+  ],
+  "claqr5": [
+    "cgemm"
+  ],
+  "zla_gerfsx_extended": [
+    "zaxpy",
+    "zcopy",
+    "zgemv"
+  ],
+  "dlargv": [],
+  "dlasq3": [],
+  "chpevx": [
+    "csscal",
+    "cswap",
+    "lsame",
+    "scopy",
+    "sscal"
+  ],
+  "zlarz": [
+    "lsame",
+    "zaxpy",
+    "zcopy",
+    "zgemv",
+    "zgerc",
+    "zgeru"
+  ],
+  "chetf2_rk": [
+    "cher",
+    "csscal",
+    "cswap",
+    "icamax",
+    "lsame"
+  ],
+  "dlartg": [],
+  "dla_gbrcond": [
+    "lsame"
+  ],
+  "cgghd3": [
+    "cgemm",
+    "cgemv",
+    "ctrmv",
+    "lsame"
+  ],
+  "zgeequ": [],
+  "dlaqgb": [],
+  "zlacrt": [],
+  "ztgsen": [
+    "zscal"
+  ],
+  "ssptri": [
+    "lsame",
+    "scopy",
+    "sdot",
+    "sspmv",
+    "sswap"
+  ],
+  "sgejsv": [
+    "isamax",
+    "lsame",
+    "scopy",
+    "snrm2",
+    "sscal",
+    "sswap",
+    "strsm"
+  ],
+  "sla_syamv": [],
+  "clasr": [
+    "lsame"
+  ],
+  "slauu2": [
+    "lsame",
+    "sdot",
+    "sgemv",
+    "sscal"
+  ],
+  "dsytrd": [
+    "dsyr2k",
+    "lsame"
+  ],
+  "dla_gbamv": [],
+  "chpsvx": [
+    "ccopy",
+    "lsame"
+  ],
+  "csyequb": [
+    "lsame"
+  ],
+  "dla_syrfsx_extended": [
+    "daxpy",
+    "dcopy",
+    "dsymv",
+    "lsame"
+  ],
+  "cgesc2": [
+    "cscal",
+    "icamax"
+  ],
+  "cppcon": [
+    "icamax",
+    "lsame"
+  ],
+  "strsyl": [
+    "lsame",
+    "sdot",
+    "sscal"
+  ],
+  "clargv": [],
+  "ctgsy2": [
+    "caxpy",
+    "cscal",
+    "lsame"
+  ],
+  "zlatrd": [
+    "lsame",
+    "zaxpy",
+    "zdotc",
+    "zgemv",
+    "zhemv",
+    "zscal"
+  ],
+  "clarft": [
+    "cgemm",
+    "ctrmm",
+    "lsame"
+  ],
+  "clatsqr": [],
+  "ztgsyl": [
+    "lsame",
+    "zgemm",
+    "zscal"
+  ],
+  "ilaslr": [],
+  "clange": [
+    "lsame"
+  ],
+  "zsyrfsx": [
+    "lsame"
+  ],
+  "chegs2": [
+    "caxpy",
+    "cher2",
+    "csscal",
+    "ctrmv",
+    "ctrsv",
+    "lsame"
+  ],
+  "dbdsdc": [
+    "dcopy",
+    "dswap",
+    "lsame"
+  ],
+  "sgbtf2": [
+    "isamax",
+    "sger",
+    "sscal",
+    "sswap"
+  ],
+  "claqsp": [
+    "lsame"
+  ],
+  "zlapmr": [],
+  "crscl": [
+    "cscal",
+    "csscal"
+  ],
+  "sgemqr": [
+    "lsame"
+  ],
+  "dlaed8": [
+    "dcopy",
+    "drot",
+    "dscal",
+    "idamax"
+  ],
+  "dorm2r": [
+    "lsame"
+  ],
+  "zggevx": [
+    "lsame"
+  ],
+  "cunml2": [
+    "lsame"
+  ],
+  "ssysv": [],
+  "zhbgvd": [
+    "lsame",
+    "zgemm"
+  ],
+  "zgbsvxx": [
+    "lsame"
+  ],
+  "ssytri2": [
+    "lsame"
+  ],
+  "ssycon": [
+    "lsame"
+  ],
+  "zhetrf_rook": [
+    "lsame"
+  ],
+  "slaqtr": [
+    "isamax",
+    "sasum",
+    "saxpy",
+    "sdot",
+    "sscal"
+  ],
+  "zgbtrs": [
+    "lsame",
+    "zgemv",
+    "zgeru",
+    "zswap",
+    "ztbsv"
+  ],
+  "zgeqrfp": [],
+  "dgeesx": [
+    "dcopy",
+    "dswap",
+    "lsame"
+  ],
+  "dgeqp3": [
+    "dnrm2",
+    "dswap"
+  ],
+  "clantr": [
+    "lsame"
+  ],
+  "cpbtrf": [
+    "cgemm",
+    "cherk",
+    "ctrsm",
+    "lsame"
+  ],
+  "chetri_3": [
+    "lsame"
+  ],
+  "zla_porcond_c": [
+    "lsame"
+  ],
+  "zhbgst": [
+    "lsame",
+    "zdscal",
+    "zgerc",
+    "zgeru"
+  ],
+  "zptrfs": [
+    "idamax",
+    "lsame",
+    "zaxpy"
+  ],
+  "chbev": [
+    "lsame",
+    "sscal"
+  ],
+  "dgeqr2p": [],
+  "sorgbr": [
+    "lsame"
+  ],
+  "zungtsqr_row": [],
+  "ssygs2": [
+    "lsame",
+    "saxpy",
+    "sscal",
+    "ssyr2",
+    "strmv",
+    "strsv"
+  ],
+  "zgelqt3": [
+    "zgemm",
+    "ztrmm"
+  ],
+  "dorghr": [],
+  "ssyrfsx": [
+    "lsame"
+  ],
+  "csytf2_rk": [
+    "cscal",
+    "cswap",
+    "icamax",
+    "lsame"
+  ],
+  "cgbsvxx": [
+    "lsame"
+  ],
+  "cspmv": [
+    "lsame"
+  ],
+  "zgeqr2": [],
+  "sla_lin_berr": [],
+  "zsytrf": [
+    "lsame"
+  ],
+  "stzrzf": [],
+  "dsyevr": [
+    "dcopy",
+    "dscal",
+    "dswap",
+    "lsame"
+  ],
+  "cla_herfsx_extended": [
+    "caxpy",
+    "ccopy",
+    "chemv",
+    "lsame"
+  ],
+  "sggglm": [
+    "scopy",
+    "sgemv"
+  ],
+  "dtrevc": [
+    "daxpy",
+    "dcopy",
+    "ddot",
+    "dgemv",
+    "dscal",
+    "idamax",
+    "lsame"
+  ],
+  "dgels": [
+    "lsame"
+  ],
+  "dppequ": [
+    "lsame"
+  ],
+  "strtrs": [
+    "lsame",
+    "strsm"
+  ],
+  "zhetri2": [
+    "lsame"
+  ],
+  "cla_syamv": [],
+  "dlasy2": [
+    "dcopy",
+    "dswap",
+    "idamax"
+  ],
+  "dsytrf_aa_2stage": [
+    "dcopy",
+    "dgemm",
+    "dswap",
+    "dtrsm",
+    "lsame"
+  ],
+  "zhesv_rook": [],
+  "zgeqrt3": [
+    "zgemm",
+    "ztrmm"
+  ],
+  "sormr3": [
+    "lsame"
+  ],
+  "cgedmdq": [
+    "lsame"
+  ],
+  "ilaclc": [],
+  "sggqrf": [],
+  "zhetd2": [
+    "lsame",
+    "zaxpy",
+    "zhemv",
+    "zher2"
+  ],
+  "zgerqf": [],
+  "zunm22": [
+    "lsame",
+    "zgemm",
+    "ztrmm"
+  ],
+  "cggsvp3": [
+    "lsame"
+  ],
+  "slasd3": [
+    "scopy",
+    "sgemm",
+    "snrm2"
+  ],
+  "sppsvx": [
+    "lsame",
+    "scopy"
+  ],
+  "zpteqr": [
+    "lsame"
+  ],
+  "zsycon": [
+    "lsame"
+  ],
+  "ssysv_aa": [],
+  "zungql": [],
+  "zlaqz3": [
+    "zgemm"
+  ],
+  "zpbcon": [
+    "izamax",
+    "lsame"
+  ],
+  "sormtr": [
+    "lsame"
+  ],
+  "sgtcon": [
+    "lsame"
+  ],
+  "chpevd": [
+    "csscal",
+    "lsame",
+    "sscal"
+  ],
+  "zggev3": [
+    "lsame"
+  ],
+  "slatsqr": [],
+  "zlaswlq": [],
+  "cheevd": [
+    "lsame",
+    "sscal"
+  ],
+  "zhegv_2stage": [
+    "lsame",
+    "ztrmm",
+    "ztrsm"
+  ],
+  "sgetrs": [
+    "lsame",
+    "strsm"
+  ],
+  "cgeqr2p": [],
+  "cstedc": [
+    "cswap",
+    "lsame"
+  ],
+  "dlaeda": [
+    "dcopy",
+    "dgemv",
+    "drot"
+  ],
+  "dla_syamv": [],
+  "chptri": [
+    "ccopy",
+    "cdotc",
+    "chpmv",
+    "cswap",
+    "lsame"
+  ],
+  "cpprfs": [
+    "caxpy",
+    "ccopy",
+    "chpmv",
+    "lsame"
+  ],
+  "slaqr4": [],
+  "ctprfs": [
+    "caxpy",
+    "ccopy",
+    "ctpmv",
+    "ctpsv",
+    "lsame"
+  ],
+  "zhecon": [
+    "lsame"
+  ],
+  "sgeqr": [],
+  "cgelq": [],
+  "dlaqr4": [],
+  "dgbsvx": [
+    "dcopy",
+    "lsame"
+  ],
+  "zpotrs": [
+    "lsame",
+    "ztrsm"
+  ],
+  "chpev": [
+    "csscal",
+    "lsame",
+    "sscal"
+  ],
+  "slange": [
+    "lsame"
+  ],
+  "dlasd2": [
+    "dcopy",
+    "drot"
+  ],
+  "zspmv": [
+    "lsame"
+  ],
+  "sgetf2": [
+    "isamax",
+    "sger",
+    "sscal",
+    "sswap"
+  ],
+  "zhegv": [
+    "lsame",
+    "ztrmm",
+    "ztrsm"
+  ],
+  "zlaqge": [],
+  "chetrf": [
+    "lsame"
+  ],
+  "csytrf_aa": [
+    "ccopy",
+    "cgemm",
+    "cgemv",
+    "cscal",
+    "cswap",
+    "lsame"
+  ],
+  "zunhr_col": [
+    "zcopy",
+    "zscal",
+    "ztrsm"
+  ],
+  "cgsvj0": [
+    "caxpy",
+    "ccopy",
+    "cdotc",
+    "cswap",
+    "isamax",
+    "lsame",
+    "scnrm2"
+  ],
+  "cgesv": [],
+  "chetf2": [
+    "cher",
+    "csscal",
+    "cswap",
+    "icamax",
+    "lsame"
+  ],
+  "dgelss": [
+    "dcopy",
+    "dgemm",
+    "dgemv"
+  ],
+  "sorgtsqr_row": [],
+  "zhptrs": [
+    "lsame",
+    "zdscal",
+    "zgemv",
+    "zgeru",
+    "zswap"
+  ],
+  "zpbrfs": [
+    "lsame",
+    "zaxpy",
+    "zcopy",
+    "zhbmv"
+  ],
+  "ztpcon": [
+    "izamax",
+    "lsame"
+  ],
+  "dpbcon": [
+    "idamax",
+    "lsame"
+  ],
+  "crot": [],
+  "zlanhs": [
+    "lsame"
+  ],
+  "ztfttr": [
+    "lsame"
+  ],
+  "slag2": [],
+  "dlamswlq": [
+    "lsame"
+  ],
+  "ssytf2": [
+    "isamax",
+    "lsame",
+    "sscal",
+    "sswap",
+    "ssyr"
+  ],
+  "zgesc2": [
+    "izamax",
+    "zscal"
+  ],
+  "dspgvx": [
+    "dtpmv",
+    "dtpsv",
+    "lsame"
+  ],
+  "sspgvx": [
+    "lsame",
+    "stpmv",
+    "stpsv"
+  ],
+  "clahef": [
+    "ccopy",
+    "cgemmtr",
+    "cgemv",
+    "csscal",
+    "cswap",
+    "icamax",
+    "lsame"
+  ],
+  "ztrttf": [
+    "lsame"
+  ],
+  "clanhf": [
+    "lsame"
+  ],
+  "cla_gerpvgrw": [],
+  "zspr": [
+    "lsame"
+  ],
+  "ctgex2": [],
+  "clatps": [
+    "caxpy",
+    "cdotc",
+    "cdotu",
+    "csscal",
+    "ctpsv",
+    "icamax",
+    "isamax",
+    "lsame",
+    "scasum",
+    "sscal"
+  ],
+  "dggev": [
+    "lsame"
+  ],
+  "stpqrt": [],
+  "zpftrs": [
+    "lsame"
+  ],
+  "ssytri_3": [
+    "lsame"
+  ],
+  "clanht": [
+    "lsame"
+  ],
+  "cgelsd": [],
+  "zunmql": [
+    "lsame"
+  ],
+  "lsamen": [],
+  "dtgsja": [
+    "dcopy",
+    "drot",
+    "dscal",
+    "lsame"
+  ],
+  "zla_syrpvgrw": [
+    "lsame"
+  ],
+  "sggrqf": [],
+  "zlalsd": [
+    "dgemm",
+    "idamax",
+    "zcopy",
+    "zdrot"
+  ],
+  "cunm22": [
+    "cgemm",
+    "ctrmm",
+    "lsame"
+  ],
+  "chbtrd": [
+    "cscal",
+    "lsame"
+  ],
+  "zhesv": [],
+  "cbbcsd": [
+    "cscal",
+    "cswap",
+    "lsame"
+  ],
+  "dorglq": [],
+  "stptrs": [
+    "lsame",
+    "stpsv"
+  ],
+  "zhpsv": [],
+  "zlanht": [
+    "lsame"
+  ],
+  "sgerqf": [],
+  "cunbdb3": [
+    "csrot",
+    "scnrm2"
+  ],
+  "sggev3": [
+    "lsame"
+  ],
+  "ssteqr": [
+    "lsame",
+    "sswap"
+  ],
+  "zlaqr2": [
+    "zcopy",
+    "zgemm"
+  ],
+  "sorbdb4": [
+    "snrm2",
+    "srot",
+    "sscal"
+  ],
+  "claqge": [],
+  "zgemlqt": [
+    "lsame"
+  ],
+  "csysv_rk": [],
+  "dla_gbrpvgrw": [],
+  "dptts2": [
+    "dscal"
+  ],
+  "cpocon": [
+    "icamax",
+    "lsame"
+  ],
+  "spstrf": [
+    "lsame",
+    "sgemv",
+    "sscal",
+    "sswap",
+    "ssyrk"
+  ],
+  "dgghd3": [
+    "dgemm",
+    "dgemv",
+    "drot",
+    "dtrmv",
+    "lsame"
+  ],
+  "dorgr2": [
+    "dscal"
+  ],
+  "chpgvd": [
+    "ctpmv",
+    "ctpsv",
+    "lsame"
+  ],
+  "cunmhr": [
+    "lsame"
+  ],
+  "dpbrfs": [
+    "daxpy",
+    "dcopy",
+    "dsbmv",
+    "lsame"
+  ],
+  "zhpgst": [
+    "lsame",
+    "zaxpy",
+    "zdotc",
+    "zdscal",
+    "zhpmv",
+    "zhpr2",
+    "ztpmv",
+    "ztpsv"
+  ],
+  "dlar1v": [],
+  "dpbtf2": [
+    "dscal",
+    "dsyr",
+    "lsame"
+  ],
+  "dsposv": [
+    "daxpy",
+    "dsymm",
+    "idamax"
+  ],
+  "claqr0": [],
+  "sggevx": [
+    "lsame"
+  ],
+  "dhseqr": [
+    "lsame"
+  ],
+  "dlasd7": [
+    "dcopy",
+    "drot"
+  ],
+  "cgesvj": [
+    "caxpy",
+    "ccopy",
+    "cdotc",
+    "csscal",
+    "cswap",
+    "isamax",
+    "lsame",
+    "scnrm2"
+  ],
+  "cunm2r": [
+    "lsame"
+  ],
+  "zlanhe": [
+    "lsame"
+  ],
+  "zlaqr1": [],
+  "dpftrf": [
+    "dsyrk",
+    "dtrsm",
+    "lsame"
+  ],
+  "claswp": [],
+  "ssytrf_rk": [
+    "lsame",
+    "sswap"
+  ],
+  "stgexc": [],
+  "dsyconv": [
+    "lsame"
+  ],
+  "zgghrd": [
+    "lsame"
+  ],
+  "sstev": [
+    "lsame",
+    "sscal"
+  ],
+  "sposvxx": [
+    "lsame"
+  ],
+  "sspgst": [
+    "lsame",
+    "saxpy",
+    "sdot",
+    "sscal",
+    "sspmv",
+    "sspr2",
+    "stpmv",
+    "stpsv"
+  ],
+  "ztrttp": [
+    "lsame"
+  ],
+  "sorm22": [
+    "lsame",
+    "sgemm",
+    "strmm"
+  ],
+  "ctrsyl3": [
+    "cgemm",
+    "csscal",
+    "lsame"
+  ],
+  "csytrf_rook": [
+    "lsame"
+  ],
+  "zggqrf": [],
+  "stplqt": [],
+  "dggev3": [
+    "lsame"
+  ],
+  "slarfb": [
+    "lsame",
+    "scopy",
+    "sgemm",
+    "strmm"
+  ],
+  "sisnan": [],
+  "dtptri": [
+    "dscal",
+    "dtpmv",
+    "lsame"
+  ],
+  "dspgst": [
+    "daxpy",
+    "ddot",
+    "dscal",
+    "dspmv",
+    "dspr2",
+    "dtpmv",
+    "dtpsv",
+    "lsame"
+  ],
+  "dlasyf_rook": [
+    "dcopy",
+    "dgemmtr",
+    "dgemv",
+    "dscal",
+    "dswap",
+    "idamax",
+    "lsame"
+  ],
+  "clar2v": [],
+  "dgelqt3": [
+    "dgemm",
+    "dtrmm"
+  ],
+  "zlapll": [
+    "zaxpy",
+    "zdotc"
+  ],
+  "zhetrd_hb2st": [
+    "lsame",
+    "zscal"
+  ],
+  "sla_porfsx_extended": [
+    "saxpy",
+    "scopy",
+    "ssymv"
+  ],
+  "sgglse": [
+    "saxpy",
+    "scopy",
+    "sgemv",
+    "strmv"
+  ],
+  "zsytf2": [
+    "izamax",
+    "lsame",
+    "zscal",
+    "zswap"
+  ],
+  "zhetrs2": [
+    "lsame",
+    "zdscal",
+    "zswap",
+    "ztrsm"
+  ],
+  "zhetrf_aa": [
+    "lsame",
+    "zcopy",
+    "zgemm",
+    "zscal",
+    "zswap"
+  ],
+  "zla_syrcond_x": [
+    "lsame"
+  ],
+  "cgges": [
+    "lsame"
+  ],
+  "ssytrd_2stage": [
+    "lsame"
+  ],
+  "ctgsja": [
+    "ccopy",
+    "csscal",
+    "lsame"
+  ],
+  "zspsv": [],
+  "zhpevd": [
+    "dscal",
+    "lsame",
+    "zdscal"
+  ],
+  "ctbrfs": [
+    "caxpy",
+    "ccopy",
+    "ctbmv",
+    "ctbsv",
+    "lsame"
+  ],
+  "sgesvd": [
+    "lsame",
+    "sgemm"
+  ],
+  "csptrs": [
+    "cgemv",
+    "cgeru",
+    "cscal",
+    "cswap",
+    "lsame"
+  ],
+  "zgejsv": [
+    "dscal",
+    "dznrm2",
+    "idamax",
+    "lsame",
+    "zcopy",
+    "zdscal",
+    "zswap",
+    "ztrsm"
+  ],
+  "zhetrs_3": [
+    "lsame",
+    "zdscal",
+    "zswap",
+    "ztrsm"
+  ],
+  "cgees": [
+    "ccopy",
+    "lsame"
+  ],
+  "csytrs_aa_2stage": [
+    "ctrsm",
+    "lsame"
+  ],
+  "dlabrd": [
+    "dgemv",
+    "dscal"
+  ],
+  "zupgtr": [
+    "lsame"
+  ],
+  "dlarrv": [
+    "dcopy",
+    "dscal"
+  ],
+  "dlasd1": [],
+  "dgelq": [],
+  "zheswapr": [
+    "lsame",
+    "zswap"
+  ],
+  "slagtm": [
+    "lsame"
+  ],
+  "zlaset": [
+    "lsame"
+  ],
+  "sorhr_col": [
+    "scopy",
+    "sscal",
+    "strsm"
+  ],
+  "cggev": [
+    "lsame"
+  ],
+  "dlatbs": [
+    "dasum",
+    "daxpy",
+    "ddot",
+    "dscal",
+    "dtbsv",
+    "idamax",
+    "lsame"
+  ],
+  "dzsum1": [],
+  "zptsvx": [
+    "dcopy",
+    "lsame",
+    "zcopy"
+  ],
+  "claqz3": [
+    "cgemm"
+  ],
+  "stplqt2": [
+    "sgemv",
+    "sger",
+    "strmv"
+  ],
+  "zgetsls": [
+    "lsame"
+  ],
+  "zpprfs": [
+    "lsame",
+    "zaxpy",
+    "zcopy",
+    "zhpmv"
+  ],
+  "cgetrs": [
+    "ctrsm",
+    "lsame"
+  ],
+  "ztrti2": [
+    "lsame",
+    "zscal",
+    "ztrmv"
+  ],
+  "zgetf2": [
+    "izamax",
+    "zgeru",
+    "zswap"
+  ],
+  "chetri": [
+    "ccopy",
+    "cdotc",
+    "chemv",
+    "cswap",
+    "lsame"
+  ],
+  "sorcsd2by1": [
+    "lsame",
+    "scopy"
+  ],
+  "zhecon_rook": [
+    "lsame"
+  ],
+  "zlanhf": [
+    "lsame"
+  ],
+  "csytrf_rk": [
+    "cswap",
+    "lsame"
+  ],
+  "dlarrr": [],
+  "zlaqp2rk": [
+    "dznrm2",
+    "idamax",
+    "zswap"
+  ],
+  "clanhe": [
+    "lsame"
+  ],
+  "zhetrs_aa": [
+    "lsame",
+    "zswap",
+    "ztrsm"
+  ],
+  "strttf": [
+    "lsame"
+  ],
+  "clacn2": [
+    "ccopy"
+  ],
+  "zpftri": [
+    "lsame",
+    "zherk",
+    "ztrmm"
+  ],
+  "ztfttp": [
+    "lsame"
+  ],
+  "stfsm": [
+    "lsame",
+    "sgemm",
+    "strsm"
+  ],
+  "dtprfb": [
+    "dgemm",
+    "dtrmm",
+    "lsame"
+  ],
+  "chbevx_2stage": [
+    "ccopy",
+    "cgemv",
+    "cswap",
+    "lsame",
+    "scopy",
+    "sscal"
+  ],
+  "cgbequ": [],
+  "zgtrfs": [
+    "lsame",
+    "zaxpy",
+    "zcopy"
+  ],
+  "zsyr": [
+    "lsame"
+  ],
+  "zunghr": [],
+  "stgevc": [
+    "lsame",
+    "sgemv"
+  ],
+  "sgedmdq": [
+    "lsame"
+  ],
+  "zgelq": [],
+  "cgbtrf": [
+    "ccopy",
+    "cgemm",
+    "cgeru",
+    "cscal",
+    "cswap",
+    "ctrsm",
+    "icamax"
+  ],
+  "ctptri": [
+    "cscal",
+    "ctpmv",
+    "lsame"
+  ],
+  "dlaorhr_col_getrfnp2": [
+    "dgemm",
+    "dscal",
+    "dtrsm"
+  ],
+  "ssytrs_aa": [
+    "lsame",
+    "sswap",
+    "strsm"
+  ],
+  "dggqrf": [],
+  "zhetrd": [
+    "lsame",
+    "zher2k"
+  ],
+  "cgerq2": [],
+  "sgeqr2p": [],
+  "dorbdb2": [
+    "dnrm2",
+    "drot",
+    "dscal"
+  ],
+  "sgbrfs": [
+    "lsame",
+    "saxpy",
+    "scopy",
+    "sgbmv"
+  ],
+  "ieeeck": [],
+  "dlaev2": [],
+  "ctpttf": [
+    "lsame"
+  ],
+  "zhptrf": [
+    "izamax",
+    "lsame",
+    "zdscal",
+    "zhpr",
+    "zswap"
+  ],
+  "dstedc": [
+    "dgemm",
+    "dswap",
+    "lsame"
+  ],
+  "sla_gerfsx_extended": [
+    "saxpy",
+    "scopy",
+    "sgemv"
+  ],
+  "sgelqt3": [
+    "sgemm",
+    "strmm"
+  ],
+  "chetrs_aa_2stage": [
+    "ctrsm",
+    "lsame"
+  ],
+  "clansb": [
+    "lsame"
+  ],
+  "ssbev": [
+    "lsame",
+    "sscal"
+  ],
+  "chpgst": [
+    "caxpy",
+    "cdotc",
+    "chpmv",
+    "chpr2",
+    "csscal",
+    "ctpmv",
+    "ctpsv",
+    "lsame"
+  ],
+  "sstegr": [],
+  "dsyequb": [
+    "lsame"
+  ],
+  "cgglse": [
+    "caxpy",
+    "ccopy",
+    "cgemv",
+    "ctrmv"
+  ],
+  "zlatrs3": [
+    "lsame",
+    "zdscal",
+    "zgemm"
+  ],
+  "dlahqr": [
+    "dcopy",
+    "drot"
+  ],
+  "zlar2v": [],
+  "ctfttp": [
+    "lsame"
+  ],
+  "zlasr": [
+    "lsame"
+  ],
+  "cggrqf": [],
+  "cgbbrd": [
+    "cscal",
+    "lsame"
+  ],
+  "slaqr1": [],
+  "chetrs_rook": [
+    "cgemv",
+    "cgeru",
+    "csscal",
+    "cswap",
+    "lsame"
+  ],
+  "cgeqrfp": [],
+  "ssysv_rk": [],
+  "slasv2": [],
+  "slasda": [
+    "scopy"
+  ],
+  "dgesdd": [
+    "dgemm",
+    "lsame"
+  ],
+  "stpmqrt": [
+    "lsame"
+  ],
+  "dormqr": [
+    "lsame"
+  ],
+  "zhegvx": [
+    "lsame",
+    "ztrmm",
+    "ztrsm"
+  ],
+  "csytrf": [
+    "lsame"
+  ],
+  "dla_porpvgrw": [
+    "lsame"
+  ],
+  "zgtsv": [],
+  "ssytri_rook": [
+    "lsame",
+    "scopy",
+    "sdot",
+    "sswap",
+    "ssymv"
+  ],
+  "dlaein": [
+    "dasum",
+    "dnrm2",
+    "dscal",
+    "idamax"
+  ],
+  "cung2r": [
+    "cscal"
+  ],
+  "zlartv": [],
+  "cgges3": [
+    "lsame"
+  ],
+  "dlartv": [],
+  "chbgvx": [
+    "ccopy",
+    "cgemv",
+    "cswap",
+    "lsame",
+    "scopy"
+  ],
+  "sla_gercond": [
+    "lsame"
+  ],
+  "zpbsv": [],
+  "dgeqr2": [],
+  "cheswapr": [
+    "cswap",
+    "lsame"
+  ],
+  "ilaclr": [],
+  "dlaqsp": [
+    "lsame"
+  ],
+  "dsysvx": [
+    "lsame"
+  ],
+  "zhbgvx": [
+    "dcopy",
+    "lsame",
+    "zcopy",
+    "zgemv",
+    "zswap"
+  ],
+  "dtrttp": [
+    "lsame"
+  ],
+  "zcgesv": [
+    "izamax",
+    "zaxpy",
+    "zgemm"
+  ],
+  "spbcon": [
+    "isamax",
+    "lsame"
+  ],
+  "sorbdb": [
+    "lsame",
+    "saxpy",
+    "snrm2",
+    "sscal"
+  ],
+  "slansf": [
+    "lsame"
+  ],
+  "sptts2": [
+    "sscal"
+  ],
+  "dgees": [
+    "dcopy",
+    "dswap",
+    "lsame"
+  ],
+  "zgehd2": [],
+  "dposvx": [
+    "lsame"
+  ],
+  "zhgeqz": [
+    "lsame",
+    "zscal"
+  ],
+  "zlansy": [
+    "lsame"
+  ],
+  "dsprfs": [
+    "daxpy",
+    "dcopy",
+    "dspmv",
+    "lsame"
+  ],
+  "slartgp": [],
+  "dlarre": [
+    "dcopy",
+    "lsame"
+  ],
+  "slarf": [
+    "lsame",
+    "sgemv",
+    "sger"
+  ],
+  "ctpmlqt": [
+    "lsame"
+  ],
+  "zptsv": [],
+  "clasyf_rook": [
+    "ccopy",
+    "cgemmtr",
+    "cgemv",
+    "cscal",
+    "cswap",
+    "icamax",
+    "lsame"
+  ],
+  "cgebal": [
+    "csscal",
+    "cswap",
+    "icamax",
+    "lsame",
+    "scnrm2"
+  ],
+  "chbevd": [
+    "cgemm",
+    "lsame",
+    "sscal"
+  ],
+  "clatrz": [],
+  "dorgqr": [],
+  "cgesvdx": [
+    "lsame"
+  ],
+  "ctrevc": [
+    "ccopy",
+    "cgemv",
+    "csscal",
+    "icamax",
+    "lsame",
+    "scasum"
+  ],
+  "dlasd8": [
+    "dcopy",
+    "ddot",
+    "dnrm2"
+  ],
+  "sorbdb3": [
+    "snrm2",
+    "srot"
+  ],
+  "cla_hercond_c": [
+    "lsame"
+  ],
+  "slamrg": [],
+  "sgeql2": [],
+  "zhpgv": [
+    "lsame",
+    "ztpmv",
+    "ztpsv"
+  ],
+  "dlasd5": [],
+  "dsbtrd": [
+    "drot",
+    "lsame"
+  ],
+  "csytrs_rook": [
+    "cgemv",
+    "cgeru",
+    "cscal",
+    "cswap",
+    "lsame"
+  ],
+  "cpbcon": [
+    "icamax",
+    "lsame"
+  ],
+  "chetrd_2stage": [
+    "lsame"
+  ],
+  "ilaenv2stage": [],
+  "dgeqrf": [],
+  "csptri": [
+    "ccopy",
+    "cdotu",
+    "cswap",
+    "lsame"
+  ],
+  "chetrd_hb2st": [
+    "cscal",
+    "lsame"
+  ],
+  "zlaed7": [],
+  "cla_gercond_c": [
+    "lsame"
+  ],
+  "zstein": [
+    "dcopy",
+    "dnrm2",
+    "dscal",
+    "idamax"
+  ],
+  "sgbrfsx": [
+    "lsame"
+  ],
+  "clasyf_aa": [
+    "caxpy",
+    "ccopy",
+    "cgemv",
+    "cscal",
+    "cswap",
+    "icamax",
+    "lsame"
+  ],
+  "cptts2": [
+    "csscal"
+  ],
+  "zgtsvx": [
+    "lsame",
+    "zcopy"
+  ],
+  "cgeev": [
+    "cscal",
+    "csscal",
+    "isamax",
+    "lsame",
+    "scnrm2"
+  ],
+  "slaqps": [
+    "isamax",
+    "sgemm",
+    "sgemv",
+    "snrm2",
+    "sswap"
+  ],
+  "zlantr": [
+    "lsame"
+  ],
+  "zla_gbrpvgrw": [],
+  "ssbevx": [
+    "lsame",
+    "scopy",
+    "sgemv",
+    "sscal",
+    "sswap"
+  ],
+  "zlatps": [
+    "dscal",
+    "dzasum",
+    "idamax",
+    "izamax",
+    "lsame",
+    "zaxpy",
+    "zdotc",
+    "zdotu",
+    "zdscal",
+    "ztpsv"
+  ],
+  "cpptrs": [
+    "ctpsv",
+    "lsame"
+  ],
+  "zhetrs_rook": [
+    "lsame",
+    "zdscal",
+    "zgemv",
+    "zgeru",
+    "zswap"
+  ],
+  "zhpcon": [
+    "lsame"
+  ],
+  "zpoequb": [],
+  "slasdt": [],
+  "cptcon": [
+    "isamax"
+  ],
+  "ztrsen": [
+    "lsame"
+  ],
+  "zgebal": [
+    "dznrm2",
+    "izamax",
+    "lsame",
+    "zdscal",
+    "zswap"
+  ],
+  "clalsd": [
+    "ccopy",
+    "csrot",
+    "isamax",
+    "sgemm"
+  ],
+  "dgsvj1": [
+    "daxpy",
+    "dcopy",
+    "ddot",
+    "dnrm2",
+    "drotm",
+    "dswap",
+    "idamax",
+    "lsame"
+  ],
+  "chesvxx": [
+    "lsame"
+  ],
+  "strrfs": [
+    "lsame",
+    "saxpy",
+    "scopy",
+    "strmv",
+    "strsv"
+  ],
+  "csyconvf": [
+    "cswap",
+    "lsame"
+  ],
+  "zsyconvf_rook": [
+    "lsame",
+    "zswap"
+  ],
+  "zla_herfsx_extended": [
+    "lsame",
+    "zaxpy",
+    "zcopy",
+    "zhemv"
+  ],
+  "clarzt": [
+    "cgemv",
+    "ctrmv"
+  ],
+  "dsycon": [
+    "lsame"
+  ],
+  "ctrsna": [
+    "cdotc",
+    "icamax",
+    "lsame",
+    "scnrm2"
+  ],
+  "cpotf2": [
+    "cdotc",
+    "cgemv",
+    "csscal",
+    "lsame"
+  ],
+  "zlantp": [
+    "lsame"
+  ],
+  "slascl": [
+    "lsame"
+  ],
+  "dgeevx": [
+    "dnrm2",
+    "drot",
+    "dscal",
+    "idamax",
+    "lsame"
+  ],
+  "zpotri": [],
+  "zhbevx": [
+    "dcopy",
+    "dscal",
+    "lsame",
+    "zcopy",
+    "zgemv",
+    "zswap"
+  ],
+  "strevc": [
+    "isamax",
+    "lsame",
+    "saxpy",
+    "scopy",
+    "sdot",
+    "sgemv",
+    "sscal"
+  ],
+  "slaqz0": [
+    "lsame",
+    "srot"
+  ],
+  "slantb": [
+    "lsame"
+  ],
+  "dlae2": [],
+  "cheevx": [
+    "csscal",
+    "cswap",
+    "lsame",
+    "scopy",
+    "sscal"
+  ],
+  "dgerq2": [],
+  "dlasdq": [
+    "dswap",
+    "lsame"
+  ],
+  "zunmr2": [
+    "lsame"
+  ],
+  "zcposv": [
+    "izamax",
+    "zaxpy",
+    "zhemm"
+  ],
+  "ztprfb": [
+    "lsame",
+    "zgemm",
+    "ztrmm"
+  ],
+  "sgemlqt": [
+    "lsame"
+  ],
+  "slaqz4": [
+    "sgemm",
+    "srot"
+  ],
+  "zungtr": [
+    "lsame"
+  ],
+  "slaeda": [
+    "scopy",
+    "sgemv",
+    "srot"
+  ],
+  "claqhb": [
+    "lsame"
+  ],
+  "zla_gbrcond_x": [
+    "lsame"
+  ],
+  "cpteqr": [
+    "lsame"
+  ],
+  "cgeequb": [],
+  "dgedmd": [
+    "daxpy",
+    "dgemm",
+    "dnrm2",
+    "dscal",
+    "idamax",
+    "lsame"
+  ],
+  "chbgvd": [
+    "cgemm",
+    "lsame"
+  ],
+  "sorm2l": [
+    "lsame"
+  ],
+  "zunbdb1": [
+    "dznrm2",
+    "zdrot"
+  ],
+  "strsyl3": [
+    "lsame",
+    "sgemm",
+    "sscal"
+  ],
+  "slarfgp": [
+    "snrm2",
+    "sscal"
+  ],
+  "cungbr": [
+    "lsame"
+  ],
+  "slaed2": [
+    "isamax",
+    "scopy",
+    "srot",
+    "sscal"
+  ],
+  "clarcm": [
+    "sgemm"
+  ],
+  "dorgtr": [
+    "lsame"
+  ],
+  "cgerfsx": [
+    "lsame"
+  ],
+  "zggglm": [
+    "zcopy",
+    "zgemv"
+  ],
+  "ssycon_rook": [
+    "lsame"
+  ],
+  "cgeqr2": [],
+  "dorbdb4": [
+    "dnrm2",
+    "drot",
+    "dscal"
+  ],
+  "zlaein": [
+    "dzasum",
+    "dznrm2",
+    "izamax",
+    "zdscal"
+  ],
+  "dlabad": [],
+  "dorbdb5": [
+    "dnrm2",
+    "dscal"
+  ],
+  "zlartg": [],
+  "zsytrs_aa_2stage": [
+    "lsame",
+    "ztrsm"
+  ],
+  "cgelss": [
+    "ccopy",
+    "cgemm",
+    "cgemv"
+  ],
+  "dorm22": [
+    "dgemm",
+    "dtrmm",
+    "lsame"
+  ],
+  "zuncsd2by1": [
+    "lsame",
+    "zcopy"
+  ],
+  "zsytri2": [
+    "lsame"
+  ],
+  "dlasq1": [
+    "dcopy"
+  ],
+  "clahqr": [
+    "ccopy",
+    "cscal"
+  ],
+  "zgemqr": [
+    "lsame"
+  ],
+  "stpqrt2": [
+    "sgemv",
+    "sger",
+    "strmv"
+  ],
+  "dorcsd2by1": [
+    "dcopy",
+    "lsame"
+  ],
+  "dpbstf": [
+    "dscal",
+    "dsyr",
+    "lsame"
+  ],
+  "dsytrd_sy2sb": [
+    "dcopy",
+    "dgemm",
+    "dsymm",
+    "dsyr2k",
+    "lsame"
+  ],
+  "slaswp": [],
+  "zla_hercond_x": [
+    "lsame"
+  ],
+  "zheev": [
+    "dscal",
+    "lsame"
+  ],
+  "dla_gerfsx_extended": [
+    "daxpy",
+    "dcopy",
+    "dgemv"
+  ],
+  "dsytrs_aa": [
+    "dswap",
+    "dtrsm",
+    "lsame"
+  ],
+  "cung2l": [
+    "cscal"
+  ],
+  "slartgs": [],
+  "slanhs": [
+    "lsame"
+  ],
+  "slartg": [],
+  "cheequb": [
+    "lsame"
+  ],
+  "zgges3": [
+    "lsame"
+  ],
+  "dormlq": [
+    "lsame"
+  ],
+  "zgetrf2": [
+    "izamax",
+    "zgemm",
+    "zscal",
+    "ztrsm"
+  ],
+  "zhegst": [
+    "lsame",
+    "zhemm",
+    "zher2k",
+    "ztrmm",
+    "ztrsm"
+  ],
+  "slaqsp": [
+    "lsame"
+  ],
+  "dlaed0": [
+    "dcopy",
+    "dgemm"
+  ],
+  "zsymv": [
+    "lsame"
+  ],
+  "sgtts2": [],
+  "zladiv": [],
+  "zbbcsd": [
+    "lsame",
+    "zscal",
+    "zswap"
+  ],
+  "dtrttf": [
+    "lsame"
+  ],
+  "dgbtrs": [
+    "dgemv",
+    "dger",
+    "dswap",
+    "dtbsv",
+    "lsame"
+  ],
+  "zgetri": [
+    "zgemm",
+    "zgemv",
+    "zswap",
+    "ztrsm"
+  ],
+  "dgetrs": [
+    "dtrsm",
+    "lsame"
+  ],
+  "zuncsd": [
+    "lsame"
+  ],
+  "dpbsv": [],
+  "sla_syrfsx_extended": [
+    "lsame",
+    "saxpy",
+    "scopy",
+    "ssymv"
+  ],
+  "dgeqrt": [],
+  "csytrs_aa": [
+    "cswap",
+    "ctrsm",
+    "lsame"
+  ],
+  "dtgexc": [],
+  "dsyevd": [
+    "dscal",
+    "lsame"
+  ],
+  "slaed7": [
+    "sgemm"
+  ],
+  "dgtcon": [
+    "lsame"
+  ],
+  "sppequ": [
+    "lsame"
+  ],
+  "zgbtrf": [
+    "izamax",
+    "zcopy",
+    "zgemm",
+    "zgeru",
+    "zscal",
+    "zswap",
+    "ztrsm"
+  ],
+  "dpftrs": [
+    "lsame"
+  ],
+  "zhpgvd": [
+    "lsame",
+    "ztpmv",
+    "ztpsv"
+  ],
+  "slansp": [
+    "lsame"
+  ],
+  "slarrr": [],
+  "zgetrs": [
+    "lsame",
+    "ztrsm"
+  ],
+  "zgedmd": [
+    "dznrm2",
+    "izamax",
+    "lsame",
+    "zaxpy",
+    "zdscal",
+    "zgemm"
+  ],
+  "zsprfs": [
+    "lsame",
+    "zaxpy",
+    "zcopy"
+  ],
+  "sspsvx": [
+    "lsame",
+    "scopy"
+  ],
+  "cgedmd": [
+    "caxpy",
+    "cgemm",
+    "csscal",
+    "dscal",
+    "icamax",
+    "lsame",
+    "scnrm2"
+  ],
+  "dlasd3": [
+    "dcopy",
+    "dgemm",
+    "dnrm2"
+  ],
+  "zgesvxx": [
+    "lsame"
+  ],
+  "clauu2": [
+    "cdotc",
+    "cgemv",
+    "csscal",
+    "lsame"
+  ],
+  "zlamswlq": [
+    "lsame"
+  ],
+  "dlar2v": [],
+  "zgetc2": [
+    "zgeru",
+    "zswap"
+  ],
+  "cunmql": [
+    "lsame"
+  ],
+  "zgeqp3rk": [
+    "dznrm2",
+    "idamax"
+  ],
+  "claqhp": [
+    "lsame"
+  ],
+  "dlangt": [
+    "lsame"
+  ],
+  "zgerfsx": [
+    "lsame"
+  ],
+  "zlarzt": [
+    "zgemv",
+    "ztrmv"
+  ],
+  "claed0": [
+    "ccopy",
+    "scopy"
+  ],
+  "zlacgv": [],
+  "cla_gbrfsx_extended": [
+    "caxpy",
+    "ccopy",
+    "cgbmv"
+  ],
+  "csyrfsx": [
+    "lsame"
+  ],
+  "zla_herpvgrw": [
+    "lsame"
+  ],
+  "shgeqz": [
+    "lsame",
+    "srot"
+  ],
+  "zunbdb2": [
+    "dznrm2",
+    "zdrot",
+    "zscal"
+  ],
+  "slaorhr_col_getrfnp": [
+    "sgemm",
+    "strsm"
+  ],
+  "slartv": [],
+  "dgeqrt3": [
+    "dgemm",
+    "dtrmm"
+  ],
+  "dlaorhr_col_getrfnp": [
+    "dgemm",
+    "dtrsm"
+  ],
+  "sgerfsx": [
+    "lsame"
+  ],
+  "dpotri": [],
+  "srscl": [
+    "sscal"
+  ],
+  "dlamtsqr": [
+    "lsame"
+  ],
+  "sgghrd": [
+    "lsame",
+    "srot"
+  ],
+  "zsytrs_aa": [
+    "lsame",
+    "zswap",
+    "ztrsm"
+  ],
+  "dgbequ": [],
+  "sgsvj1": [
+    "isamax",
+    "lsame",
+    "saxpy",
+    "scopy",
+    "sdot",
+    "snrm2",
+    "srotm",
+    "sswap"
+  ],
+  "zlaqhe": [
+    "lsame"
+  ],
+  "cpbstf": [
+    "cher",
+    "csscal",
+    "lsame"
+  ],
+  "slaqr2": [
+    "scopy",
+    "sgemm"
+  ],
+  "ctgevc": [
+    "cgemv",
+    "lsame"
+  ],
+  "dlaruv": [],
+  "csytri2": [
+    "lsame"
+  ],
+  "dsbevx": [
+    "dcopy",
+    "dgemv",
+    "dscal",
+    "dswap",
+    "lsame"
+  ],
+  "zggbak": [
+    "lsame",
+    "zdscal",
+    "zswap"
+  ],
+  "dgehrd": [
+    "daxpy",
+    "dgemm",
+    "dtrmm"
+  ],
+  "zla_geamv": [],
+  "slas2": [],
+  "cgttrf": [],
+  "iparmq": [],
+  "cgetri": [
+    "cgemm",
+    "cgemv",
+    "cswap",
+    "ctrsm"
+  ],
+  "slasq4": [],
+  "dlarrf": [
+    "dcopy"
+  ],
+  "dlaed2": [
+    "dcopy",
+    "drot",
+    "dscal",
+    "idamax"
+  ],
+  "iladlc": [],
+  "dlags2": [],
+  "cgetsqrhrt": [
+    "ccopy"
+  ],
+  "zgehrd": [
+    "zaxpy",
+    "zgemm",
+    "ztrmm"
+  ],
+  "spttrf": [],
+  "sgtsvx": [
+    "lsame",
+    "scopy"
+  ],
+  "zlaed0": [
+    "dcopy",
+    "zcopy"
+  ],
+  "clacgv": [],
+  "dsterf": [],
+  "dorg2r": [
+    "dscal"
+  ],
+  "chesv": [],
+  "la_constants": [],
+  "dgehd2": [],
+  "ddisna": [
+    "lsame"
+  ],
+  "zgbbrd": [
+    "lsame",
+    "zscal"
+  ],
+  "zhbgv": [
+    "lsame"
+  ],
+  "slagv2": [
+    "srot"
+  ],
+  "dlarfb": [
+    "dcopy",
+    "dgemm",
+    "dtrmm",
+    "lsame"
+  ],
+  "izmax1": [],
+  "zlat2c": [
+    "lsame"
+  ],
+  "cspr": [
+    "lsame"
+  ],
+  "slalsa": [
+    "scopy",
+    "sgemm"
+  ],
+  "dstevd": [
+    "dscal",
+    "lsame"
+  ],
+  "zgeqrt2": [
+    "zgemv",
+    "zgerc",
+    "ztrmv"
+  ],
+  "cgebrd": [
+    "cgemm"
+  ],
+  "cla_herpvgrw": [
+    "lsame"
+  ],
+  "sstedc": [
+    "lsame",
+    "sgemm",
+    "sswap"
+  ],
+  "ssbgvx": [
+    "lsame",
+    "scopy",
+    "sgemv",
+    "sswap"
+  ],
+  "dbbcsd": [
+    "dscal",
+    "dswap",
+    "lsame"
+  ],
+  "cgemlq": [
+    "lsame"
+  ],
+  "dgesc2": [
+    "dscal",
+    "idamax"
+  ],
+  "slatbs": [
+    "isamax",
+    "lsame",
+    "sasum",
+    "saxpy",
+    "sdot",
+    "sscal",
+    "stbsv"
+  ],
+  "dpptri": [
+    "ddot",
+    "dscal",
+    "dspr",
+    "dtpmv",
+    "lsame"
+  ],
+  "spttrs": [],
+  "dgesvd": [
+    "dgemm",
+    "lsame"
+  ],
+  "dlarscl2": [],
+  "zlapmt": [],
+  "ssbevx_2stage": [
+    "lsame",
+    "scopy",
+    "sgemv",
+    "sscal",
+    "sswap"
+  ],
+  "slaqp3rk": [
+    "isamax",
+    "sgemm",
+    "sgemv",
+    "snrm2",
+    "sswap"
+  ],
+  "cstegr": [],
+  "zlaed8": [
+    "dcopy",
+    "dscal",
+    "idamax",
+    "zcopy",
+    "zdrot"
+  ],
+  "zpocon": [
+    "izamax",
+    "lsame"
+  ],
+  "ssyconv": [
+    "lsame"
+  ],
+  "zgelss": [
+    "zcopy",
+    "zgemm",
+    "zgemv"
+  ],
+  "slae2": [],
+  "slaqr5": [
+    "sgemm"
+  ],
+  "ssytrf_aa": [
+    "lsame",
+    "scopy",
+    "sgemm",
+    "sgemv",
+    "sscal",
+    "sswap"
+  ],
+  "claqsb": [
+    "lsame"
+  ],
+  "sgeqr2": [],
+  "xerbla_array": [],
+  "ctgsna": [
+    "cdotc",
+    "cgemv",
+    "lsame",
+    "scnrm2"
+  ],
+  "dlarf1f": [
+    "daxpy",
+    "dgemv",
+    "dger",
+    "dscal",
+    "lsame"
+  ],
+  "csyr": [
+    "lsame"
+  ],
+  "sgelsd": [],
+  "zla_porcond_x": [
+    "lsame"
+  ],
+  "cppequ": [
+    "lsame"
+  ],
+  "sggsvp3": [
+    "lsame"
+  ],
+  "zlaic1": [
+    "zdotc"
+  ],
+  "dorcsd": [
+    "lsame"
+  ],
+  "dgemqrt": [
+    "lsame"
+  ],
+  "cla_gbrcond_c": [
+    "lsame"
+  ],
+  "dpbtrf": [
+    "dgemm",
+    "dsyrk",
+    "dtrsm",
+    "lsame"
+  ],
+  "cggev3": [
+    "lsame"
+  ],
+  "sormhr": [
+    "lsame"
+  ],
+  "clarfy": [
+    "caxpy",
+    "chemv",
+    "cher2"
+  ],
+  "zherfs": [
+    "lsame",
+    "zaxpy",
+    "zcopy",
+    "zhemv"
+  ],
+  "zgebd2": [],
+  "dggrqf": [],
+  "zlaqsb": [
+    "lsame"
+  ],
+  "spprfs": [
+    "lsame",
+    "saxpy",
+    "scopy",
+    "sspmv"
+  ],
+  "zlargv": [],
+  "dlacn2": [
+    "dasum",
+    "dcopy",
+    "idamax"
+  ],
+  "dgtrfs": [
+    "daxpy",
+    "dcopy",
+    "lsame"
+  ],
+  "spotrf2": [
+    "lsame",
+    "ssyrk",
+    "strsm"
+  ],
+  "dsysv_rk": [],
+  "zsytrs": [
+    "lsame",
+    "zgemv",
+    "zgeru",
+    "zscal",
+    "zswap"
+  ],
+  "dormr3": [
+    "lsame"
+  ],
+  "zrscl": [
+    "zdscal",
+    "zscal"
+  ],
+  "dormql": [
+    "lsame"
+  ],
+  "dormrz": [
+    "lsame"
+  ],
+  "zsptri": [
+    "lsame",
+    "zcopy",
+    "zdotu",
+    "zswap"
+  ],
+  "dlarfgp": [
+    "dnrm2",
+    "dscal"
+  ],
+  "dla_porcond": [
+    "lsame"
+  ],
+  "slapy3": [],
+  "dtptrs": [
+    "dtpsv",
+    "lsame"
+  ],
+  "cladiv": [],
+  "sggbak": [
+    "lsame",
+    "sscal",
+    "sswap"
+  ],
+  "sorgtr": [
+    "lsame"
+  ],
+  "dorgbr": [
+    "lsame"
+  ],
+  "dgeql2": [],
+  "chbevx": [
+    "ccopy",
+    "cgemv",
+    "cswap",
+    "lsame",
+    "scopy",
+    "sscal"
+  ],
+  "zunmlq": [
+    "lsame"
+  ],
+  "zhetrf_rk": [
+    "lsame",
+    "zswap"
+  ],
+  "csytrs": [
+    "cgemv",
+    "cgeru",
+    "cscal",
+    "cswap",
+    "lsame"
+  ],
+  "zhetri": [
+    "lsame",
+    "zcopy",
+    "zdotc",
+    "zhemv",
+    "zswap"
+  ],
+  "cpotrf": [
+    "cgemm",
+    "cherk",
+    "ctrsm",
+    "lsame"
+  ],
+  "cla_gercond_x": [
+    "lsame"
+  ],
+  "slaqp2": [
+    "isamax",
+    "snrm2",
+    "sswap"
+  ],
+  "cungr2": [
+    "cscal"
+  ],
+  "claqp3rk": [
+    "cgemm",
+    "cgemv",
+    "cswap",
+    "isamax",
+    "scnrm2"
+  ],
+  "dlanhs": [
+    "lsame"
+  ],
+  "zsytrs_rook": [
+    "lsame",
+    "zgemv",
+    "zgeru",
+    "zscal",
+    "zswap"
+  ],
+  "cunmr2": [
+    "lsame"
+  ],
+  "dgebal": [
+    "dnrm2",
+    "dscal",
+    "dswap",
+    "idamax",
+    "lsame"
+  ],
+  "sorgtsqr": [
+    "scopy"
+  ],
+  "sormrz": [
+    "lsame"
+  ],
+  "dgerfsx": [
+    "lsame"
+  ],
+  "dgglse": [
+    "daxpy",
+    "dcopy",
+    "dgemv",
+    "dtrmv"
+  ],
+  "sstein": [
+    "isamax",
+    "saxpy",
+    "scopy",
+    "sdot",
+    "snrm2",
+    "sscal"
+  ],
+  "zlar1v": [],
+  "sorg2l": [
+    "sscal"
+  ],
+  "zggbal": [
+    "daxpy",
+    "ddot",
+    "dscal",
+    "izamax",
+    "lsame",
+    "zdscal",
+    "zswap"
+  ],
+  "shsein": [
+    "lsame"
+  ],
+  "cungrq": [],
+  "slarz": [
+    "lsame",
+    "saxpy",
+    "scopy",
+    "sgemv",
+    "sger"
+  ],
+  "sorm2r": [
+    "lsame"
+  ],
+  "dsbgvx": [
+    "dcopy",
+    "dgemv",
+    "dswap",
+    "lsame"
+  ],
+  "clag2z": [],
+  "dsygv_2stage": [
+    "dtrmm",
+    "dtrsm",
+    "lsame"
+  ],
+  "cgeqlf": [],
+  "slaein": [
+    "isamax",
+    "sasum",
+    "snrm2",
+    "sscal"
+  ],
+  "ssyequb": [
+    "lsame"
+  ],
+  "zlaqsp": [
+    "lsame"
+  ],
+  "dgttrf": [],
+  "dlaqr0": [],
+  "slaebz": [],
+  "zheevr": [
+    "dcopy",
+    "dscal",
+    "lsame",
+    "zdscal",
+    "zswap"
+  ],
+  "dgesvj": [
+    "daxpy",
+    "dcopy",
+    "ddot",
+    "dnrm2",
+    "drotm",
+    "dscal",
+    "dswap",
+    "idamax",
+    "lsame"
+  ],
+  "cunbdb": [
+    "caxpy",
+    "cscal",
+    "lsame",
+    "scnrm2"
+  ],
+  "cunmqr": [
+    "lsame"
+  ],
+  "zsptrf": [
+    "izamax",
+    "lsame",
+    "zscal",
+    "zswap"
+  ],
+  "cgelsy": [
+    "ccopy",
+    "ctrsm"
+  ],
+  "zheevr_2stage": [
+    "dcopy",
+    "dscal",
+    "lsame",
+    "zdscal",
+    "zswap"
+  ],
+  "dlanv2": [],
+  "zspsvx": [
+    "lsame",
+    "zcopy"
+  ],
+  "cla_heamv": [],
+  "ctpmqrt": [
+    "lsame"
+  ],
+  "spbequ": [
+    "lsame"
+  ],
+  "cgeqrt": [],
+  "cgemqr": [
+    "lsame"
+  ],
+  "cgetsls": [
+    "lsame"
+  ],
+  "zheevd": [
+    "dscal",
+    "lsame"
+  ],
+  "zgesdd": [
+    "lsame",
+    "zgemm"
+  ],
+  "dorm2l": [
+    "lsame"
+  ],
+  "zlasyf_rook": [
+    "izamax",
+    "lsame",
+    "zcopy",
+    "zgemmtr",
+    "zgemv",
+    "zscal",
+    "zswap"
+  ],
+  "chegvx": [
+    "ctrmm",
+    "ctrsm",
+    "lsame"
+  ],
+  "cgecon": [
+    "icamax",
+    "lsame"
+  ],
+  "dsyev": [
+    "dscal",
+    "lsame"
+  ],
+  "slahqr": [
+    "scopy",
+    "srot"
+  ],
+  "dlag2": [],
+  "sla_gbrcond": [
+    "lsame"
+  ],
+  "ztprfs": [
+    "lsame",
+    "zaxpy",
+    "zcopy",
+    "ztpmv",
+    "ztpsv"
+  ],
+  "sgesvdq": [
+    "isamax",
+    "lsame",
+    "snrm2",
+    "sscal"
+  ],
+  "sggev": [
+    "lsame"
+  ],
+  "clascl2": [],
+  "dsytrs_aa_2stage": [
+    "dtrsm",
+    "lsame"
+  ],
+  "sgbbrd": [
+    "lsame",
+    "srot"
+  ],
+  "dlaqr5": [
+    "dgemm"
+  ],
+  "stprfb": [
+    "lsame",
+    "sgemm",
+    "strmm"
+  ],
+  "zlansb": [
+    "lsame"
+  ],
+  "dgelsy": [
+    "dcopy",
+    "dtrsm"
+  ],
+  "dgtsvx": [
+    "dcopy",
+    "lsame"
+  ],
+  "dppcon": [
+    "idamax",
+    "lsame"
+  ],
+  "clarf1l": [
+    "caxpy",
+    "cgemv",
+    "cgerc",
+    "cscal",
+    "lsame"
+  ],
+  "dgges3": [
+    "lsame"
+  ],
+  "cla_gbrcond_x": [
+    "lsame"
+  ],
+  "dtrtri": [
+    "dtrmm",
+    "dtrsm",
+    "lsame"
+  ],
+  "clacrm": [
+    "sgemm"
+  ],
+  "zungl2": [
+    "zscal"
+  ],
+  "dpstf2": [
+    "dgemv",
+    "dscal",
+    "dswap",
+    "lsame"
+  ],
+  "slasq5": [],
+  "ssterf": [],
+  "clacp2": [
+    "lsame"
+  ],
+  "dtrexc": [
+    "lsame"
+  ],
+  "slacpy": [
+    "lsame"
+  ],
+  "zunmrq": [
+    "lsame"
+  ],
+  "zpttrf": [],
+  "dsytri2": [
+    "lsame"
+  ],
+  "clacon": [
+    "ccopy"
+  ],
+  "ssygv_2stage": [
+    "lsame",
+    "strmm",
+    "strsm"
+  ],
+  "sgeqlf": [],
+  "dstebz": [
+    "lsame"
+  ],
+  "slatrz": [],
+  "slar2v": [],
+  "dsteqr": [
+    "dswap",
+    "lsame"
+  ],
+  "dorbdb": [
+    "daxpy",
+    "dnrm2",
+    "dscal",
+    "lsame"
+  ],
+  "clarfx": [
+    "lsame"
+  ],
+  "claswlq": [],
+  "slarra": [],
+  "ilazlr": [],
+  "dlaed9": [
+    "dcopy",
+    "dnrm2"
+  ],
+  "zlarfg": [
+    "dznrm2",
+    "zdscal",
+    "zscal"
+  ],
+  "dlanst": [
+    "lsame"
+  ],
+  "sgedmd": [
+    "dnrm2",
+    "isamax",
+    "lsame",
+    "saxpy",
+    "sgemm",
+    "snrm2",
+    "sscal"
+  ],
+  "claic1": [
+    "cdotc"
+  ],
+  "zsytrs2": [
+    "lsame",
+    "zscal",
+    "zswap",
+    "ztrsm"
+  ],
+  "claqr2": [
+    "ccopy",
+    "cgemm"
+  ],
+  "clarf": [
+    "cgemv",
+    "cgerc",
+    "lsame"
+  ],
+  "dlaqz4": [
+    "dgemm",
+    "drot"
+  ],
+  "spocon": [
+    "isamax",
+    "lsame"
+  ],
+  "zgttrf": [],
+  "dlasda": [
+    "dcopy"
+  ],
+  "dlasq6": [],
+  "dtrtrs": [
+    "dtrsm",
+    "lsame"
+  ],
+  "zhpev": [
+    "dscal",
+    "lsame",
+    "zdscal"
+  ],
+  "dtbtrs": [
+    "dtbsv",
+    "lsame"
+  ],
+  "cggevx": [
+    "lsame"
+  ],
+  "csysvxx": [
+    "lsame"
+  ],
+  "slarzt": [
+    "sgemv",
+    "strmv"
+  ],
+  "cgeequ": [],
+  "ztrsna": [
+    "dznrm2",
+    "izamax",
+    "lsame",
+    "zdotc"
+  ],
+  "ssygst": [
+    "lsame",
+    "ssymm",
+    "ssyr2k",
+    "strmm",
+    "strsm"
+  ],
+  "dlansp": [
+    "lsame"
+  ],
+  "cheev_2stage": [
+    "lsame",
+    "sscal"
+  ],
+  "dtfttr": [
+    "lsame"
+  ],
+  "spftrf": [
+    "lsame",
+    "ssyrk",
+    "strsm"
+  ],
+  "cgetrf": [
+    "cgemm",
+    "ctrsm"
+  ],
+  "dlascl2": [],
+  "cgelqt3": [
+    "cgemm",
+    "ctrmm"
+  ],
+  "zgelsd": [],
+  "dgeqr": [],
+  "ssyevr_2stage": [
+    "lsame",
+    "scopy",
+    "sscal",
+    "sswap"
+  ],
+  "dsbev_2stage": [
+    "dscal",
+    "lsame"
+  ],
+  "dgbrfs": [
+    "daxpy",
+    "dcopy",
+    "dgbmv",
+    "lsame"
+  ],
+  "sgbequ": [],
+  "spbtf2": [
+    "lsame",
+    "sscal",
+    "ssyr"
+  ],
+  "claed8": [
+    "ccopy",
+    "csrot",
+    "isamax",
+    "scopy",
+    "sscal"
+  ],
+  "ztrrfs": [
+    "lsame",
+    "zaxpy",
+    "zcopy",
+    "ztrmv",
+    "ztrsv"
+  ],
+  "zgetsqrhrt": [
+    "zcopy"
+  ],
+  "cunmrz": [
+    "lsame"
+  ],
+  "slarrv": [
+    "scopy",
+    "sscal"
+  ],
+  "sgetsqrhrt": [
+    "scopy"
+  ],
+  "cgejsv": [
+    "ccopy",
+    "csscal",
+    "cswap",
+    "ctrsm",
+    "isamax",
+    "lsame",
+    "scnrm2",
+    "sscal"
+  ],
+  "dsyconvf": [
+    "dswap",
+    "lsame"
+  ],
+  "slapy2": [],
+  "zlaqhb": [
+    "lsame"
+  ],
+  "chetri2x": [
+    "cgemm",
+    "ctrmm",
+    "lsame"
+  ],
+  "dlaqr1": [],
+  "sgesvdx": [
+    "lsame",
+    "scopy"
+  ],
+  "cla_gbrpvgrw": [],
+  "slarmm": [],
+  "sorbdb6": [
+    "sgemv"
+  ],
+  "slasq1": [
+    "scopy"
+  ],
+  "dlaqge": [],
+  "cpbtf2": [
+    "cher",
+    "csscal",
+    "lsame"
+  ],
+  "dsyswapr": [
+    "dswap",
+    "lsame"
+  ],
+  "dtbcon": [
+    "idamax",
+    "lsame"
+  ],
+  "zherfsx": [
+    "lsame"
+  ],
+  "dlarzb": [
+    "dcopy",
+    "dgemm",
+    "dtrmm",
+    "lsame"
+  ],
+  "slaruv": [],
+  "zla_gbrcond_c": [
+    "lsame"
+  ],
+  "zstegr": [],
+  "slasd7": [
+    "scopy",
+    "srot"
+  ],
+  "cpftrf": [
+    "cherk",
+    "ctrsm",
+    "lsame"
+  ],
+  "cggglm": [
+    "ccopy",
+    "cgemv"
+  ],
+  "ssbgvd": [
+    "lsame",
+    "sgemm"
+  ],
+  "zhsein": [
+    "lsame"
+  ],
+  "cuncsd2by1": [
+    "ccopy",
+    "lsame"
+  ],
+  "stbrfs": [
+    "lsame",
+    "saxpy",
+    "scopy",
+    "stbmv",
+    "stbsv"
+  ],
+  "spoequ": [],
+  "cungql": [],
+  "cunmbr": [
+    "lsame"
+  ],
+  "zgbcon": [
+    "izamax",
+    "lsame",
+    "zaxpy",
+    "zdotc"
+  ],
+  "zsytrf_rook": [
+    "lsame"
+  ],
+  "chegv_2stage": [
+    "ctrmm",
+    "ctrsm",
+    "lsame"
+  ],
+  "csysv_aa_2stage": [
+    "lsame"
+  ],
+  "sptrfs": [
+    "isamax",
+    "saxpy"
+  ],
+  "slaed3": [
+    "scopy",
+    "sgemm",
+    "snrm2"
+  ],
+  "sgetrf": [
+    "sgemm",
+    "strsm"
+  ],
+  "slaed5": [],
+  "sgbtrs": [
+    "lsame",
+    "sgemv",
+    "sger",
+    "sswap",
+    "stbsv"
+  ],
+  "slabrd": [
+    "sgemv",
+    "sscal"
+  ],
+  "chetd2": [
+    "caxpy",
+    "chemv",
+    "cher2",
+    "lsame"
+  ],
+  "stgsna": [
+    "lsame",
+    "sdot",
+    "sgemv",
+    "snrm2"
+  ],
+  "ctrttp": [
+    "lsame"
+  ],
+  "cgbequb": [],
+  "zgees": [
+    "lsame",
+    "zcopy"
+  ],
+  "dgges": [
+    "lsame"
+  ],
+  "sorgqr": [],
+  "sspev": [
+    "lsame",
+    "sscal"
+  ],
+  "spbsv": [],
+  "clarfg": [
+    "cscal",
+    "csscal",
+    "scnrm2"
+  ],
+  "slargv": [],
+  "ssytf2_rk": [
+    "isamax",
+    "lsame",
+    "sscal",
+    "sswap",
+    "ssyr"
+  ],
+  "chptrd": [
+    "caxpy",
+    "chpmv",
+    "chpr2",
+    "lsame"
+  ],
+  "sbdsqr": [
+    "lsame",
+    "srot",
+    "sscal",
+    "sswap"
+  ],
+  "zpotrf2": [
+    "lsame",
+    "zherk",
+    "ztrsm"
+  ],
+  "csytf2_rook": [
+    "cscal",
+    "cswap",
+    "icamax",
+    "lsame"
+  ],
+  "zla_porpvgrw": [
+    "lsame"
+  ],
+  "zhesv_rk": [],
+  "slaorhr_col_getrfnp2": [
+    "sgemm",
+    "sscal",
+    "strsm"
+  ],
+  "zgghd3": [
+    "lsame",
+    "zgemm",
+    "zgemv",
+    "ztrmv"
+  ],
+  "sgesv": [],
+  "dgetri": [
+    "dgemm",
+    "dgemv",
+    "dswap",
+    "dtrsm"
+  ],
+  "dla_syrpvgrw": [
+    "lsame"
+  ],
+  "cunglq": [],
+  "clantb": [
+    "lsame"
+  ],
+  "zsysvx": [
+    "lsame"
+  ],
+  "zhegs2": [
+    "lsame",
+    "zaxpy",
+    "zdscal",
+    "zher2",
+    "ztrmv",
+    "ztrsv"
+  ],
+  "zgetrf": [
+    "zgemm",
+    "ztrsm"
+  ],
+  "dgghrd": [
+    "drot",
+    "lsame"
+  ],
+  "dsptrs": [
+    "dgemv",
+    "dger",
+    "dscal",
+    "dswap",
+    "lsame"
+  ],
+  "slaqz1": [],
+  "chetrf_rk": [
+    "cswap",
+    "lsame"
+  ],
+  "stgex2": [
+    "sgemm",
+    "srot",
+    "sscal"
+  ],
+  "chesv_aa_2stage": [
+    "lsame"
+  ],
+  "sgetrf2": [
+    "isamax",
+    "sgemm",
+    "sscal",
+    "strsm"
+  ],
+  "dsbevd_2stage": [
+    "dgemm",
+    "dscal",
+    "lsame"
+  ],
+  "strexc": [
+    "lsame"
+  ],
+  "sgelst": [
+    "lsame"
+  ],
+  "sormlq": [
+    "lsame"
+  ],
+  "zsytrf_rk": [
+    "lsame",
+    "zswap"
+  ],
+  "zlaqp3rk": [
+    "dznrm2",
+    "idamax",
+    "zgemm",
+    "zgemv",
+    "zswap"
+  ],
+  "dlaed6": [],
+  "clags2": [],
+  "cgels": [
+    "lsame"
+  ],
+  "zgeqrt": [],
+  "zggsvp3": [
+    "lsame"
+  ],
+  "cungqr": [],
+  "dsysv_aa": [],
+  "dsytri_rook": [
+    "dcopy",
+    "ddot",
+    "dswap",
+    "dsymv",
+    "lsame"
+  ],
+  "ssb2st_kernels": [
+    "lsame"
+  ],
+  "dggbak": [
+    "dscal",
+    "dswap",
+    "lsame"
+  ],
+  "cunbdb5": [
+    "cscal",
+    "scnrm2"
+  ],
+  "dgbbrd": [
+    "drot",
+    "lsame"
+  ],
+  "dporfsx": [
+    "lsame"
+  ],
+  "csytri2x": [
+    "cgemm",
+    "ctrmm",
+    "lsame"
+  ],
+  "chesv_rk": [],
+  "dtbrfs": [
+    "daxpy",
+    "dcopy",
+    "dtbmv",
+    "dtbsv",
+    "lsame"
+  ],
+  "dormtr": [
+    "lsame"
+  ],
+  "dlasv2": [],
+  "sbdsdc": [
+    "lsame",
+    "scopy",
+    "sswap"
+  ],
+  "cbdsqr": [
+    "csrot",
+    "csscal",
+    "cswap",
+    "lsame"
+  ],
+  "cpbsv": [],
+  "slasdq": [
+    "lsame",
+    "sswap"
+  ],
+  "dgejsv": [
+    "dcopy",
+    "dnrm2",
+    "dscal",
+    "dswap",
+    "dtrsm",
+    "idamax",
+    "lsame"
+  ],
+  "slalsd": [
+    "isamax",
+    "scopy",
+    "sgemm",
+    "srot"
+  ],
+  "dlarfg": [
+    "dnrm2",
+    "dscal"
+  ],
+  "ssprfs": [
+    "lsame",
+    "saxpy",
+    "scopy",
+    "sspmv"
+  ],
+  "slatdf": [
+    "sasum",
+    "saxpy",
+    "scopy",
+    "sdot",
+    "sscal"
+  ],
+  "cunbdb1": [
+    "csrot",
+    "scnrm2"
+  ],
+  "dspevx": [
+    "dcopy",
+    "dscal",
+    "dswap",
+    "lsame"
+  ],
+  "ssbtrd": [
+    "lsame",
+    "srot"
+  ],
+  "zgemqrt": [
+    "lsame"
+  ],
+  "cgesvx": [
+    "lsame"
+  ],
+  "zrot": [],
+  "zpotf2": [
+    "lsame",
+    "zdotc",
+    "zdscal",
+    "zgemv"
+  ],
+  "zhptrd": [
+    "lsame",
+    "zaxpy",
+    "zhpmv",
+    "zhpr2"
+  ],
+  "zgeqrf": [],
+  "zgtts2": [],
+  "cgbsv": [],
+  "zgelq2": [],
+  "sgeqrf": [],
+  "iparam2stage": [
+    "lsame"
+  ],
+  "zlascl": [
+    "lsame"
+  ],
+  "ztfsm": [
+    "lsame",
+    "zgemm",
+    "ztrsm"
+  ],
+  "ctbcon": [
+    "icamax",
+    "lsame"
+  ],
+  "ctzrzf": [],
+  "sgeqp3": [
+    "snrm2",
+    "sswap"
+  ],
+  "slasq3": [],
+  "ctplqt2": [
+    "cgemv",
+    "cgerc",
+    "ctrmv"
+  ],
+  "cla_wwaddw": [],
+  "chpgv": [
+    "ctpmv",
+    "ctpsv",
+    "lsame"
+  ],
+  "cgesvdq": [
+    "csscal",
+    "isamax",
+    "lsame",
+    "scnrm2"
+  ],
+  "dorgtsqr_row": [],
+  "dgerfs": [
+    "daxpy",
+    "dcopy",
+    "dgemv",
+    "lsame"
+  ],
+  "cposvx": [
+    "lsame"
+  ],
+  "dorgl2": [
+    "dscal"
+  ],
+  "cgeqr": [],
+  "dgelst": [
+    "lsame"
+  ],
+  "ctpqrt": [],
+  "dpbsvx": [
+    "dcopy",
+    "lsame"
+  ],
+  "slaed1": [
+    "scopy"
+  ],
+  "ztpqrt2": [
+    "zgemv",
+    "zgerc",
+    "ztrmv"
+  ],
+  "dtpcon": [
+    "idamax",
+    "lsame"
+  ],
+  "zla_gbrfsx_extended": [
+    "zaxpy",
+    "zcopy",
+    "zgbmv"
+  ],
+  "slaev2": [],
+  "zlasyf_rk": [
+    "izamax",
+    "lsame",
+    "zcopy",
+    "zgemmtr",
+    "zgemv",
+    "zscal",
+    "zswap"
+  ],
+  "strttp": [
+    "lsame"
+  ],
+  "cgesvd": [
+    "cgemm",
+    "lsame"
+  ],
+  "cunmrq": [
+    "lsame"
+  ],
+  "ilaenv": [],
+  "dla_wwaddw": [],
+  "dsptri": [
+    "dcopy",
+    "ddot",
+    "dspmv",
+    "dswap",
+    "lsame"
+  ],
+  "zlasyf_aa": [
+    "izamax",
+    "lsame",
+    "zaxpy",
+    "zcopy",
+    "zgemv",
+    "zscal",
+    "zswap"
+  ],
+  "dsyrfs": [
+    "daxpy",
+    "dcopy",
+    "dsymv",
+    "lsame"
+  ],
+  "sgehd2": [],
+  "zla_wwaddw": [],
+  "zlaesy": [],
+  "zlamtsqr": [
+    "lsame"
+  ],
+  "dtrsyl3": [
+    "dgemm",
+    "dscal",
+    "lsame"
+  ],
+  "zlags2": [],
+  "ssysv_aa_2stage": [
+    "lsame"
+  ],
+  "zgbequ": [],
+  "zsytrf_aa": [
+    "lsame",
+    "zcopy",
+    "zgemm",
+    "zgemv",
+    "zscal",
+    "zswap"
+  ],
+  "dgttrs": [],
+  "dlasd4": [],
+  "strtri": [
+    "lsame",
+    "strmm",
+    "strsm"
+  ],
+  "zgelst": [
+    "lsame"
+  ],
+  "dppsv": [],
+  "slarf1l": [
+    "lsame",
+    "saxpy",
+    "sgemv",
+    "sger",
+    "sscal"
+  ],
+  "zlauum": [
+    "lsame",
+    "zgemm",
+    "zherk",
+    "ztrmm"
+  ],
+  "cheevx_2stage": [
+    "csscal",
+    "cswap",
+    "lsame",
+    "scopy",
+    "sscal"
+  ],
+  "dlagtf": [],
+  "dlacon": [
+    "dasum",
+    "dcopy",
+    "idamax"
+  ],
+  "slarscl2": [],
+  "dpteqr": [
+    "lsame"
+  ],
+  "dlaqsb": [
+    "lsame"
+  ],
+  "clarrv": [
+    "csscal",
+    "scopy"
+  ],
+  "dsbgst": [
+    "dger",
+    "drot",
+    "dscal",
+    "lsame"
+  ],
+  "cgeqrt2": [
+    "cgemv",
+    "cgerc",
+    "ctrmv"
+  ],
+  "slarfb_gett": [
+    "scopy",
+    "sgemm",
+    "strmm"
+  ],
+  "sposv": [],
+  "dlasrt": [
+    "lsame"
+  ],
+  "zla_lin_berr": [],
+  "dsygs2": [
+    "daxpy",
+    "dscal",
+    "dsyr2",
+    "dtrmv",
+    "dtrsv",
+    "lsame"
+  ],
+  "zpbtf2": [
+    "lsame",
+    "zdscal",
+    "zher"
+  ],
+  "cgbsvx": [
+    "ccopy",
+    "lsame"
+  ],
+  "zlarfy": [
+    "zaxpy",
+    "zhemv",
+    "zher2"
+  ],
+  "ctpcon": [
+    "icamax",
+    "lsame"
+  ],
+  "sppcon": [
+    "isamax",
+    "lsame"
+  ],
+  "chbgst": [
+    "cgerc",
+    "cgeru",
+    "csscal",
+    "lsame"
+  ],
+  "zhpgvx": [
+    "lsame",
+    "ztpmv",
+    "ztpsv"
+  ],
+  "zgeev": [
+    "dznrm2",
+    "idamax",
+    "lsame",
+    "zdscal",
+    "zscal"
+  ],
+  "zlahef_rook": [
+    "izamax",
+    "lsame",
+    "zcopy",
+    "zdscal",
+    "zgemm",
+    "zgemv",
+    "zswap"
+  ],
+  "dgetsls": [
+    "lsame"
+  ],
+  "sorbdb5": [
+    "snrm2",
+    "sscal"
+  ],
+  "dlarrj": [],
+  "cspsvx": [
+    "ccopy",
+    "lsame"
+  ],
+  "dsytrf": [
+    "lsame"
+  ],
+  "dlagv2": [
+    "drot"
+  ],
+  "dgtts2": [],
+  "sla_syrpvgrw": [
+    "lsame"
+  ],
+  "sgetc2": [
+    "sger",
+    "sswap"
+  ],
+  "slarzb": [
+    "lsame",
+    "scopy",
+    "sgemm",
+    "strmm"
+  ],
+  "zlarfb": [
+    "lsame",
+    "zcopy",
+    "zgemm",
+    "ztrmm"
+  ],
+  "zlaqz2": [
+    "zgemm"
+  ],
+  "dormr2": [
+    "lsame"
+  ],
+  "dgetc2": [
+    "dger",
+    "dswap"
+  ],
+  "clarz": [
+    "caxpy",
+    "ccopy",
+    "cgemv",
+    "cgerc",
+    "cgeru",
+    "lsame"
+  ],
+  "dsytrf_rook": [
+    "lsame"
+  ],
+  "zlarfx": [
+    "lsame"
+  ],
+  "sgeqrfp": [],
+  "dlaed4": [],
+  "cunmtr": [
+    "lsame"
+  ],
+  "clatbs": [
+    "caxpy",
+    "cdotc",
+    "cdotu",
+    "csscal",
+    "ctbsv",
+    "icamax",
+    "isamax",
+    "lsame",
+    "scasum",
+    "sscal"
+  ],
+  "dlaed1": [
+    "dcopy"
+  ],
+  "slar1v": [],
+  "slarrk": [],
+  "dgbtrf": [
+    "dcopy",
+    "dgemm",
+    "dger",
+    "dscal",
+    "dswap",
+    "dtrsm",
+    "idamax"
+  ],
+  "zpbtrf": [
+    "lsame",
+    "zgemm",
+    "zherk",
+    "ztrsm"
+  ],
+  "slarrj": [],
+  "zlaunhr_col_getrfnp2": [
+    "zgemm",
+    "zscal",
+    "ztrsm"
+  ],
+  "zsytf2_rk": [
+    "izamax",
+    "lsame",
+    "zscal",
+    "zswap"
+  ],
+  "dlasq5": [],
+  "dgelqf": [],
+  "ssytrs_3": [
+    "lsame",
+    "sscal",
+    "sswap",
+    "strsm"
+  ],
+  "dlansf": [
+    "lsame"
+  ],
+  "cgelst": [
+    "lsame"
+  ],
+  "zsytri_rook": [
+    "lsame",
+    "zcopy",
+    "zdotu",
+    "zswap"
+  ],
+  "zlaqp2": [
+    "dznrm2",
+    "idamax",
+    "zswap"
+  ],
+  "slassq": [],
+  "zhetrs": [
+    "lsame",
+    "zdscal",
+    "zgemv",
+    "zgeru",
+    "zswap"
+  ],
+  "cgelqf": [],
+  "dsbgvd": [
+    "dgemm",
+    "lsame"
+  ],
+  "zsytrs_3": [
+    "lsame",
+    "zscal",
+    "zswap",
+    "ztrsm"
+  ],
+  "stgsyl": [
+    "lsame",
+    "sgemm",
+    "sscal"
+  ],
+  "csycon_rook": [
+    "lsame"
+  ],
+  "ssytrf_rook": [
+    "lsame"
+  ],
+  "dlaswp": [],
+  "sgtsv": [],
+  "sla_gerpvgrw": [],
+  "stgsy2": [
+    "lsame",
+    "saxpy",
+    "scopy",
+    "sgemm",
+    "sgemv",
+    "sger",
+    "sscal"
+  ],
+  "cgtrfs": [
+    "caxpy",
+    "ccopy",
+    "lsame"
+  ],
+  "cla_geamv": [],
+  "ztrtri": [
+    "lsame",
+    "ztrmm",
+    "ztrsm"
+  ],
+  "iladlr": [],
+  "zheevx": [
+    "dcopy",
+    "dscal",
+    "lsame",
+    "zdscal",
+    "zswap"
+  ],
+  "dsbgv": [
+    "lsame"
+  ],
+  "cpotrs": [
+    "ctrsm",
+    "lsame"
+  ],
+  "sggbal": [
+    "isamax",
+    "lsame",
+    "saxpy",
+    "sdot",
+    "sscal",
+    "sswap"
+  ],
+  "spotf2": [
+    "lsame",
+    "sdot",
+    "sgemv",
+    "sscal"
+  ],
+  "zlatsqr": [],
+  "cpstf2": [
+    "cgemv",
+    "csscal",
+    "cswap",
+    "lsame"
+  ],
+  "dpftri": [
+    "dsyrk",
+    "dtrmm",
+    "lsame"
+  ],
+  "dgelq2": [],
+  "sggsvd3": [
+    "lsame",
+    "scopy"
+  ],
+  "clahef_aa": [
+    "caxpy",
+    "ccopy",
+    "cgemv",
+    "cscal",
+    "cswap",
+    "icamax",
+    "lsame"
+  ],
+  "dgeev": [
+    "dnrm2",
+    "drot",
+    "dscal",
+    "idamax",
+    "lsame"
+  ],
+  "dsbevx_2stage": [
+    "dcopy",
+    "dgemv",
+    "dscal",
+    "dswap",
+    "lsame"
+  ],
+  "zla_porfsx_extended": [
+    "lsame",
+    "zaxpy",
+    "zcopy",
+    "zhemv"
+  ],
+  "sgelq2": [],
+  "slanst": [
+    "lsame"
+  ],
+  "ztrevc3": [
+    "dzasum",
+    "izamax",
+    "lsame",
+    "zcopy",
+    "zdscal",
+    "zgemm",
+    "zgemv"
+  ],
+  "dsysv": [],
+  "dspcon": [
+    "lsame"
+  ],
+  "ztgex2": [],
+  "dlaqz3": [
+    "dgemm",
+    "drot"
+  ],
+  "dlaebz": [],
+  "sgebak": [
+    "lsame",
+    "sscal",
+    "sswap"
+  ],
+  "sgeequb": [],
+  "dla_gerpvgrw": [],
+  "chb2st_kernels": [
+    "lsame"
+  ],
+  "dorgtsqr": [
+    "dcopy"
+  ],
+  "spteqr": [
+    "lsame"
+  ],
+  "dsytri_3": [
+    "lsame"
+  ],
+  "zunm2r": [
+    "lsame"
+  ],
+  "dlat2s": [
+    "lsame"
+  ],
+  "claev2": [],
+  "ssytri_3x": [
+    "lsame",
+    "sgemm",
+    "strmm"
+  ],
+  "dlaqz0": [
+    "drot",
+    "lsame"
+  ],
+  "dpprfs": [
+    "daxpy",
+    "dcopy",
+    "dspmv",
+    "lsame"
+  ],
+  "clanhp": [
+    "lsame"
+  ],
+  "stftri": [
+    "lsame",
+    "strmm"
+  ],
+  "dsytrs": [
+    "dgemv",
+    "dger",
+    "dscal",
+    "dswap",
+    "lsame"
+  ],
+  "zpstrf": [
+    "lsame",
+    "zdscal",
+    "zgemv",
+    "zherk",
+    "zswap"
+  ],
+  "sla_gbrpvgrw": [],
+  "dgbrfsx": [
+    "lsame"
+  ],
+  "dlapll": [
+    "daxpy"
+  ],
+  "zlaqps": [
+    "dznrm2",
+    "idamax",
+    "zgemm",
+    "zgemv",
+    "zswap"
+  ],
+  "dlasq2": [],
+  "cporfs": [
+    "caxpy",
+    "ccopy",
+    "chemv",
+    "lsame"
+  ],
+  "zgglse": [
+    "zaxpy",
+    "zcopy",
+    "zgemv",
+    "ztrmv"
+  ],
+  "dpptrf": [
+    "ddot",
+    "dscal",
+    "dspr",
+    "dtpsv",
+    "lsame"
+  ],
+  "cpttrf": [],
+  "ssytrs": [
+    "lsame",
+    "sgemv",
+    "sger",
+    "sscal",
+    "sswap"
+  ],
+  "chetrs2": [
+    "csscal",
+    "cswap",
+    "ctrsm",
+    "lsame"
+  ],
+  "zhesv_aa_2stage": [
+    "lsame"
+  ],
+  "cpttrs": [],
+  "zlahef_rk": [
+    "izamax",
+    "lsame",
+    "zcopy",
+    "zdscal",
+    "zgemmtr",
+    "zgemv",
+    "zswap"
+  ],
+  "clasyf": [
+    "ccopy",
+    "cgemmtr",
+    "cgemv",
+    "cscal",
+    "cswap",
+    "icamax",
+    "lsame"
+  ],
+  "ctptrs": [
+    "ctpsv",
+    "lsame"
+  ],
+  "zlals0": [
+    "dgemv",
+    "dnrm2",
+    "zcopy",
+    "zdrot",
+    "zdscal"
+  ],
+  "claunhr_col_getrfnp": [
+    "cgemm",
+    "ctrsm"
+  ],
+  "ztgsja": [
+    "lsame",
+    "zcopy",
+    "zdscal"
+  ],
+  "sla_geamv": [],
+  "dtprfs": [
+    "daxpy",
+    "dcopy",
+    "dtpmv",
+    "dtpsv",
+    "lsame"
+  ],
+  "sptsv": [],
+  "iladiag": [
+    "lsame"
+  ],
+  "chegst": [
+    "chemm",
+    "cher2k",
+    "ctrmm",
+    "ctrsm",
+    "lsame"
+  ],
+  "dlaswlq": [],
+  "clarfgp": [
+    "cscal",
+    "csscal",
+    "scnrm2"
+  ],
+  "zsytrf_aa_2stage": [
+    "lsame",
+    "zcopy",
+    "zgemm",
+    "zswap",
+    "ztrsm"
+  ],
+  "cgbrfs": [
+    "caxpy",
+    "ccopy",
+    "cgbmv",
+    "lsame"
+  ],
+  "sormql": [
+    "lsame"
+  ],
+  "dsptrd": [
+    "daxpy",
+    "dspmv",
+    "dspr2",
+    "lsame"
+  ],
+  "slaed0": [
+    "scopy",
+    "sgemm"
+  ],
+  "ilatrans": [
+    "lsame"
+  ],
+  "cggesx": [
+    "lsame"
+  ],
+  "zptcon": [
+    "idamax"
+  ],
+  "zsysv_aa_2stage": [
+    "lsame"
+  ],
+  "cupmtr": [
+    "lsame"
+  ],
+  "csprfs": [
+    "caxpy",
+    "ccopy",
+    "lsame"
+  ],
+  "dsytrd_2stage": [
+    "lsame"
+  ],
+  "dorbdb3": [
+    "dnrm2",
+    "drot"
+  ],
+  "sgttrf": [],
+  "cunmlq": [
+    "lsame"
+  ],
+  "slahr2": [
+    "saxpy",
+    "scopy",
+    "sgemm",
+    "sgemv",
+    "sscal",
+    "strmm",
+    "strmv"
+  ],
+  "zlangt": [
+    "lsame"
+  ],
+  "dopmtr": [
+    "lsame"
+  ],
+  "dpoequb": [],
+  "cgtsv": [],
+  "clartg": [],
+  "dlagtm": [
+    "lsame"
+  ],
+  "dlarrb": [],
+  "dlaqz1": [],
+  "zsytri2x": [
+    "lsame",
+    "zgemm",
+    "ztrmm"
+  ],
+  "dsysvxx": [
+    "lsame"
+  ],
+  "slanv2": [],
+  "ztrcon": [
+    "izamax",
+    "lsame"
+  ],
+  "zla_syrcond_c": [
+    "lsame"
+  ],
+  "dgesvx": [
+    "lsame"
+  ],
+  "chpgvx": [
+    "ctpmv",
+    "ctpsv",
+    "lsame"
+  ],
+  "dlauu2": [
+    "ddot",
+    "dgemv",
+    "dscal",
+    "lsame"
+  ],
+  "dtrsna": [
+    "ddot",
+    "dnrm2",
+    "lsame"
+  ],
+  "dpttrs": [],
+  "ztrexc": [
+    "lsame"
+  ],
+  "dlatrs3": [
+    "dgemm",
+    "dscal",
+    "lsame"
+  ],
+  "dtgsna": [
+    "ddot",
+    "dgemv",
+    "dnrm2",
+    "lsame"
+  ],
+  "cunmr3": [
+    "lsame"
+  ],
+  "zpttrs": [],
+  "cunbdb4": [
+    "cscal",
+    "csrot",
+    "scnrm2"
+  ],
+  "checon": [
+    "lsame"
+  ],
+  "slarrd": [
+    "lsame"
+  ],
+  "zhetri_3": [
+    "lsame"
+  ],
+  "slatps": [
+    "isamax",
+    "lsame",
+    "sasum",
+    "saxpy",
+    "sdot",
+    "sscal",
+    "stpsv"
+  ],
+  "cpbrfs": [
+    "caxpy",
+    "ccopy",
+    "chbmv",
+    "lsame"
+  ],
+  "cpotri": [],
+  "zlarcm": [
+    "dgemm"
+  ],
+  "zla_gbamv": [],
+  "claunhr_col_getrfnp2": [
+    "cgemm",
+    "cscal",
+    "ctrsm"
+  ],
+  "zhesvx": [
+    "lsame"
+  ],
+  "cpbequ": [
+    "lsame"
+  ],
+  "dpotrf2": [
+    "dsyrk",
+    "dtrsm",
+    "lsame"
+  ],
+  "dptsv": [],
+  "zlacpy": [
+    "lsame"
+  ],
+  "zposvxx": [
+    "lsame"
+  ],
+  "ssyevd_2stage": [
+    "lsame",
+    "sscal"
+  ],
+  "zsytri_3": [
+    "lsame"
+  ],
+  "ssysvxx": [
+    "lsame"
+  ],
+  "clansy": [
+    "lsame"
+  ],
+  "zgels": [
+    "lsame"
+  ],
+  "ctrrfs": [
+    "caxpy",
+    "ccopy",
+    "ctrmv",
+    "ctrsv",
+    "lsame"
+  ],
+  "zunmqr": [
+    "lsame"
+  ],
+  "dsptrf": [
+    "dscal",
+    "dspr",
+    "dswap",
+    "idamax",
+    "lsame"
+  ],
+  "chetf2_rook": [
+    "cher",
+    "csscal",
+    "cswap",
+    "icamax",
+    "lsame"
+  ],
+  "slasd2": [
+    "scopy",
+    "srot"
+  ],
+  "dsyrfsx": [
+    "lsame"
+  ],
+  "spotrf": [
+    "lsame",
+    "sgemm",
+    "ssyrk",
+    "strsm"
+  ],
+  "cla_porpvgrw": [
+    "lsame"
+  ],
+  "slaqgb": [],
+  "zgerq2": [],
+  "cheevd_2stage": [
+    "lsame",
+    "sscal"
+  ],
+  "dlatdf": [
+    "dasum",
+    "daxpy",
+    "dcopy",
+    "ddot",
+    "dscal"
+  ],
+  "spptrf": [
+    "lsame",
+    "sdot",
+    "sscal",
+    "sspr",
+    "stpsv"
+  ],
+  "ztpttr": [
+    "lsame"
+  ],
+  "cptsv": [],
+  "dsygv": [
+    "dtrmm",
+    "dtrsm",
+    "lsame"
+  ],
+  "zhpevx": [
+    "dcopy",
+    "dscal",
+    "lsame",
+    "zdscal",
+    "zswap"
+  ],
+  "checon_rook": [
+    "lsame"
+  ],
+  "cungl2": [
+    "cscal"
+  ],
+  "zhbev_2stage": [
+    "dscal",
+    "lsame"
+  ],
+  "sgbsv": [],
+  "zungtsqr": [
+    "zcopy"
+  ],
+  "chetrf_aa_2stage": [
+    "ccopy",
+    "cgemm",
+    "cswap",
+    "ctrsm",
+    "lsame"
+  ],
+  "dlaqz2": [
+    "drot"
+  ],
+  "zsytri_3x": [
+    "lsame",
+    "zgemm",
+    "ztrmm"
+  ],
+  "clalsa": [
+    "ccopy",
+    "sgemm"
+  ],
+  "cla_lin_berr": [],
+  "ctgsyl": [
+    "cgemm",
+    "cscal",
+    "lsame"
+  ],
+  "clarfb": [
+    "ccopy",
+    "cgemm",
+    "ctrmm",
+    "lsame"
+  ],
+  "dsytri2x": [
+    "dgemm",
+    "dtrmm",
+    "lsame"
+  ],
+  "zgesvdq": [
+    "dznrm2",
+    "idamax",
+    "lsame",
+    "zdscal"
+  ],
+  "sorgql": [],
+  "sgelqf": [],
+  "zhegvd": [
+    "lsame",
+    "ztrmm",
+    "ztrsm"
+  ],
+  "dtgevc": [
+    "dgemv",
+    "lsame"
+  ],
+  "zlangb": [
+    "lsame"
+  ],
+  "slaqsy": [
+    "lsame"
+  ],
+  "ssytf2_rook": [
+    "isamax",
+    "lsame",
+    "sscal",
+    "sswap",
+    "ssyr"
+  ],
+  "sormr2": [
+    "lsame"
+  ],
+  "dlatrz": [],
+  "strevc3": [
+    "isamax",
+    "lsame",
+    "saxpy",
+    "scopy",
+    "sdot",
+    "sgemm",
+    "sgemv",
+    "sscal"
+  ],
+  "sgelss": [
+    "scopy",
+    "sgemm",
+    "sgemv"
+  ],
+  "dspsv": [],
+  "ssbevd": [
+    "lsame",
+    "sgemm",
+    "sscal"
+  ],
+  "ssyev_2stage": [
+    "lsame",
+    "sscal"
+  ],
+  "clagtm": [
+    "lsame"
+  ],
+  "spftrs": [
+    "lsame"
+  ],
+  "zlatdf": [
+    "dzasum",
+    "zaxpy",
+    "zcopy",
+    "zdotc",
+    "zscal"
+  ],
+  "ztbcon": [
+    "izamax",
+    "lsame"
+  ],
+  "slarrc": [
+    "lsame"
+  ],
+  "dlaneg": [],
+  "dlarfb_gett": [
+    "dcopy",
+    "dgemm",
+    "dtrmm"
+  ],
+  "zgesvd": [
+    "lsame",
+    "zgemm"
+  ],
+  "clanhb": [
+    "lsame"
+  ],
+  "dlarzt": [
+    "dgemv",
+    "dtrmv"
+  ],
+  "cla_hercond_x": [
+    "lsame"
+  ],
+  "sormbr": [
+    "lsame"
+  ],
+  "zgbsvx": [
+    "lsame",
+    "zcopy"
+  ],
+  "chetrf_aa": [
+    "ccopy",
+    "cgemm",
+    "cscal",
+    "cswap",
+    "lsame"
+  ],
+  "ssptrs": [
+    "lsame",
+    "sgemv",
+    "sger",
+    "sscal",
+    "sswap"
+  ],
+  "zgesv": [],
+  "claqz2": [
+    "cgemm"
+  ],
+  "ssytrs_aa_2stage": [
+    "lsame",
+    "strsm"
+  ],
+  "dggsvp3": [
+    "lsame"
+  ],
+  "sspcon": [
+    "lsame"
+  ],
+  "zla_heamv": [],
+  "dlahr2": [
+    "daxpy",
+    "dcopy",
+    "dgemm",
+    "dgemv",
+    "dscal",
+    "dtrmm",
+    "dtrmv"
+  ],
+  "zlalsa": [
+    "dgemm",
+    "zcopy"
+  ],
+  "ztrevc": [
+    "dzasum",
+    "izamax",
+    "lsame",
+    "zcopy",
+    "zdscal",
+    "zgemv"
+  ],
+  "dpbequ": [
+    "lsame"
+  ],
+  "cla_porcond_x": [
+    "lsame"
+  ],
+  "ssbgst": [
+    "lsame",
+    "sger",
+    "srot",
+    "sscal"
+  ],
+  "ztgsna": [
+    "dznrm2",
+    "lsame",
+    "zdotc",
+    "zgemv"
+  ],
+  "cgbtrs": [
+    "cgemv",
+    "cgeru",
+    "cswap",
+    "ctbsv",
+    "lsame"
+  ],
+  "stpttr": [
+    "lsame"
+  ],
+  "ilaslc": [],
+  "dsyevx_2stage": [
+    "dcopy",
+    "dscal",
+    "dswap",
+    "lsame"
+  ],
+  "zla_syrfsx_extended": [
+    "lsame",
+    "zaxpy",
+    "zcopy"
+  ],
+  "csytrs_3": [
+    "cscal",
+    "cswap",
+    "ctrsm",
+    "lsame"
+  ],
+  "dggsvd3": [
+    "dcopy",
+    "lsame"
+  ],
+  "dsyev_2stage": [
+    "dscal",
+    "lsame"
+  ],
+  "chesv_rook": [],
+  "zsysvxx": [
+    "lsame"
+  ],
+  "checon_3": [
+    "lsame"
+  ],
+  "strti2": [
+    "lsame",
+    "sscal",
+    "strmv"
+  ],
+  "dlaqr3": [
+    "dcopy",
+    "dgemm"
+  ],
+  "zspcon": [
+    "lsame"
+  ],
+  "ztzrzf": [],
+  "dla_gbrfsx_extended": [
+    "daxpy",
+    "dcopy",
+    "dgbmv"
+  ],
+  "ilaprec": [
+    "lsame"
+  ],
+  "dgeqlf": [],
+  "claein": [
+    "csscal",
+    "icamax",
+    "scasum",
+    "scnrm2"
+  ],
+  "sgerq2": [],
+  "ssyevx": [
+    "lsame",
+    "scopy",
+    "sscal",
+    "sswap"
+  ],
+  "zgesvj": [
+    "dznrm2",
+    "idamax",
+    "lsame",
+    "zaxpy",
+    "zcopy",
+    "zdotc",
+    "zdscal",
+    "zswap"
+  ],
+  "dtpttr": [
+    "lsame"
+  ],
+  "zgbsv": [],
+  "dlag2s": [],
+  "slasr": [
+    "lsame"
+  ],
+  "zheequb": [
+    "lsame"
+  ],
+  "cgbrfsx": [
+    "lsame"
+  ],
+  "dhgeqz": [
+    "drot",
+    "lsame"
+  ],
+  "slasd4": [],
+  "cla_porfsx_extended": [
+    "caxpy",
+    "ccopy",
+    "chemv",
+    "lsame"
+  ],
+  "dtfsm": [
+    "dgemm",
+    "dtrsm",
+    "lsame"
+  ],
+  "zunbdb3": [
+    "dznrm2",
+    "zdrot"
+  ],
+  "dgemlqt": [
+    "lsame"
+  ],
+  "sgeqrt": [],
+  "zgsvj0": [
+    "dznrm2",
+    "idamax",
+    "lsame",
+    "zaxpy",
+    "zcopy",
+    "zdotc",
+    "zswap"
+  ],
+  "slauum": [
+    "lsame",
+    "sgemm",
+    "ssyrk",
+    "strmm"
+  ],
+  "zlantb": [
+    "lsame"
+  ],
+  "sorglq": [],
+  "dsytri_3x": [
+    "dgemm",
+    "dtrmm",
+    "lsame"
+  ],
+  "ssyevr": [
+    "lsame",
+    "scopy",
+    "sscal",
+    "sswap"
+  ],
+  "dppsvx": [
+    "dcopy",
+    "lsame"
+  ],
+  "zhbevd": [
+    "dscal",
+    "lsame",
+    "zgemm"
+  ],
+  "zgebak": [
+    "lsame",
+    "zdscal",
+    "zswap"
+  ],
+  "zgttrs": [],
+  "slaneg": [],
+  "clapmt": [],
+  "csytrf_aa_2stage": [
+    "ccopy",
+    "cgemm",
+    "cswap",
+    "ctrsm",
+    "lsame"
+  ],
+  "ctgexc": [],
+  "dsyevr_2stage": [
+    "dcopy",
+    "dscal",
+    "dswap",
+    "lsame"
+  ],
+  "csysv": [],
+  "zhetrd_2stage": [
+    "lsame"
+  ],
+  "cpftri": [
+    "cherk",
+    "ctrmm",
+    "lsame"
+  ],
+  "dstev": [
+    "dscal",
+    "lsame"
+  ],
+  "ssbgv": [
+    "lsame"
+  ],
+  "dlarrc": [
+    "lsame"
+  ],
+  "ctpqrt2": [
+    "cgemv",
+    "cgerc",
+    "ctrmv"
+  ],
+  "chetrs": [
+    "cgemv",
+    "cgeru",
+    "csscal",
+    "cswap",
+    "lsame"
+  ],
+  "slasyf_rk": [
+    "isamax",
+    "lsame",
+    "scopy",
+    "sgemmtr",
+    "sgemv",
+    "sscal",
+    "sswap"
+  ],
+  "sgtrfs": [
+    "lsame",
+    "saxpy",
+    "scopy"
+  ],
+  "dgelsd": [],
+  "dla_geamv": [],
+  "dsyevd_2stage": [
+    "dscal",
+    "lsame"
+  ],
+  "sorcsd": [
+    "lsame"
+  ],
+  "sopmtr": [
+    "lsame"
+  ],
+  "slamtsqr": [
+    "lsame"
+  ],
+  "sstebz": [
+    "lsame"
+  ],
+  "zgesvdx": [
+    "lsame"
+  ],
+  "csytf2": [
+    "cscal",
+    "cswap",
+    "icamax",
+    "lsame"
+  ],
+  "ssyconvf_rook": [
+    "lsame",
+    "sswap"
+  ],
+  "cunbdb2": [
+    "cscal",
+    "csrot",
+    "scnrm2"
+  ],
+  "cpbtrs": [
+    "ctbsv",
+    "lsame"
+  ],
+  "chesvx": [
+    "lsame"
+  ],
+  "sgerfs": [
+    "lsame",
+    "saxpy",
+    "scopy",
+    "sgemv"
+  ],
+  "slaqz2": [
+    "srot"
+  ],
+  "dlaqps": [
+    "dgemm",
+    "dgemv",
+    "dnrm2",
+    "dswap",
+    "idamax"
+  ],
+  "zlaqgb": [],
+  "ssygv": [
+    "lsame",
+    "strmm",
+    "strsm"
+  ],
+  "dlasd0": [],
+  "slarfy": [
+    "saxpy",
+    "ssymv",
+    "ssyr2"
+  ],
+  "zdrscl": [
+    "zdscal"
+  ],
+  "slaqsb": [
+    "lsame"
+  ],
+  "dptcon": [
+    "idamax"
+  ],
+  "zlarnv": [],
+  "zlaswp": [],
+  "clangt": [
+    "lsame"
+  ],
+  "clabrd": [
+    "cgemv",
+    "cscal"
+  ],
+  "zpftrf": [
+    "lsame",
+    "zherk",
+    "ztrsm"
+  ],
+  "zhbevd_2stage": [
+    "dscal",
+    "lsame",
+    "zgemm"
+  ],
+  "cgtts2": [],
+  "stfttp": [
+    "lsame"
+  ],
+  "dgesvxx": [
+    "lsame"
+  ],
+  "dspev": [
+    "dscal",
+    "lsame"
+  ],
+  "zupmtr": [
+    "lsame"
+  ],
+  "dgtsv": [],
+  "ctrttf": [
+    "lsame"
+  ],
+  "csymv": [
+    "lsame"
+  ],
+  "dlaed7": [
+    "dgemm"
+  ],
+  "slasy2": [
+    "isamax",
+    "scopy",
+    "sswap"
+  ],
+  "zlaqr0": [],
+  "clapmr": [],
+  "stprfs": [
+    "lsame",
+    "saxpy",
+    "scopy",
+    "stpmv",
+    "stpsv"
+  ],
+  "csrscl": [
+    "csscal"
+  ],
+  "sorbdb1": [
+    "snrm2",
+    "srot"
+  ],
+  "sstevr": [
+    "lsame",
+    "scopy",
+    "sscal",
+    "sswap"
+  ],
+  "zla_hercond_c": [
+    "lsame"
+  ],
+  "dsygst": [
+    "dsymm",
+    "dsyr2k",
+    "dtrmm",
+    "dtrsm",
+    "lsame"
+  ],
+  "zlarft_lvl2": [
+    "lsame",
+    "zgemm",
+    "zgemv",
+    "ztrmv"
+  ],
+  "ztgevc": [
+    "lsame",
+    "zgemv"
+  ],
+  "dtpmqrt": [
+    "lsame"
+  ],
+  "cunhr_col": [
+    "ccopy",
+    "cscal",
+    "ctrsm"
+  ],
+  "dla_porfsx_extended": [
+    "daxpy",
+    "dcopy",
+    "dsymv"
+  ],
+  "chptrs": [
+    "cgemv",
+    "cgeru",
+    "csscal",
+    "cswap",
+    "lsame"
+  ],
+  "dgbequb": [],
+  "ssfrk": [
+    "lsame",
+    "sgemm",
+    "ssyrk"
+  ],
+  "chprfs": [
+    "caxpy",
+    "ccopy",
+    "chpmv",
+    "lsame"
+  ],
+  "cpbsvx": [
+    "ccopy",
+    "lsame"
+  ],
+  "dlarz": [
+    "daxpy",
+    "dcopy",
+    "dgemv",
+    "dger",
+    "lsame"
+  ],
+  "drscl": [
+    "dscal"
+  ],
+  "dpptrs": [
+    "dtpsv",
+    "lsame"
+  ],
+  "slags2": [],
+  "zgerfs": [
+    "lsame",
+    "zaxpy",
+    "zcopy",
+    "zgemv"
+  ],
+  "cuncsd": [
+    "lsame"
+  ],
+  "zheev_2stage": [
+    "dscal",
+    "lsame"
+  ],
+  "cla_syrfsx_extended": [
+    "caxpy",
+    "ccopy",
+    "lsame"
+  ],
+  "zhetri_3x": [
+    "lsame",
+    "zgemm",
+    "ztrmm"
+  ],
+  "icmax1": [],
+  "zlacn2": [
+    "zcopy"
+  ],
+  "claqr4": [],
+  "dlaqr2": [
+    "dcopy",
+    "dgemm"
+  ],
+  "zunmbr": [
+    "lsame"
+  ],
+  "chbgv": [
+    "lsame"
+  ],
+  "clanhs": [
+    "lsame"
+  ],
+  "cgsvj1": [
+    "caxpy",
+    "ccopy",
+    "cdotc",
+    "cswap",
+    "isamax",
+    "lsame",
+    "scnrm2"
+  ],
+  "cheevr_2stage": [
+    "csscal",
+    "cswap",
+    "lsame",
+    "scopy",
+    "sscal"
+  ],
+  "ztbrfs": [
+    "lsame",
+    "zaxpy",
+    "zcopy",
+    "ztbmv",
+    "ztbsv"
+  ],
+  "sstemr": [
+    "lsame",
+    "scopy",
+    "sscal",
+    "sswap"
+  ],
+  "zunmr3": [
+    "lsame"
+  ],
+  "sgebrd": [
+    "sgemm"
+  ],
+  "slaqr3": [
+    "scopy",
+    "sgemm"
+  ],
+  "csyswapr": [
+    "cswap",
+    "lsame"
+  ],
+  "sspsv": [],
+  "dlarfx": [
+    "lsame"
+  ],
+  "zunbdb4": [
+    "dznrm2",
+    "zdrot",
+    "zscal"
+  ],
+  "chetri_rook": [
+    "ccopy",
+    "cdotc",
+    "chemv",
+    "cswap",
+    "lsame"
+  ],
+  "cla_syrcond_c": [
+    "lsame"
+  ],
+  "zhbev": [
+    "dscal",
+    "lsame"
+  ],
+  "sgelq": [],
+  "csytrs2": [
+    "cscal",
+    "cswap",
+    "ctrsm",
+    "lsame"
+  ],
+  "dgetf2": [
+    "dger",
+    "dscal",
+    "dswap",
+    "idamax"
+  ],
+  "zgelqt": [],
+  "ssytrd_sb2st": [
+    "lsame"
+  ],
+  "zhetrf_aa_2stage": [
+    "lsame",
+    "zcopy",
+    "zgemm",
+    "zswap",
+    "ztrsm"
+  ],
+  "chbev_2stage": [
+    "lsame",
+    "sscal"
+  ],
+  "dlasyf": [
+    "dcopy",
+    "dgemmtr",
+    "dgemv",
+    "dscal",
+    "dswap",
+    "idamax",
+    "lsame"
+  ],
+  "claqsy": [
+    "lsame"
+  ],
+  "cgesdd": [
+    "cgemm",
+    "lsame"
+  ],
+  "dgetrf2": [
+    "dgemm",
+    "dscal",
+    "dtrsm",
+    "idamax"
+  ],
+  "csteqr": [
+    "cswap",
+    "lsame"
+  ],
+  "stpttf": [
+    "lsame"
+  ],
+  "zpstf2": [
+    "lsame",
+    "zdscal",
+    "zgemv",
+    "zswap"
+  ],
+  "dggesx": [
+    "lsame"
+  ],
+  "slatrs": [
+    "isamax",
+    "lsame",
+    "sasum",
+    "saxpy",
+    "sdot",
+    "sscal",
+    "strsv"
+  ],
+  "zlarfgp": [
+    "dznrm2",
+    "zdscal",
+    "zscal"
+  ],
+  "zptts2": [
+    "zdscal"
+  ],
+  "zsyconv": [
+    "lsame"
+  ],
+  "chetrs_3": [
+    "csscal",
+    "cswap",
+    "ctrsm",
+    "lsame"
+  ],
+  "csysv_rook": [],
+  "ssytd2": [
+    "lsame",
+    "saxpy",
+    "ssymv",
+    "ssyr2"
+  ],
+  "sporfsx": [
+    "lsame"
+  ],
+  "zsyconvf": [
+    "lsame",
+    "zswap"
+  ],
+  "ssbev_2stage": [
+    "lsame",
+    "sscal"
+  ],
+  "dgeequb": [],
+  "zgbtf2": [
+    "izamax",
+    "zgeru",
+    "zscal",
+    "zswap"
+  ],
+  "zungbr": [
+    "lsame"
+  ],
+  "slapmt": [],
+  "slasyf_aa": [
+    "isamax",
+    "lsame",
+    "saxpy",
+    "scopy",
+    "sgemv",
+    "sscal",
+    "sswap"
+  ],
+  "zla_syamv": [],
+  "sggesx": [
+    "lsame"
+  ],
+  "dla_gercond": [
+    "lsame"
+  ],
+  "zungqr": [],
+  "dorgrq": [],
+  "dlarrd": [
+    "lsame"
+  ],
+  "dgeqrfp": [],
+  "zstemr": [
+    "dcopy",
+    "dscal",
+    "lsame",
+    "zswap"
+  ],
+  "zunmrz": [
+    "lsame"
+  ],
+  "claqp2rk": [
+    "cswap",
+    "isamax",
+    "scnrm2"
+  ],
+  "chesv_aa": [],
+  "ssytri2x": [
+    "lsame",
+    "sgemm",
+    "strmm"
+  ],
+  "dorgql": [],
+  "ssyrfs": [
+    "lsame",
+    "saxpy",
+    "scopy",
+    "ssymv"
+  ],
+  "sgehrd": [
+    "saxpy",
+    "sgemm",
+    "strmm"
+  ],
+  "zlaqsy": [
+    "lsame"
+  ],
+  "dbdsvdx": [
+    "daxpy",
+    "dcopy",
+    "ddot",
+    "dnrm2",
+    "dscal",
+    "dswap",
+    "idamax",
+    "lsame"
+  ],
+  "ssyev": [
+    "lsame",
+    "sscal"
+  ],
+  "sgebal": [
+    "isamax",
+    "lsame",
+    "snrm2",
+    "sscal",
+    "sswap"
+  ],
+  "sstevd": [
+    "lsame",
+    "sscal"
+  ],
+  "zhetf2": [
+    "izamax",
+    "lsame",
+    "zdscal",
+    "zher",
+    "zswap"
+  ],
+  "dtrsen": [
+    "lsame"
+  ],
+  "clacrt": [],
+  "slamswlq": [
+    "lsame"
+  ],
+  "sla_porcond": [
+    "lsame"
+  ],
+  "dsbevd": [
+    "dgemm",
+    "dscal",
+    "lsame"
+  ],
+  "dlarmm": [],
+  "cpftrs": [
+    "lsame"
+  ],
+  "clamtsqr": [
+    "lsame"
+  ],
+  "sgbsvx": [
+    "lsame",
+    "scopy"
+  ],
+  "sporfs": [
+    "lsame",
+    "saxpy",
+    "scopy",
+    "ssymv"
+  ],
+  "zhseqr": [
+    "lsame",
+    "zcopy"
+  ],
+  "claqr3": [
+    "ccopy",
+    "cgemm"
+  ],
+  "cunm2l": [
+    "lsame"
+  ],
+  "dsyconvf_rook": [
+    "dswap",
+    "lsame"
+  ],
+  "chegv": [
+    "ctrmm",
+    "ctrsm",
+    "lsame"
+  ],
+  "cgeqrf": [],
+  "slag2d": [],
+  "cgtsvx": [
+    "ccopy",
+    "lsame"
+  ],
+  "zpptri": [
+    "lsame",
+    "zdotc",
+    "zdscal",
+    "zhpr",
+    "ztpmv"
+  ],
+  "clarft_lvl2": [
+    "cgemm",
+    "cgemv",
+    "ctrmv",
+    "lsame"
+  ],
+  "dpoequ": [],
+  "sspgvd": [
+    "lsame",
+    "stpmv",
+    "stpsv"
+  ],
+  "dpotf2": [
+    "ddot",
+    "dgemv",
+    "dscal",
+    "lsame"
+  ],
+  "zsysv_rk": [],
+  "slatrs3": [
+    "lsame",
+    "sgemm",
+    "sscal"
+  ],
+  "csycon": [
+    "lsame"
+  ],
+  "slarrb": [],
+  "xerbla": [],
+  "ilauplo": [
+    "lsame"
+  ],
+  "sorml2": [
+    "lsame"
+  ],
+  "dla_lin_berr": [],
+  "slasd5": [],
+  "zlarf1l": [
+    "lsame",
+    "zaxpy",
+    "zgemv",
+    "zgerc",
+    "zscal"
+  ],
+  "zungrq": [],
+  "claed7": [],
+  "dgerqf": [],
+  "dspgv": [
+    "dtpmv",
+    "dtpsv",
+    "lsame"
+  ],
+  "chegvd": [
+    "ctrmm",
+    "ctrsm",
+    "lsame"
+  ],
+  "sgttrs": [],
+  "zunm2l": [
+    "lsame"
+  ],
+  "stpmlqt": [
+    "lsame"
+  ],
+  "cgeql2": [],
+  "dlacpy": [
+    "lsame"
+  ],
+  "dlalsd": [
+    "dcopy",
+    "dgemm",
+    "drot",
+    "idamax"
+  ],
+  "dggevx": [
+    "lsame"
+  ],
+  "cungtsqr": [
+    "ccopy"
+  ],
+  "sorbdb2": [
+    "snrm2",
+    "srot",
+    "sscal"
+  ],
+  "dlatsqr": [],
+  "clansp": [
+    "lsame"
+  ],
+  "slascl2": [],
+  "zsysv_aa": [],
+  "slaed4": [],
+  "ctrsen": [
+    "lsame"
+  ],
+  "csycon_3": [
+    "lsame"
+  ],
+  "clatrs": [
+    "caxpy",
+    "cdotc",
+    "cdotu",
+    "csscal",
+    "ctrsv",
+    "icamax",
+    "isamax",
+    "lsame",
+    "scasum",
+    "sscal"
+  ],
+  "csyconv": [
+    "lsame"
+  ],
+  "dlapmr": [],
+  "dsytri": [
+    "dcopy",
+    "ddot",
+    "dswap",
+    "dsymv",
+    "lsame"
+  ],
+  "zlagtm": [
+    "lsame"
+  ],
+  "clauum": [
+    "cgemm",
+    "cherk",
+    "ctrmm",
+    "lsame"
+  ],
+  "cspcon": [
+    "lsame"
+  ],
+  "ctfsm": [
+    "cgemm",
+    "ctrsm",
+    "lsame"
+  ],
+  "zhetrd_he2hb": [
+    "lsame",
+    "zcopy",
+    "zgemm",
+    "zhemm",
+    "zher2k"
+  ],
+  "csysvx": [
+    "lsame"
+  ],
+  "sgelqt": [],
+  "slansb": [
+    "lsame"
+  ],
+  "cla_porcond_c": [
+    "lsame"
+  ],
+  "sgebd2": [],
+  "zgeesx": [
+    "lsame",
+    "zcopy"
+  ],
+  "clahef_rook": [
+    "ccopy",
+    "cgemm",
+    "cgemv",
+    "csscal",
+    "cswap",
+    "icamax",
+    "lsame"
+  ],
+  "zunbdb6": [
+    "zgemv"
+  ],
+  "zlarf1f": [
+    "lsame",
+    "zaxpy",
+    "zgemv",
+    "zgerc",
+    "zscal"
+  ],
+  "slagts": [],
+  "zsytf2_rook": [
+    "izamax",
+    "lsame",
+    "zscal",
+    "zswap"
+  ],
+  "scsum1": [],
+  "ztftri": [
+    "lsame",
+    "ztrmm"
+  ],
+  "sorgl2": [
+    "sscal"
+  ],
+  "csysv_aa": [],
+  "sla_wwaddw": [],
+  "chetrd": [
+    "cher2k",
+    "lsame"
+  ],
+  "dlagts": [],
+  "dsgesv": [
+    "daxpy",
+    "dgemm",
+    "idamax"
+  ],
+  "dstemr": [
+    "dcopy",
+    "dscal",
+    "dswap",
+    "lsame"
+  ],
+  "zheevx_2stage": [
+    "dcopy",
+    "dscal",
+    "lsame",
+    "zdscal",
+    "zswap"
+  ],
+  "zhbtrd": [
+    "lsame",
+    "zscal"
+  ],
+  "zhetrf": [
+    "lsame"
+  ],
+  "zlatbs": [
+    "dscal",
+    "dzasum",
+    "idamax",
+    "izamax",
+    "lsame",
+    "zaxpy",
+    "zdotc",
+    "zdotu",
+    "zdscal",
+    "ztbsv"
+  ],
+  "dlange": [
+    "lsame"
+  ],
+  "slaed9": [
+    "scopy",
+    "snrm2"
+  ],
+  "zlanhb": [
+    "lsame"
+  ],
+  "dhsein": [
+    "lsame"
+  ],
+  "dgebrd": [
+    "dgemm"
+  ],
+  "ctrtri": [
+    "ctrmm",
+    "ctrsm",
+    "lsame"
+  ],
+  "sla_gbamv": [],
+  "zungr2": [
+    "zscal"
+  ],
+  "clals0": [
+    "ccopy",
+    "csrot",
+    "csscal",
+    "sgemv",
+    "snrm2"
+  ],
+  "ztrtrs": [
+    "lsame",
+    "ztrsm"
+  ],
+  "ssytrf_aa_2stage": [
+    "lsame",
+    "scopy",
+    "sgemm",
+    "sswap",
+    "strsm"
+  ],
+  "dlaqp3rk": [
+    "dgemm",
+    "dgemv",
+    "dnrm2",
+    "dswap",
+    "idamax"
+  ],
+  "zposv": [],
+  "zsyequb": [
+    "lsame"
+  ],
+  "cgehrd": [
+    "caxpy",
+    "cgemm",
+    "ctrmm"
+  ],
+  "dsytf2_rk": [
+    "dscal",
+    "dswap",
+    "dsyr",
+    "idamax",
+    "lsame"
+  ],
+  "cgerfs": [
+    "caxpy",
+    "ccopy",
+    "cgemv",
+    "lsame"
+  ],
+  "zlahr2": [
+    "zaxpy",
+    "zcopy",
+    "zgemm",
+    "zgemv",
+    "zscal",
+    "ztrmm",
+    "ztrmv"
+  ],
+  "dsytf2_rook": [
+    "dscal",
+    "dswap",
+    "dsyr",
+    "idamax",
+    "lsame"
+  ],
+  "sormrq": [
+    "lsame"
+  ],
+  "csytri_rook": [
+    "ccopy",
+    "cdotu",
+    "cswap",
+    "lsame"
+  ],
+  "dgebd2": [],
+  "cggqrf": [],
+  "dlaqp2rk": [
+    "dnrm2",
+    "dswap",
+    "idamax"
+  ],
+  "sdisna": [
+    "lsame"
+  ],
+  "dgsvj0": [
+    "daxpy",
+    "dcopy",
+    "ddot",
+    "dnrm2",
+    "drotm",
+    "dswap",
+    "idamax",
+    "lsame"
+  ],
+  "ctfttr": [
+    "lsame"
+  ],
+  "cgbcon": [
+    "caxpy",
+    "cdotc",
+    "icamax",
+    "lsame"
+  ],
+  "ssptrf": [
+    "isamax",
+    "lsame",
+    "sscal",
+    "sspr",
+    "sswap"
+  ],
+  "zstedc": [
+    "lsame",
+    "zswap"
+  ],
+  "zlarfb_gett": [
+    "zcopy",
+    "zgemm",
+    "ztrmm"
+  ],
+  "cgesvxx": [
+    "lsame"
+  ],
+  "dgbcon": [
+    "daxpy",
+    "ddot",
+    "idamax",
+    "lsame"
+  ],
+  "zhfrk": [
+    "lsame",
+    "zgemm",
+    "zherk"
+  ],
+  "cposvxx": [
+    "lsame"
+  ],
+  "zung2l": [
+    "zscal"
+  ],
+  "cposv": [],
+  "csytri_3": [
+    "lsame"
+  ],
+  "dtrsyl": [
+    "ddot",
+    "dscal",
+    "lsame"
+  ],
+  "cgelq2": [],
+  "sgbequb": [],
+  "cheev": [
+    "lsame",
+    "sscal"
+  ],
+  "claset": [
+    "lsame"
+  ],
+  "dtplqt": [],
+  "zsptrs": [
+    "lsame",
+    "zgemv",
+    "zgeru",
+    "zscal",
+    "zswap"
+  ],
+  "zggsvd3": [
+    "dcopy",
+    "lsame"
+  ],
+  "sgesvxx": [
+    "lsame"
+  ],
+  "zppsv": [],
+  "sla_gbrfsx_extended": [
+    "saxpy",
+    "scopy",
+    "sgbmv"
+  ],
+  "stfttr": [
+    "lsame"
+  ],
+  "zlasyf": [
+    "izamax",
+    "lsame",
+    "zcopy",
+    "zgemmtr",
+    "zgemv",
+    "zscal",
+    "zswap"
+  ],
+  "slaln2": [
+    "cswap"
+  ],
+  "dtpmlqt": [
+    "lsame"
+  ],
+  "dgbsv": [],
+  "slasyf_rook": [
+    "isamax",
+    "lsame",
+    "scopy",
+    "sgemmtr",
+    "sgemv",
+    "sscal",
+    "sswap"
+  ],
+  "dtrrfs": [
+    "daxpy",
+    "dcopy",
+    "dtrmv",
+    "dtrsv",
+    "lsame"
+  ],
+  "ssbevd_2stage": [
+    "lsame",
+    "sgemm",
+    "sscal"
+  ],
+  "zunglq": [],
+  "zlahef": [
+    "izamax",
+    "lsame",
+    "zcopy",
+    "zdscal",
+    "zgemmtr",
+    "zgemv",
+    "zswap"
+  ],
+  "cgemlqt": [
+    "lsame"
+  ],
+  "cggsvd3": [
+    "lsame",
+    "scopy"
+  ],
+  "clahr2": [
+    "caxpy",
+    "ccopy",
+    "cgemm",
+    "cgemv",
+    "cscal",
+    "ctrmm",
+    "ctrmv"
+  ],
+  "zlaqz0": [
+    "lsame"
+  ],
+  "dlassq": [],
+  "dlarra": [],
+  "cgttrs": [],
+  "dlarft_lvl2": [
+    "dgemv",
+    "dtrmv",
+    "lsame"
+  ],
+  "dptrfs": [
+    "daxpy",
+    "idamax"
+  ],
+  "cppsv": [],
+  "zhesvxx": [
+    "lsame"
+  ],
+  "dtrcon": [
+    "idamax",
+    "lsame"
+  ],
+  "zlag2c": [],
+  "dorg2l": [
+    "dscal"
+  ],
+  "sgsvj0": [
+    "isamax",
+    "lsame",
+    "saxpy",
+    "scopy",
+    "sdot",
+    "snrm2",
+    "srotm",
+    "sswap"
+  ],
+  "dsfrk": [
+    "dgemm",
+    "dsyrk",
+    "lsame"
+  ],
+  "slabad": [],
+  "sgecon": [
+    "isamax",
+    "lsame"
+  ]
+}

@@ -1,0 +1,18 @@
+4 cycle(s) detected. Each cycle is listed below.
+
+=== Cycle 1 (size=2) ===
+zlaqz0
+zlaqz2
+
+=== Cycle 2 (size=2) ===
+claqz0
+claqz2
+
+=== Cycle 3 (size=2) ===
+dlaqz0
+dlaqz3
+
+=== Cycle 4 (size=2) ===
+slaqz0
+slaqz3
+
